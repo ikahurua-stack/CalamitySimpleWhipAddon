@@ -1,0 +1,22 @@
+This mod is an addon for Calamity Mod that expands whip options and improves summon gameplay variety.
+
+Features:
+• Adds 48 new whips
+• Adds 10 new whip-related accessories
+• Adds 1 new accessory that modifies minion behavior
+• Adds 1 new accessory that modifies whip behavior
+• Adds 8 alternative versions of Calamity minion accessories with their debuff effects removed
+
+The primary goal of this mod is to provide a wider variety of whips and new playstyle options for summon-focused builds.
+
+As an important design consideration, this mod also aims to reduce FPS drops—especially during fights against worm-type bosses—by removing or avoiding minion debuffs and mechanics known to cause heavy performance issues.
+
+For the same reason, all whips added by this mod focus exclusively on summon tag effects and intentionally avoid mechanics that could negatively impact performance.
+
+This mod does NOT rebalance Calamity itself.
+It simply offers additional choices and performance-conscious alternatives.
+
+Wiki
+https://terrariamods.wiki.gg/wiki/Calamity_Simple_Whip_Addon
+
+Calamity Mod is required.

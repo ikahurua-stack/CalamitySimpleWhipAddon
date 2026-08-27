@@ -1,0 +1,104 @@
+using CalamitySimpleWhipAddon.Content.Buffs;
+using CalamitySimpleWhipAddon.Content.Common;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using System.Collections.Generic;
+using Terraria;
+using Terraria.GameContent;
+using Terraria.ID;
+using Terraria.ModLoader;
+using Terraria.Audio;
+using System;
+
+namespace CalamitySimpleWhipAddon.Content.Projectiles
+{
+
+
+    public class LayeredPainProj : ModProjectile
+    {
+        public override void SetStaticDefaults()
+        {
+            ProjectileID.Sets.IsAWhip[Type] = true;
+        }
+
+        public override void SetDefaults()
+        {
+            Projectile.DefaultToWhip();
+            Projectile.WhipSettings.Segments = 39;
+            Projectile.WhipSettings.RangeMultiplier = 1.25f;
+        }
+
+        private float Timer
+        {
+            get => Projectile.ai[0];
+            set => Projectile.ai[0] = value;
+        }
+
+        private float ChargeTime
+        {
+            get => Projectile.ai[1];
+            set => Projectile.ai[1] = value;
+        }
+
+
+
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
+        {
+            target.AddBuff(ModContent.BuffType<SimpleWhipDebuffT1St>(), 240);
+            StackTagNPC tagNPC = target.GetGlobalNPC<StackTagNPC>();
+            tagNPC.AddStack(240);
+            Main.player[Projectile.owner].MinionAttackTargetNPC = target.whoAmI;
+            Projectile.damage = (int)(Projectile.damage * 0.7f);
+        }
+
+        public override bool PreDraw(ref Color lightColor)
+        {
+            List<Vector2> points = new List<Vector2>();
+            Projectile.FillWhipControlPoints(Projectile, points);
+
+            SimpleWhipDrawer14.DrawSegments(Projectile, points, Timer);
+
+            return false;
+        }
+
+        public override void AI()
+        {
+            base.AI();
+
+            Player owner = Main.player[Projectile.owner];
+
+            float swingTime = owner.itemAnimationMax * Projectile.MaxUpdates;
+            float swingProgress = Projectile.ai[0] / swingTime;
+
+            if (Utils.GetLerpValue(0.1f, 0.7f, swingProgress, true) *
+                Utils.GetLerpValue(0.9f, 0.7f, swingProgress, true) > 0.5f &&
+                !Main.rand.NextBool(3))
+            {
+                List<Vector2> points = Projectile.WhipPointsForCollision;
+
+                int pointIndex = Main.rand.Next(points.Count - 8, points.Count);
+                Rectangle spawnArea = Utils.CenteredRectangle(points[pointIndex], new Vector2(30f, 30f));
+
+                int dustType = 153;
+                if (Main.rand.NextBool(3))
+                    dustType = 195;
+
+                Dust dust = Dust.NewDustDirect(spawnArea.TopLeft(), spawnArea.Width, spawnArea.Height,
+                    dustType, 0f, 0f, 100, Color.White);
+
+                dust.position = points[pointIndex];
+                dust.fadeIn = 0.3f;
+                dust.noGravity = false;
+
+                Vector2 spinningPoint = points[pointIndex] - points[pointIndex - 1];
+                dust.velocity *= 0.5f;
+                dust.velocity += spinningPoint.RotatedBy(owner.direction * ((float)Math.PI / 2f));
+                dust.velocity *= 0.5f;
+
+            }
+
+
+        }
+
+    }
+}

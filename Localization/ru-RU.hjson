@@ -1,0 +1,1582 @@
+Mods: {
+	CalamitySimpleWhipAddon: {
+		RecipeGroups: {
+			AnyPhaseScourge: Любая фаза Бича
+			AnyWood: Любое дерево
+		}
+
+		Items: {
+			WoodenWhip: {
+				DisplayName: Древесный хлыст
+				Tooltip: 1.07x множитель урона от метки призывателя
+			}
+
+			RapierWhip: {
+				DisplayName: Хлыст-рапира
+				Tooltip:
+					'''
+					8% шанса критического удара от метки призывателя
+
+					Рапира-хлыст не очень подходит для атаки нескольких врагов.
+					'''
+			}
+
+			BreezePiercer: {
+				DisplayName: Пронзающий ветер
+				Tooltip: 9% шанса критического удара от метки призывателя
+			}
+
+			Gelxyribose: {
+				DisplayName: Гелксирибоза
+				Tooltip:
+					'''
+					1.07x множитель урона от метки призывателя 
+					7% шанса критического удара от метки призывателя
+					'''
+			}
+
+			OrangePhaseWhip: {
+				DisplayName: Оранжевый фазовый хлыст
+				Tooltip:
+					'''
+					1.08x множитель урона от метки призывателя
+
+					Атаки хлыста игнориует вражескую броню.
+					Вражеское сопротивление урону не игнориуется.
+					'''
+			}
+
+			GreenPhaseWhip: {
+				DisplayName: Зелёный фазовый хлыст
+				Tooltip:
+					'''
+					1.08x множитель урона от метки призывателя
+
+					Атаки хлыста игнориует вражескую броню.
+					Вражеское сопротивление урону не игнориуется.
+					'''
+			}
+
+			BluePhaseWhip: {
+				DisplayName: Синий фазовый хлыст
+				Tooltip:
+					'''
+					1.08x множитель урона от метки призывателя
+
+					Атаки хлыста игнориует вражескую броню.
+					Вражеское сопротивление урону не игнориуется.
+					'''
+			}
+
+			PurplePhaseWhip: {
+				DisplayName: Фиолетовый фазовый хлыст
+				Tooltip:
+					'''
+					1.08x множитель урона от метки призывателя
+
+					Атаки хлыста игнориует вражескую броню.
+					Вражеское сопротивление урону не игнориуется.
+					'''
+			}
+
+			RedPhaseWhip: {
+				DisplayName: Красный фазовый хлыст
+				Tooltip:
+					'''
+					1.08x множитель урона от метки призывателя
+
+					Атаки хлыста игнориует вражескую броню.
+					Вражеское сопротивление урону не игнориуется.
+					'''
+			}
+
+			WhitePhaseWhip: {
+				DisplayName: Белый фазовый хлыст
+				Tooltip:
+					'''
+					1.08x множитель урона от метки призывателя
+
+					Атаки хлыста игнориует вражескую броню.
+					Вражеское сопротивление урону не игнориуется.
+					'''
+			}
+
+			YellowPhaseWhip: {
+				DisplayName: Жёлтый фазовый хлыст
+				Tooltip:
+					'''
+					1.08x множитель урона от метки призывателя
+
+					Атаки хлыста игнориует вражескую броню.
+					Вражеское сопротивление урону не игнориуется.
+					'''
+			}
+
+			OrangePhaseScourge: {
+				DisplayName: Оранжевый фазовый бич
+				Tooltip:
+					'''
+					1.09x множитель урона от метки призывателя
+
+					Атаки хлыста игнориует вражескую броню.
+					Вражеское сопротивление урону не игнориуется.
+					'''
+			}
+
+			GreenPhaseScourge: {
+				DisplayName: Зелёный фазовый бич
+				Tooltip:
+					'''
+					1.09x множитель урона от метки призывателя
+
+					Атаки хлыста игнориует вражескую броню.
+					Вражеское сопротивление урону не игнориуется.
+					'''
+			}
+
+			BluePhaseScourge: {
+				DisplayName: Синий фазовый бич
+				Tooltip:
+					'''
+					1.09x множитель урона от метки призывателя
+
+					Атаки хлыста игнориует вражескую броню.
+					Вражеское сопротивление урону не игнориуется.
+					'''
+			}
+
+			PurplePhaseScourge: {
+				DisplayName: Фиолетвый фазовый бич
+				Tooltip:
+					'''
+					1.09x множитель урона от метки призывателя
+
+					Атаки хлыста игнориует вражескую броню.
+					Вражеское сопротивление урону не игнориуется.
+					'''
+			}
+
+			RedPhaseScourge: {
+				DisplayName: Красный фазовый бич
+				Tooltip:
+					'''
+					1.09x множитель урона от метки призывателя
+
+					Атаки хлыста игнориует вражескую броню.
+					Вражеское сопротивление урону не игнориуется.
+					'''
+			}
+
+			WhitePhaseScourge: {
+				DisplayName: Белый фазовый бич
+				Tooltip:
+					'''
+					1.09x множитель урона от метки призывателя
+
+					Атаки хлыста игнориует вражескую броню.
+					Вражеское сопротивление урону не игнориуется.
+					'''
+			}
+
+			YellowPhaseScourge: {
+				DisplayName: Жёлтый фазовый бич
+				Tooltip:
+					'''
+					1.09x множитель урона от метки призывателя
+
+					Атаки хлыста игнориует вражескую броню.
+					Вражеское сопротивление урону не игнориуется.
+					'''
+			}
+
+			GlitterGutter: {
+				DisplayName: Сверкающий желоб
+				Tooltip:
+					'''
+					10% шанса критического удара от метки призывателя
+					Все враги поражённые ударом хлыста,
+					заставляют следующую атаку миньонов
+					выпустить 2 самонаводящихся кристальный осколков
+					наносящих 20% урона миньона.
+					'''
+			}
+
+			Droptide: {
+				DisplayName: Капельник
+				Tooltip: 1.12x множитель урона от метки призывателя
+			}
+
+			Ectopia: {
+				DisplayName: Эктопия
+				Tooltip: 22% шанса критического удара от метки призывателя
+			}
+
+			Unfathomable: {
+				DisplayName: Глубинник
+				Tooltip: 1.25x множитель урона от метки призывателя
+			}
+
+			DestructionChain: {
+				DisplayName: Громящая цепь
+				Tooltip:
+					'''
+					Все враги поражённые ударом хлыста,
+					взрываются от следующей атаки миньонов нанося 100% урона.
+					Враги убитые взрывом создают ещё один взрыв способный продолжится цепочкой.
+					'''
+			}
+
+			GloamshardConduit: {
+				DisplayName: Мрако-осколочный проводник
+				Tooltip:
+					'''
+					1.1x множитель урона от метки призывателя
+					10% шанса критического удара от метки призывателя
+
+					Все враги поражённые ударов хлыста
+					получают в 1.25 раза больше урона от следующей атаки миньонов и взрываются,
+					нанося 10% полученного урона врагам поблизости.
+					'''
+			}
+
+			Satellite: {
+				DisplayName: Спутник
+				Tooltip:
+					'''
+					Все враги поражённые ударом хлыста,
+					получают 1 гарантированный критический удар от следующей атаки миньона.
+					'''
+			}
+
+			EntwinedBranches: {
+				DisplayName: Сплетённые ветви
+				Tooltip: 1.27x множитель урона от метки призывателя
+			}
+
+			Necropsia: {
+				DisplayName: Некропсия
+				Tooltip: 27% шанса критического удара от метки призывателя
+			}
+
+			ResonantVoid: {
+				DisplayName: Резонирующая пустота
+				Tooltip:
+					'''
+					1.12x множитель урона от метки призывателя
+					12% шанса критического удара от метки призывателя
+
+					Все враги поражённые ударом хлыста,
+					получают в 1.25 раза больше урона от следующей атаки миньона и взрываются,
+					нанося 10% полученного урона врагам поблизости.
+
+					Атаки хлыста игнориует вражескую броню.
+					Вражеское сопротивление урону не игнориуется.
+					'''
+			}
+
+			SkybreakerCoil: {
+				DisplayName: Неборвущая катушка
+				Tooltip:
+					'''
+					Все враги поражённые ударом хлыста,
+					получают в 1.3 раза больше урона следующей атаки миньона и выпускает электрические разряды,
+					которые на короткий промижуток времени электрофицируют ближайших врагов и игнорируя броню.
+					Вражеское сопротивление урону не игнориуется.
+					'''
+			}
+
+			Milkyway: {
+				DisplayName: Милкивей
+				Tooltip:
+					'''
+					+10 ед. урона от метки призывателя за каждый стак
+					Все враги поражённые ударом хлыста,
+					получают 1 критический удар с 4-кратно увеличенным уроном от следующей атаки миньона.
+					Урон от меток хлыста сумируется сам с собой.
+					Более ранние стаки пропадают раньше.
+					Кометы количество которых равно количеству стаков кружат вокруг врага.
+					'''
+			}
+
+			KusariGama: {
+				DisplayName: Кусари-гама
+				Tooltip:
+					'''
+					1.13x множитель урона от метки призывателя
+					Даёт невосприимчивость к отбрасыванию при удержании в руке
+					'''
+			}
+
+			Loadout: {
+				DisplayName: Выгруз
+				Tooltip:
+					'''
+					1.07x множитель урона от метки призывателя
+					7% шанса критического удара от метки призывателя
+					Все враги поражённые ударом хлыста,
+					дополнительно получают урон от лазера когда миньоны атакуют врагов,
+					нанося 50% урона миньона.
+					Лазер игнориует броню.
+					Вражеское сопротивление урону не игнориуется.
+					'''
+			}
+
+			AncientBonds: {
+				DisplayName: Древние узы
+				Tooltip:
+					'''
+					Во всех врагов поражённых ударом хлыста,
+					вонзается спекратльное лезвие от следующей атаки миньона,
+					наносящее 20% урона от миньона 3 раза подряд и пробивает 5 ед. брони.
+					'''
+			}
+
+			PrimalBonds: {
+				DisplayName: Первобытые узы
+				Tooltip:
+					'''
+					Во всех врагов поражённых ударом хлыста,
+					вонзается спекратльное лезвие от следующей атаки миньона,
+					наносящее 20% урона от миньона 5 раза подряд и пробивает 10 ед. брони.
+					'''
+			}
+
+			ExistenceBonds: {
+				DisplayName: Узы бытья
+				Tooltip:
+					'''
+					Во всех врагов поражённых ударом хлыста,
+					вонзается спекратльное лезвие от следующей атаки миньона,
+					наносящее 20% урона от миньона 6 раза подряд и пробивает 15 ед. брони.
+					'''
+			}
+
+			MermaidsTear: {
+				DisplayName: Русалочья слеза
+				Tooltip:
+					'''
+					Во всех врагов поражённых ударом хлыста,
+					вонзается спекратльное копьё от следующей атаки миньона,
+					наносящее 25% урона от миньона 8 раза подряд и пробивает 50 ед. брони.
+					'''
+			}
+
+			MandibleLash: {
+				DisplayName: Жвальный хлыст
+				Tooltip:
+					'''
+					1 ед. урона от метки призывателя
+					Во всех врагов поражённых ударом хлыста,
+					запускается песочный шар от следующей атаки миньона,
+					падающей от гравитацией и нанося 40% урона.
+					Взрывается при попадании по блокам нанося урон врагам по близости.
+					'''
+			}
+
+			DarkMandibleLash: {
+				DisplayName: Тёмный жвальный хлыст
+				Tooltip:
+					'''
+					2 ед. урона от метки призывателя
+					Во всех врагов поражённых ударом хлыста,
+					запускается песочный шар от следующей атаки миньона,
+					падающей от гравитацией и нанося 40% урона.
+					Взрывается при попадании по блокам нанося урон врагам по близости.
+					'''
+			}
+
+			ShieldConduit: {
+				DisplayName: Щитовой проводник
+				Tooltip:
+					'''
+					2 ед. урона от метки призывателя
+					Автоматически переключается между двумя режимами.
+					'''
+				HoldShiftTooltip:
+					'''
+					-----------------------------
+					Режим защиты:
+					Попадание по врагу хлыстом заставляет
+					миньонов кратковременно выпускать синие щитовые осколки.
+					Подбоо осколков заряжает щит.
+					При достижении 50 ед. заряда вы получаете щит на 50 ед. здоровья
+					-----------------------------
+					Режим атаки:
+					Попадание по врагу хлыстом заставляет
+					миньонов кратковременно выпускать красные самонаводящиеся щитовые осколки
+					нанося 10% урора миньона и 3 ед. дополнительного урона
+					-----------------------------
+					Выпуск осколков имеет очень короткую перезарядку.
+					Если щит полчит урон то он уйдет на перезарядку,
+					длительность от 5 до 50 секунд в зависимости от оставшегося здоровья щита.
+					Если щит полностью ломается то он уходит на 60-секундную перезарядку.
+					Во время перезарядки режим меняется на режим атаки.
+					По окончанию перезарядки режим обратно меняется на защиту.
+					Если щит остаётся прочность, то подбор осколков восполнит её часть.
+					'''
+			}
+
+			ShieldConduitMkII: {
+				DisplayName: Щитовой проводник Мк-II
+				Tooltip:
+					'''
+					4 ед. урона от метки призывателя
+					Автоматически переключается между двумя режимами.
+					'''
+				HoldShiftTooltip:
+					'''
+					-----------------------------
+					Режим защиты:
+					Попадание по врагу хлыстом заставляет
+					миньонов кратковременно выпускать синие щитовые осколки.
+					Подбоо осколков заряжает щит.
+					При достижении 100 ед. заряда вы получаете щит на 100 ед. здоровья
+					-----------------------------
+					Режим атаки:
+					Попадание по врагу хлыстом заставляет
+					миньонов кратковременно выпускать красные самонаводящиеся щитовые осколки
+					нанося 10% урора миньона и 5 ед. дополнительного урона
+					-----------------------------
+					Выпуск осколков имеет очень короткую перезарядку.
+					Если щит полчит урон то он уйдет на перезарядку,
+					длительность от 5 до 50 секунд в зависимости от оставшегося здоровья щита.
+					Если щит полностью ломается то он уходит на 60-секундную перезарядку.
+					Во время перезарядки режим меняется на режим атаки.
+					По окончанию перезарядки режим обратно меняется на защиту.
+					Если щит остаётся прочность, то подбор осколков восполнит её часть.
+					'''
+			}
+
+			ShieldConduitMkIII: {
+				DisplayName: Щитовой проводник Mк-III
+				Tooltip:
+					'''
+					7 ед. урона от метки призывателя
+					Автоматически переключается между двумя режимами.
+					'''
+				HoldShiftTooltip:
+					'''
+					-----------------------------
+					Режим защиты:
+					Попадание по врагу хлыстом заставляет
+					миньонов кратковременно выпускать синие щитовые осколки.
+					Подбоо осколков заряжает щит.
+					При достижении 150 ед. заряда вы получаете щит на 150 ед. здоровья
+					-----------------------------
+					Режим атаки:
+					Попадание по врагу хлыстом заставляет
+					миньонов кратковременно выпускать красные самонаводящиеся щитовые осколки
+					нанося 10% урора миньона и 25 ед. дополнительного урона
+					-----------------------------
+					Выпуск осколков имеет очень короткую перезарядку.
+					Если щит полчит урон то он уйдет на перезарядку,
+					длительность от 5 до 50 секунд в зависимости от оставшегося здоровья щита.
+					Если щит полностью ломается то он уходит на 60-секундную перезарядку.
+					Во время перезарядки режим меняется на режим атаки.
+					По окончанию перезарядки режим обратно меняется на защиту.
+					Если щит остаётся прочность, то подбор осколков восполнит её часть.
+					'''
+			}
+
+			ShieldConduitMkIV: {
+				DisplayName: Щитовой проводник Mк-IV
+				Tooltip:
+					'''
+					12 урона от метки призывателя
+					Автоматически переключается между двумя режимами.
+					'''
+				HoldShiftTooltip:
+					'''
+					-----------------------------
+					Режим защиты:
+					Попадание по врагу хлыстом заставляет
+					миньонов кратковременно выпускать синие щитовые осколки.
+					Подбоо осколков заряжает щит.
+					При достижении 200 ед. заряда вы получаете щит на 200 ед. здоровья
+					-----------------------------
+					Режим атаки:
+					Попадание по врагу хлыстом заставляет
+					миньонов кратковременно выпускать красные самонаводящиеся щитовые осколки
+					нанося 10% урора миньона и 50 ед. дополнительного урона
+					-----------------------------
+					Выпуск осколков имеет очень короткую перезарядку.
+					Если щит полчит урон то он уйдет на перезарядку,
+					длительность от 5 до 50 секунд в зависимости от оставшегося здоровья щита.
+					Если щит полностью ломается то он уходит на 60-секундную перезарядку.
+					Во время перезарядки режим меняется на режим атаки.
+					По окончанию перезарядки режим обратно меняется на защиту.
+					Если щит остаётся прочность, то подбор осколков восполнит её часть.
+					'''
+			}
+
+			ShieldConduitMkV: {
+				DisplayName: Щитовой проводник Mк-V
+				Tooltip:
+					'''
+					20 урона от метки призывателя
+					Автоматически переключается между двумя режимами.
+					'''
+				HoldShiftTooltip:
+					'''
+					-----------------------------
+					Режим защиты:
+					Попадание по врагу хлыстом заставляет
+					миньонов кратковременно выпускать синие щитовые осколки.
+					Подбоо осколков заряжает щит.
+					При достижении 250 ед. заряда вы получаете щит на 250 ед. здоровья
+					-----------------------------
+					Режим атаки:
+					Попадание по врагу хлыстом заставляет
+					миньонов кратковременно выпускать красные самонаводящиеся щитовые осколки
+					нанося 10% урора миньона и 150 ед. дополнительного урона
+					-----------------------------
+					Выпуск осколков имеет очень короткую перезарядку.
+					Если щит полчит урон то он уйдет на перезарядку,
+					длительность от 5 до 50 секунд в зависимости от оставшегося здоровья щита.
+					Если щит полностью ломается то он уходит на 60-секундную перезарядку.
+					Во время перезарядки режим меняется на режим атаки.
+					По окончанию перезарядки режим обратно меняется на защиту.
+					Если щит остаётся прочность, то подбор осколков восполнит её часть.
+					'''
+			}
+
+			LayeredPain: {
+				DisplayName: Слоёная боль
+				Tooltip:
+					'''
+					+1 ед. урона от метки призывателя за каждый стак
+					Урон от меток этого хлыста суммируется сам с собой.
+					Более ранние стаки пропадают раньше.
+					'''
+			}
+
+			NightButterfly: {
+				DisplayName: Ночная бабочка
+				Tooltip:
+					'''
+					+2 ед. урона от метки призывателя за каждый стак
+					Урон от меток этого хлыста суммируется сам с собой.
+					Более ранние стаки пропадают раньше.
+					Мотыльки количество которых равно количеству стаков цепляются за врага.
+					'''
+			}
+
+			ActiasAliena: {
+				DisplayName: Актиас Альена
+				Tooltip:
+					'''
+					+3 ед. урона от метки призывателя за каждый стак
+					Урон от меток этого хлыста суммируется сам с собой.
+					Более ранние стаки пропадают раньше.
+					Мотыльки количество которых равно количеству стаков цепляются за врага.
+					'''
+			}
+
+			ButterflyEffect: {
+				DisplayName: Эффект Бабочки
+				Tooltip:
+					'''
+					+6 ед. урона от метки призывателя за каждый стак
+					Урон от меток этого хлыста суммируется сам с собой.
+					Более ранние стаки пропадают раньше.
+					Мотыльки количество которых равно количеству стаков цепляются за врага.
+					'''
+			}
+
+			EtaCarinae: {
+				DisplayName: Эта Кариан
+				Tooltip:
+					'''
+					+10 ед. урона от метки призывателя за каждый стак
+					Урон от меток этого хлыста суммируется сам с собой.
+					Более ранние стаки пропадают раньше.
+					Кометы количество которых равно количеству стаков кружат вокруг врага.
+					'''
+			}
+
+			GoldRush: {
+				DisplayName: Золотая лихорадка
+				Tooltip:
+					'''
+					8 урона от метки призывателя
+					При нанесении ударов по врагам регулярно призывается физическое оружие, наносящее 100 % урона миньона.
+					'''
+			}
+
+			GildedReliquary: {
+				DisplayName: Позолоченная реликвария
+				Tooltip:
+					'''
+					20 урона от метки призывателя
+					При нанесении ударов по врагам регулярно призывается арсенал, наносящее 120 % урона миньона.
+					'''
+			}
+
+			AurelianSanctum: {
+				DisplayName: Святилище Аврелиана
+				Tooltip:
+					'''
+					80 урона от метки призывателя
+					При нанесении ударов по врагам регулярно призывается шквал оружия, наносящее 200 % урона миньона.
+					'''
+			}
+
+			KingsMajesty: {
+				DisplayName: Королевское величество
+				Tooltip:
+					'''
+					2 урона от метки призывателя
+					4% шанса критического удара от метки призывателя
+					Пока вы держите этот хлыст, за вами следует самоцвет.
+					Он атакует всякий раз, когда ваши миньоны наносят урон противнику, отмеченному хлыстом.
+					Атака самоцвета наносит 50% урона от нанесенного удара.
+					Перед выстрелом самоцвет накапливает заряд,
+					добавляя к своей атаке 5% урона, нанесенного во время накопления заряда.
+					'''
+			}
+
+			EmeraldSplash: {
+				DisplayName: Изумрудный всплеск
+				Tooltip:
+					'''
+					5 урона от метки призывателя
+					7% шанса критического удара от метки призывателя
+					Пока вы держите этот хлыст, за вами следует самоцвет
+					и атакует всякий раз, когда ваши миньоны наносят урон противнику, отмеченному хлыстом.
+					Атака самоцвета наносит 100% урона от нанесенного удара.
+					Перед выстрелом самоцвет накапливает заряд,
+					добавляя к своей атаке 15% урона, нанесенного во время накопления заряда.
+					'''
+			}
+
+			CrackoftheUniverse: {
+				DisplayName: Трещина Вселенной
+				Tooltip:
+					'''
+					20 урона от метки призывателя
+					10% шанса критического удара от метки призывателя
+					Пока вы держите этот кнут, за вами следует самоцвет
+					и атакует всякий раз, когда ваши миньоны наносят урон противнику, отмеченному кнутом.
+					Атака самоцвета наносит 100% урона от нанесенного удара.
+					Перед выстрелом самоцвет накапливает заряд,
+					добавляя к своей атаке 20% урона, нанесенного во время накопления заряда.
+					'''
+			}
+
+			Rubellus: {
+				DisplayName: Рубеллус
+				Tooltip:
+					'''
+					8 урона от метки призывателя
+					8% шанса критического удара от метки призывателя
+					Пока вы держите этот хлыст, за вами следует самоцвет.
+					Он атакует всякий раз, когда ваши миньоны наносят урон врагу, отмеченному хлыстом.
+					Атака самоцвета наносит 100% урона от инициирующего удара.
+					Перед выстрелом самоцвет накапливает заряд,
+					добавляя к своей атаке 40% урона, нанесенного во время накопления заряда.
+					Атака самоцвета запускает цепную реакцию, поражая отмеченных врагов.
+					'''
+			}
+
+			WulfrumArm: {
+				DisplayName: Вульфрумовая рука
+				Tooltip:
+					'''
+					4 урона от метки призывателя
+					Враги, пораженные этой рукой, получают разряд при ударе миньона,
+					принимая на себя 60% урона от нанесенного удара и распространяя
+					цепную реакцию на врагов, отмеченных тем же тегом.
+					Тег исчезает при срабатывании миньона
+					или при получении урона от цепной реакции.
+					Кончик может хватать и притягивать предметы.
+					'''
+			}
+
+			MechanicalArm: {
+				DisplayName: Механическая рука
+				Tooltip:
+					'''
+					15 урона от метки призывателя
+					Враги, пораженные этой рукой, получают 100% урона от удара миньона и распространяют его
+					на врагов, отмеченных тем же тегом.
+					Тег исчезает при срабатывании от удара миньона
+					или при получении урона по цепочке.
+					Кончик может хватать и притягивать предметы.
+					'''
+			}
+
+			MassofWailing: {
+				DisplayName: Масса воплей
+				Tooltip:
+					'''
+					5% шанса критического удара от метки призывателя
+					Враги, отмеченные этим хлыстом,
+					выпускают сгустки, наносящие 15% от
+					урона, наносимого миньона. 
+					Сгустки собираются над владельцем хлыста
+					и разделяются, чтобы атаковать врагов,
+					когда полностью заряжены.
+					'''
+			}
+
+			ChorusofExecration: {
+				DisplayName: Хор Проклятий
+				Tooltip:
+					'''
+					30% шанса критического удара от метки призывателя
+					Враги, отмеченные этим хлыстом,
+					выпускают сгустки, равные 25% от
+					урона, наносимого миньона.
+					Сгустки собираются над владельцем хлыста
+					и разделяются, чтобы атаковать врагов
+					после полной зарядки.
+					'''
+			}
+
+			OpaqueOnyx: {
+				DisplayName: Матовый Оникс
+				Tooltip:
+					'''
+					3 урона от метки призывателя
+					5% шанса критического удара от метки призывателя
+					Пока вы держите этот хлыст, за вами следует самоцвет.
+					Он атакует всякий раз, когда ваши миньоны наносят урон противнику, отмеченному хлыстом.
+					Атака самоцвета наносит 75% урона от инициирующего удара.
+					Перед выстрелом самоцвет накапливает заряд,
+					добавляя к своей атаке 10% урона, нанесенного во время накопления заряда.
+					'''
+			}
+
+			Accessories: {
+				BleachedNucleogenesis: {
+					DisplayName: Отмытый Нуклеогенезис
+					Tooltip:
+						'''
+						Увеличивает максимальное количество миньонов на 4
+						Даёт невосприимчивость к дебаффам "Теневое пламя" и "Облучённый"
+						Увеличивает урон призывателя на 22%
+						Увеличивает отбрасывание миньонов
+						Нельзя надеть со своими предыдущими или неотмытыми версиями.
+						'''
+				}
+
+				BleachedNuclearFuelRod: {
+					DisplayName: Отмытый ядерный топливный стержень
+					Tooltip:
+						'''
+						Увеличивает максимальное количество миньонов на 1
+						Увеличивает урон призывателя на 7%
+						Даёт невосприимчивость к дебаффу "Облученный"
+						Нельзя надеть со своими неотмытыми версиями.
+						'''
+				}
+
+				BleachedJellyChargedBattery: {
+					DisplayName: Отмытый заряженный желейный аккамулятор
+					Tooltip:
+						'''
+						Увеличивает максимальное количество миньонов на 1
+						Увеличивает урон призывателя на 12%
+						Нельзя надеть со своими неотмытыми версиями.
+						'''
+				}
+
+				BleachedStarbusterCore: {
+					DisplayName: Отмытое сердце разрушителя звёзд
+					Tooltip:
+						'''
+						Увеличивает максимальное количество миньонов на 1
+						Увеличивает урон призывателя на 10%
+						Нельзя надеть со своими неотмытыми версиями.
+						'''
+				}
+
+				BleachedStarTaintedGenerator: {
+					DisplayName: Отмытый звёздно-заряженный гениратор
+					Tooltip:
+						'''
+						Увеличивает максимальное количество миньонов на 2
+						Увеличивает урон призывателя на 15%
+						Даёт невосприимчивость к дебаффу "Облученный"
+						Нельзя надеть со своими неотмытыми версиями.
+						'''
+				}
+
+				BleachedStatisCurse: {
+					DisplayName: Отмытое проклятие Статиса
+					Tooltip:
+						'''
+						Увеличивает максимальное количество миньонов на 3
+						Увеличивает урон призывателя на 17%
+						Даёт невосприимчивость к дебаффу "Теневое пламя"
+						Нельзя надеть со своими неотмытыми версиями.
+						'''
+				}
+
+				BleachedTheFirstShadowflame: {
+					DisplayName: Отмытый первый теневой огонь
+					Tooltip:
+						'''
+						Увеличивает максимальное количество миньонов на 1
+						Увеличивает урон призывателя на 5%
+						Нельзя надеть со своими неотмытыми версиями.
+						'''
+				}
+
+				BleachedVoltaicJelly: {
+					DisplayName: Отмытое наэлектризованное желе
+					Tooltip:
+						'''
+						Увеличивает максимальное количество миньонов на 1
+						Увеличивает урон призывателя на 5%
+						Нельзя надеть со своими неотмытыми версиями.
+						'''
+				}
+			}
+
+			LeatherGrip: {
+				DisplayName: Кожанный хват
+				Tooltip:
+					'''
+					Увеличивает дальность хлыстов на 10%
+					Увеличивает множитель урона от меток призывателя на 1,05х.
+					Можно надеть только один хват.
+					'''
+			}
+
+			SilkGrip: {
+				DisplayName: Шёлковый хват
+				Tooltip:
+					'''
+					Увеличивает дальность хлыстов на 10%
+					Увеличивает шанс критического удара от метки призывателя на 5%.
+					Можно надеть только один хват.
+					'''
+			}
+
+			RubberGrip: {
+				DisplayName: Резиновый хват
+				Tooltip:
+					'''
+					Увеличивает дальность хлыстов на 15%
+					Увеличивает множитель урона от меток призывателя на 1.03х
+					и шанс критического удара от метки призывателя на 3%.
+					Можно надеть только один хват.
+					'''
+			}
+
+			NecromanticGrip: {
+				DisplayName: Некротический хват
+				Tooltip:
+					'''
+					Увеличивает максимальное количество миньонов на 1
+					Увеличивает дальность хлыстов на 15%
+					Увеличивает множитель урона от меток призывателя на 1,05х
+					и шанс критического удара от метки призывателя на 5%
+					Позволяет хлыстам атаковать сквозь стены.
+					Можно надеть только один хват.
+					'''
+			}
+
+			EmperorsGrip: {
+				DisplayName: Императорский хват
+				Tooltip:
+					'''
+					Увеличивает максимальное количество миньонов на 2
+					Увеличивает дальность хлыстов на 30%
+					Увеличивает множитель урона от меток призывателя на 1,07х
+					и шанс критическоно удара от метки призывателя на 7%
+					Позволяет хлыстам атаковать сквозь стены.
+					Можно надеть только один хват.
+					'''
+			}
+
+			LightSpiritGrip: {
+				DisplayName: Хват эссенции света
+				Tooltip:
+					'''
+					Позволяет хлыстам атаковать сквозь стены.
+					Можно надеть только один хват.
+					'''
+			}
+
+			AirflowGrip: {
+				DisplayName: Аэролётный хват
+				Tooltip:
+					'''
+					Снижает дальность хлыстов 15%
+					Позволяет хлыстам атаковать сквозь стены.
+					Можно надеть только один хват.
+					'''
+			}
+
+			CommanderGrip: {
+				DisplayName: Командирский хват
+				Tooltip:
+					'''
+					Снаряды миньонов начинают самонаводится на врагов некоторое время,
+					если вы атаковали их хлыстом.
+					'''
+			}
+
+			MagneticGrip: {
+				DisplayName: Магнитный хват
+				Tooltip:
+					'''
+					Снижает дальность хлыстов 15%
+					Снаряды миньонов начинают самонаводится на врагов некоторое время,
+					если вы атаковали их хлыстом.
+					'''
+			}
+
+			BuddyEmblem: {
+				DisplayName: Эмблема дружка
+				Tooltip:
+					'''
+					Значительно увеличивает урон миньона, если он призван, только в 1 экземпляре
+					Урон миньонов зависит от количества неиспользованных слотов миньонов
+					Чем сильнее этот эффект действует на миньона, тем больше он становится
+					На некоторых миньонов эти эффекты не работают
+					Некоторые эффекты меток призывателя ослаблены
+					'Я выбираю тебя!'
+					'''
+			}
+
+			StrikerEmblem: {
+				DisplayName: Эмблема ударника
+				Tooltip:
+					'''
+					Вы больше не можете призывать миньонов или стражей
+					Кнуты наносят врагам на 33% больше урона при трех дополнительных ударах
+					Эти удары усиливаются эффектами призыва
+					Дальность применения кнута увеличивается на 10%
+					Урон от призыва увеличивается на 10% за каждого неиспользованного миньона
+					'Умри, чудовище!'
+					'''
+			}
+
+			WulfrumWhipMagnet: {
+				DisplayName: Вульфрумовый хлыстовый магнит
+				Tooltip:
+					'''
+					Увеличивает дальность хлыстов на 10% 
+					Кнуты собирают все предметы по которым попадают.
+					'''
+			}
+
+			LoadTestItem: {
+				DisplayName: Load Test Item
+				Tooltip: ""
+			}
+
+			InvisibleSummonTagItem: {
+				Tooltip: ""
+				DisplayName: Invisible Summon Tag Item
+			}
+
+			InvisibleSummonTagItem3: {
+				Tooltip: ""
+				DisplayName: Invisible Summon Tag Item3
+			}
+
+			InvisibleSummonTagItem2: {
+				Tooltip: ""
+				DisplayName: Invisible Summon Tag Item2
+			}
+
+			InvisibleSummonTagItem1: {
+				Tooltip: ""
+				DisplayName: Invisible Summon Tag Item1
+			}
+
+			InvisibleBreezePiercer: {
+				Tooltip: ""
+				DisplayName: Invisible Breeze Piercer
+			}
+
+			InvisibleAncientBonds: {
+				DisplayName: Invisible Ancient Bonds
+				Tooltip: ""
+			}
+
+			InvisibleDestructionChain: {
+				DisplayName: Invisible Destruction Chain
+				Tooltip: ""
+			}
+
+			InvisibleDroptide: {
+				DisplayName: Invisible Droptide
+				Tooltip: ""
+			}
+
+			InvisibleEctopia: {
+				DisplayName: Invisible Ectopia
+				Tooltip: ""
+			}
+
+			InvisibleEmperorsGrip: {
+				DisplayName: Invisible Emperors Grip
+				Tooltip: ""
+			}
+
+			InvisibleEntwinedBranches: {
+				DisplayName: Invisible Entwined Branches
+				Tooltip: ""
+			}
+
+			InvisibleExistenceBonds: {
+				DisplayName: Invisible Existence Bonds
+				Tooltip: ""
+			}
+
+			InvisibleGelxyribose: {
+				DisplayName: Invisible Gelxyribose
+				Tooltip: ""
+			}
+
+			InvisibleGlitterGutter: {
+				DisplayName: Invisible Glitter Gutter
+				Tooltip: ""
+			}
+
+			InvisibleGloamshardConduit: {
+				DisplayName: Invisible Gloamshard Conduit
+				Tooltip: ""
+			}
+
+			InvisibleGloamshardConduit2: {
+				DisplayName: Invisible Gloamshard Conduit2
+				Tooltip: ""
+			}
+
+			InvisibleGreenPhaseScourge: {
+				DisplayName: Invisible Green Phase Scourge
+				Tooltip: ""
+			}
+
+			InvisibleGreenPhaseWhip: {
+				DisplayName: Invisible Green Phase Whip
+				Tooltip: ""
+			}
+
+			InvisibleKusariGama: {
+				DisplayName: Invisible Kusari Gama
+				Tooltip: ""
+			}
+
+			InvisibleLeatherGrip: {
+				DisplayName: Invisible Leather Grip
+				Tooltip: ""
+			}
+
+			InvisibleLoadout: {
+				DisplayName: Invisible Loadout
+				Tooltip: ""
+			}
+
+			InvisibleLoadout2: {
+				DisplayName: Invisible Loadout2
+				Tooltip: ""
+			}
+
+			InvisibleMermaidsTear: {
+				DisplayName: Invisible Mermaids Tear
+				Tooltip: ""
+			}
+
+			InvisibleMilkyway: {
+				DisplayName: Invisible Milkyway
+				Tooltip: ""
+			}
+
+			InvisibleNecromanticGrip: {
+				DisplayName: Invisible Necromantic Grip
+				Tooltip: ""
+			}
+
+			InvisibleNecropsia: {
+				DisplayName: Invisible Necropsia
+				Tooltip: ""
+			}
+
+			InvisiblePrimalBonds: {
+				DisplayName: Invisible Primal Bonds
+				Tooltip: ""
+			}
+
+			InvisibleRapierWhip: {
+				DisplayName: Invisible Rapier Whip
+				Tooltip: ""
+			}
+
+			InvisibleResonantVoid: {
+				DisplayName: Invisible Resonant Void
+				Tooltip: ""
+			}
+
+			InvisibleResonantVoid2: {
+				DisplayName: Invisible Resonant Void2
+				Tooltip: ""
+			}
+
+			InvisibleRubberGrip: {
+				DisplayName: Invisible Rubber Grip
+				Tooltip: ""
+			}
+
+			InvisibleSatellite: {
+				DisplayName: Invisible Satellite
+				Tooltip: ""
+			}
+
+			InvisibleSilkGrip: {
+				DisplayName: Invisible Silk Grip
+				Tooltip: ""
+			}
+
+			InvisibleSkybreakerCoil: {
+				DisplayName: Invisible Skybreaker Coil
+				Tooltip: ""
+			}
+
+			InvisibleUnfathomable: {
+				DisplayName: Invisible Unfathomable
+				Tooltip: ""
+			}
+
+			InvisibleWoodenWhip: {
+				DisplayName: Invisible Wooden Whip
+				Tooltip: ""
+			}
+
+			InvisibleGlitterGutter2: {
+				DisplayName: Invisible Glitter Gutter2
+				Tooltip: ""
+			}
+
+			InvisibleMandibleLash2: {
+				DisplayName: Invisible Mandible Lash2
+				Tooltip: ""
+			}
+
+			InvisibleMilkyway2: {
+				DisplayName: Invisible Milkyway2
+				Tooltip: ""
+			}
+
+			TestWhip: {
+				Tooltip: ""
+				DisplayName: Test Whip
+			}
+		}
+
+		Buffs: {
+			SimpleWhipDebuff: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff.Description
+				DisplayName: Simple Whip Debuff
+			}
+
+			SimpleWhipDebuff10: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff10.Description
+				DisplayName: Simple Whip Debuff10
+			}
+
+			SimpleWhipDebuff70: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff70.Description
+				DisplayName: Simple Whip Debuff70
+			}
+
+			SimpleWhipDebuff08: {
+				DisplayName: Simple Whip Debuff08
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff08.Description
+			}
+
+			SimpleWhipDebuff10C: {
+				DisplayName: Simple Whip Debuff10 C
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff10C.Description
+			}
+
+			SimpleWhipDebuff0D09C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D09C.Description
+				DisplayName: Simple Whip Debuff0 D09 C
+			}
+
+			SimpleWhipDebuff0D08C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D08C.Description
+				DisplayName: Simple Whip Debuff0 D08 C
+			}
+
+			SimpleWhipDebuff09: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff09.Description
+				DisplayName: Simple Whip Debuff09
+			}
+
+			SimpleWhipDebuff11: {
+				DisplayName: Simple Whip Debuff11
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff11.Description
+			}
+
+			SimpleWhipDebuff12: {
+				DisplayName: Simple Whip Debuff12
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff12.Description
+			}
+
+			SimpleWhipDebuff13: {
+				DisplayName: Simple Whip Debuff13
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff13.Description
+			}
+
+			SimpleWhipDebuff14: {
+				DisplayName: Simple Whip Debuff14
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff14.Description
+			}
+
+			SimpleWhipDebuff15: {
+				DisplayName: Simple Whip Debuff15
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff15.Description
+			}
+
+			SimpleWhipDebuff20: {
+				DisplayName: Simple Whip Debuff20
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff20.Description
+			}
+
+			SimpleWhipDebuff25: {
+				DisplayName: Simple Whip Debuff25
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff25.Description
+			}
+
+			SimpleWhipDebuff5D05C: {
+				DisplayName: Simple Whip Debuff5 D05 C
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff5D05C.Description
+			}
+
+			SimpleWhipDebuff7D07C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff7D07C.Description
+				DisplayName: Simple Whip Debuff7 D07 C
+			}
+
+			SimpleWhipDebuff0D11C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D11C.Description
+				DisplayName: Simple Whip Debuff0 D11 C
+			}
+
+			SimpleWhipDebuff0D20C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D20C.Description
+				DisplayName: Simple Whip Debuff0 D20 C
+			}
+
+			SimpleWhipDebuff07: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff07.Description
+				DisplayName: Simple Whip Debuff07
+			}
+
+			SimpleWhipDebuff0D22C: {
+				DisplayName: Simple Whip Debuff0 D22 C
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D22C.Description
+			}
+
+			SimpleWhipDebuff27: {
+				DisplayName: Simple Whip Debuff27
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff27.Description
+			}
+
+			SimpleWhipDebuff2x: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff2x.Description
+				DisplayName: Simple Whip Debuff2x
+			}
+
+			SimpleWhipDebuffEx1: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx1.Description
+				DisplayName: Simple Whip Debuff Ex1
+			}
+
+			SimpleWhipDebuff10D10C: {
+				DisplayName: Simple Whip Debuff10 D10 C
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff10D10C.Description
+			}
+
+			SimpleWhipDebuffC100: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffC100.Description
+				DisplayName: Simple Whip Debuff C100
+			}
+
+			SimpleWhipDebuff0D10C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D10C.Description
+				DisplayName: Simple Whip Debuff0 D10 C
+			}
+
+			SimpleWhipDebuff30: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff30.Description
+				DisplayName: Simple Whip Debuff30
+			}
+
+			SimpleWhipDebuff0D25C: {
+				DisplayName: Simple Whip Debuff0 D25 C
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D25C.Description
+			}
+
+			SimpleWhipDebuff15D15C: {
+				DisplayName: Simple Whip Debuff15 D15 C
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff15D15C.Description
+			}
+
+			SimpleWhipDebuffEx2: {
+				DisplayName: Simple Whip Debuff Ex2
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx2.Description
+			}
+
+			SimpleWhipDebuff0D27C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D27C.Description
+				DisplayName: Simple Whip Debuff0 D27 C
+			}
+
+			SimpleWhipDebuffAc05: {
+				DisplayName: Simple Whip Debuff Ac05
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAc05.Description
+			}
+
+			SimpleWhipDebuffAcC05: {
+				DisplayName: Simple Whip Debuff Ac C05
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAcC05.Description
+			}
+
+			SimpleWhipDebuffAc05C05: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAc05C05.Description
+				DisplayName: Simple Whip Debuff Ac05 C05
+			}
+
+			SimpleWhipDebuffAc07C07: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAc07C07.Description
+				DisplayName: Simple Whip Debuff Ac07 C07
+			}
+
+			SimpleWhipDebuffAc10C10: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAc10C10.Description
+				DisplayName: Simple Whip Debuff Ac10 C10
+			}
+
+			SimpleWhipDebuffEx3: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx3.Description
+				DisplayName: Simple Whip Debuff Ex3
+			}
+
+			SimpleWhipDebuffC100x3: {
+				DisplayName: Simple Whip Debuff C100x3
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffC100x3.Description
+			}
+
+			SimpleWhipDebuffAcHo: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAcHo.Description
+				DisplayName: Simple Whip Debuff Ac Ho
+			}
+
+			SimpleWhipDebuffAcHo2: {
+				DisplayName: Simple Whip Debuff Ac Ho2
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAcHo2.Description
+			}
+
+			SimpleWhipDebuffEx4: {
+				DisplayName: Simple Whip Debuff Ex4
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx4.Description
+			}
+
+			SimpleWhipDebuffEx5: {
+				DisplayName: Simple Whip Debuff Ex5
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx5.Description
+			}
+
+			BuddyEmblemBuff: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.BuddyEmblemBuff.Description
+				DisplayName: Buddy Emblem Buff
+			}
+
+			BuddyEmblemSoloBuff: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.BuddyEmblemSoloBuff.Description
+				DisplayName: Buddy Emblem Solo Buff
+			}
+
+			SimpleWhipDebuffEx6: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx6.Description
+				DisplayName: Simple Whip Debuff Ex6
+			}
+
+			SimpleWhipDebuffEx7: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx7.Description
+				DisplayName: Simple Whip Debuff Ex7
+			}
+
+			SimpleWhipDebuffEx8: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx8.Description
+				DisplayName: Simple Whip Debuff Ex8
+			}
+
+			SimpleWhipDebuff7D07C2: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff7D07C2.Description
+				DisplayName: Simple Whip Debuff7 D07 C2
+			}
+
+			SimpleWhipDebuffEx9: {
+				DisplayName: Simple Whip Debuff Ex9
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx9.Description
+			}
+
+			SimpleWhipDebuffT2: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT2.Description
+				DisplayName: Simple Whip Debuff T2
+			}
+
+			SimpleWhipDebuffT1: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT1.Description
+				DisplayName: Simple Whip Debuff T1
+			}
+
+			SimpleWhipDebuffEx10: {
+				DisplayName: Simple Whip Debuff Ex10
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx10.Description
+			}
+
+			SimpleWhipDebuffEx11: {
+				DisplayName: Simple Whip Debuff Ex11
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx11.Description
+			}
+
+			SimpleWhipDebuffS1: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS1.Description
+				DisplayName: Simple Whip Debuff S1
+			}
+
+			SimpleWhipDebuffS2: {
+				DisplayName: Simple Whip Debuff S2
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS2.Description
+			}
+
+			SimpleWhipDebuffS3: {
+				DisplayName: Simple Whip Debuff S3
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS3.Description
+			}
+
+			SimpleWhipDebuffS4: {
+				DisplayName: Simple Whip Debuff S4
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS4.Description
+			}
+
+			SimpleWhipDebuffS5: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS5.Description
+				DisplayName: Simple Whip Debuff S5
+			}
+
+			SimpleWhipDebuffT2St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT2St.Description
+				DisplayName: Simple Whip Debuff T2 St
+			}
+
+			SimpleWhipDebuffT5St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT5St.Description
+				DisplayName: Simple Whip Debuff T5 St
+			}
+
+			SimpleWhipDebuffT4St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT4St.Description
+				DisplayName: Simple Whip Debuff T4 St
+			}
+
+			SimpleWhipDebuffT3St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT3St.Description
+				DisplayName: Simple Whip Debuff T3 St
+			}
+
+			SimpleWhipDebuffT1St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT1St.Description
+				DisplayName: Simple Whip Debuff T1 St
+			}
+
+			SimpleWhipDebuffT2St2: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT2St2.Description
+				DisplayName: Simple Whip Debuff T2 St2
+			}
+
+			SimpleWhipDebuffT10St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT10St.Description
+				DisplayName: Simple Whip Debuff T10 St
+			}
+
+			SimpleWhipDebuffT20St: {
+				DisplayName: Simple Whip Debuff T20 St
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT20St.Description
+			}
+
+			SimpleWhipDebuffEx12: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx12.Description
+				DisplayName: Simple Whip Debuff Ex12
+			}
+
+			SimpleWhipDebuffEx14: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx14.Description
+				DisplayName: Simple Whip Debuff Ex14
+			}
+
+			SimpleWhipDebuffEx13: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx13.Description
+				DisplayName: Simple Whip Debuff Ex13
+			}
+
+			SimpleWhipDebuffEx15: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx15.Description
+				DisplayName: Simple Whip Debuff Ex15
+			}
+
+			SimpleWhipDebuffEx16: {
+				DisplayName: Simple Whip Debuff Ex16
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx16.Description
+			}
+
+			SimpleWhipDebuffEx17: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx17.Description
+				DisplayName: Simple Whip Debuff Ex17
+			}
+
+			SimpleWhipDebuffEx18: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx18.Description
+				DisplayName: Simple Whip Debuff Ex18
+			}
+
+			SimpleWhipDebuffEx19: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx19.Description
+				DisplayName: Simple Whip Debuff Ex19
+			}
+
+			SimpleWhipDebuffEx20: {
+				DisplayName: Simple Whip Debuff Ex20
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx20.Description
+			}
+
+			SimpleWhipDebuffEx21: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx21.Description
+				DisplayName: Simple Whip Debuff Ex21
+			}
+
+			SimpleWhipDebuffEx22: {
+				DisplayName: Simple Whip Debuff Ex22
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx22.Description
+			}
+
+			SimpleWhipDebuffEx23: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx23.Description
+				// DisplayName: Simple Whip Debuff Ex23
+			}
+
+			BuddyEmblemSoloHalfBuff: {
+				// DisplayName: Buddy Emblem Solo Half Buff
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.BuddyEmblemSoloHalfBuff.Description
+			}
+		}
+
+		DamageClasses: {
+			PseudoSummonDamageClass.DisplayName: Pseudo Summon Damage Class
+			PseudoSummonDamageClass2.DisplayName: Pseudo Summon Damage Class2
+		}
+
+		NPCs.WhipDebuffNPC.DisplayName: Whip Debuff N P C
+	}
+}

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Content",
+    "\\Content\\Buffs",
+    "\\Content\\DamageClasses",
+    "\\Content\\Projectiles",
+    "\\Content\\Systems",
+    "\\Fix",
+    "\\Localization",
+    "\\Localization\\en-US",
+    "\\Localization\\zh-Hans"
+  ],
+  "SelectedNode": "\\description_workshop.txt",
+  "PreviewInSolutionExplorer": false
+}

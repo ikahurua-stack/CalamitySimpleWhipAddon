@@ -1,0 +1,1523 @@
+Mods: {
+	CalamitySimpleWhipAddon: {
+		RecipeGroups: {
+			AnyPhaseScourge: Any Phase Scourge
+			AnyWood: Any Wood
+		}
+
+		Items: {
+			WoodenWhip: {
+				DisplayName: Wooden Whip
+				Tooltip: 1.07x summon tag damage multiplier
+			}
+
+			RapierWhip: {
+				DisplayName: Rapier Whip
+				Tooltip:
+					'''
+					8% summon tag critical strike chance
+
+					The rapier whip is not well-suited for attacking multiple enemies.
+					'''
+			}
+
+			BreezePiercer: {
+				DisplayName: Breeze Piercer
+				Tooltip: 9% summon tag critical strike chance
+			}
+
+			Gelxyribose: {
+				DisplayName: Gelxyribose
+				Tooltip:
+					'''
+					1.07x summon tag damage multiplier
+					7% summon tag critical strike chance
+					'''
+			}
+
+			OrangePhaseWhip: {
+				DisplayName: Orange Phase Whip
+				Tooltip:
+					'''
+					1.08x summon tag damage multiplier
+
+					Ignores part of the enemies armor
+					'''
+			}
+
+			GreenPhaseWhip: {
+				DisplayName: Green Phase Whip
+				Tooltip:
+					'''
+					1.08x summon tag damage multiplier
+
+					Ignores part of the enemies armor
+					'''
+			}
+
+			BluePhaseWhip: {
+				DisplayName: Blue Phase Whip
+				Tooltip:
+					'''
+					1.08x summon tag damage multiplier
+
+					Ignores part of the enemies armor
+					'''
+			}
+
+			PurplePhaseWhip: {
+				DisplayName: Purple Phase Whip
+				Tooltip:
+					'''
+					1.08x summon tag damage multiplier
+
+					Ignores part of the enemies armor
+					'''
+			}
+
+			RedPhaseWhip: {
+				DisplayName: Red Phase Whip
+				Tooltip:
+					'''
+					1.08x summon tag damage multiplier
+
+					Ignores part of the enemies armor
+					'''
+			}
+
+			WhitePhaseWhip: {
+				DisplayName: White Phase Whip
+				Tooltip:
+					'''
+					1.08x summon tag damage multiplier
+
+					Ignores part of the enemies armor
+					'''
+			}
+
+			YellowPhaseWhip: {
+				DisplayName: Yellow Phase Whip
+				Tooltip:
+					'''
+					1.08x summon tag damage multiplier
+
+					Ignores part of the enemies armor
+					'''
+			}
+
+			OrangePhaseScourge: {
+				DisplayName: Orange Phase Scourge
+				Tooltip:
+					'''
+					1.09x summon tag damage multiplier
+
+					Ignores part of the enemies armor
+					'''
+			}
+
+			GreenPhaseScourge: {
+				DisplayName: Green Phase Scourge
+				Tooltip:
+					'''
+					1.09x summon tag damage multiplier
+
+					Ignores part of the enemies armor
+					'''
+			}
+
+			BluePhaseScourge: {
+				DisplayName: Blue Phase Scourge
+				Tooltip:
+					'''
+					1.09x summon tag damage multiplier
+
+					Ignores part of the enemies armor
+					'''
+			}
+
+			PurplePhaseScourge: {
+				DisplayName: Purple Phase Scourge
+				Tooltip:
+					'''
+					1.09x summon tag damage multiplier
+
+					Ignores part of the enemies armor
+					'''
+			}
+
+			RedPhaseScourge: {
+				DisplayName: Red Phase Scourge
+				Tooltip:
+					'''
+					1.09x summon tag damage multiplier
+
+					Ignores part of the enemies armor
+					'''
+			}
+
+			WhitePhaseScourge: {
+				DisplayName: White Phase Scourge
+				Tooltip:
+					'''
+					1.09x summon tag damage multiplier
+
+					Ignores part of the enemies armor
+					'''
+			}
+
+			YellowPhaseScourge: {
+				DisplayName: Yellow Phase Scourge
+				Tooltip:
+					'''
+					1.09x summon tag damage multiplier
+
+					Ignores part of the enemies armor
+					'''
+			}
+
+			GlitterGutter: {
+				DisplayName: Glitter Gutter
+				Tooltip:
+					'''
+					10% summon tag critical strike chance
+					Enemies struck by this whip cause the next minion attack to release tracking crystal shards
+					'''
+			}
+
+			Droptide: {
+				DisplayName: Droptide
+				Tooltip: 1.12x summon tag damage multiplier
+			}
+
+			Ectopia: {
+				DisplayName: Ectopia
+				Tooltip: 22% summon tag critical strike chance
+			}
+
+			Unfathomable: {
+				DisplayName: Unfathomable
+				Tooltip: 1.25x summon tag damage multiplier
+			}
+
+			DestructionChain: {
+				DisplayName: Destruction Chain
+				Tooltip:
+					'''
+					Enemies struck by this whip cause the next minion attack to trigger an explosion
+					Enemies killed by this explosion trigger another explosion, which can continue to chain
+					'''
+			}
+
+			GloamshardConduit: {
+				DisplayName: Gloamshard Conduit
+				Tooltip:
+					'''
+					1.1x summon tag damage multiplier
+					10% summon tag critical strike chance
+
+					Enemies struck by this whip take 1.25x damage from the next minion attack and explode
+					'''
+			}
+
+			Satellite: {
+				DisplayName: Satellite
+				Tooltip: Enemies struck by this whip take one guaranteed critical hit from a minion.
+			}
+
+			EntwinedBranches: {
+				DisplayName: Entwined Branches
+				Tooltip: 1.27x summon tag damage multiplier
+			}
+
+			Necropsia: {
+				DisplayName: Necropsia
+				Tooltip: 27% summon tag critical strike chance
+			}
+
+			ResonantVoid: {
+				DisplayName: Resonant Void
+				Tooltip:
+					'''
+					1.12x summon tag damage multiplier
+					12% summon tag critical strike chance
+
+					Enemies struck by this whip take 1.25x damage from the next minion attack and explode
+
+					Ignores part of the enemies armor
+					'''
+			}
+
+			SkybreakerCoil: {
+				DisplayName: Skybreaker Coil
+				Tooltip:
+					'''
+					All enemies struck by this whiptake 1.30x damage from the next minion attack and unleash an electrical burst
+					The burst rapidly shocks nearby enemies for a short time and has armor penetration
+					'''
+			}
+
+			Milkyway: {
+				DisplayName: Milkyway
+				Tooltip:
+					'''
+					+10 summon tag damage per stack
+					Enemies struck by this whip take one guaranteed 4x damage critical hit from a minion
+					This whip's tag stacks with itself
+					Comets equal to the stacks count orbit around the enemy
+					'''
+			}
+
+			KusariGama: {
+				DisplayName: Kusari Gama
+				Tooltip:
+					'''
+					1.13x summon tag damage multiplier
+					Grants knockback immunity while held
+					'''
+			}
+
+			Loadout: {
+				DisplayName: Loadout
+				Tooltip:
+					'''
+					1.07x summon tag damage multiplier
+					7% summon tag critical strike chance
+					Enemies struck by this whip are hit by a laser on the next minion attack
+					Ignores part of the enemies armor
+					'''
+			}
+
+			AncientBonds: {
+				DisplayName: Ancient Bonds
+				Tooltip:
+					'''
+					Enemies struck by this whip are impaled by a spectral blade on the next minion attack
+					The spectral blade deals 20% of the minion’s damage 3 times in succession
+					The impaling damage has 5 armor penetration
+					'''
+			}
+
+			PrimalBonds: {
+				DisplayName: Primal Bonds
+				Tooltip:
+					'''
+					Enemies struck by this whip are impaled by a spectral blade on the next minion attack
+					The spectral blade deals 20% of the minion’s damage 5 times in succession
+					The impaling damage has 10 armor penetration
+					'''
+			}
+
+			ExistenceBonds: {
+				DisplayName: Existence Bonds
+				Tooltip:
+					'''
+					Enemies struck by this whip are impaled by a spectral blade on the next minion attack
+					The spectral blade deals 20% of the minion’s damage 6 times in succession
+					The impaling damage has 15 armor penetration
+					'''
+			}
+
+			MermaidsTear: {
+				DisplayName: Mermaid's Tear
+				Tooltip:
+					'''
+					Enemies struck by this whip are impaled by a spectral blade on the next minion attack
+					The spectral blade deals 25% of the minion’s damage 8 times in succession
+					The impaling damage has 50 armor penetration
+					'''
+			}
+
+			MandibleLash: {
+				DisplayName: Mandible Lash
+				Tooltip:
+					'''
+					1 summon tag damage
+					Enemies struck by this whip cause the next minion attack to launch a sandball
+					The sandball is effected by gravity and deals 40% of the minion's damage
+					The sandball explodes on block impact, damaging nearby enemies
+					'''
+			}
+
+			DarkMandibleLash: {
+				DisplayName: Dark Mandible Lash
+				Tooltip:
+					'''
+					2 summon tag damage
+					Enemies struck by this whip cause the next minion attack to launch a sandball
+					The sandball is effected by gravity and deals 40% of the minion's damage
+					The sandball explodes on block impact, damaging nearby enemies
+					'''
+			}
+
+			ShieldConduit: {
+				DisplayName: Shield Conduit
+				Tooltip:
+					'''
+					2 summon tag damage
+					Automatically switches between two modes.
+					'''
+				HoldShiftTooltip:
+					'''
+					-----------------------------
+					Defense Mode:
+					Striking an enemy with the whip causes minion attacks to release blue shield shards for a short time
+					Collecting shards builds shield charge
+					At 50 charge, you gain a 50 HP shield
+					-----------------------------
+					Attack Mode:
+					Striking an enemy with the whip causes minion attacks to release red shield shards for a short time.
+					Red shards home in on enemies, dealing 10% of the minion's damage +3 flat damage.
+					-----------------------------
+					Shield shard release has a very short cooldown
+					When the shield takes damage, it enters a recharge cooldown lasting 5–50 seconds based on your remaining shield
+					If the shield is fully broken, the recharge cooldown becomes 60 seconds
+					During cooldown, switches to Attack Mode
+					When the cooldown ends, switches to Defense Mode
+					If any shield remains, collecting shards restores shield durability.
+					'''
+			}
+
+			ShieldConduitMkII: {
+				DisplayName: Shield Conduit Mk-II
+				Tooltip:
+					'''
+					4 summon tag damage
+					Switches automatically between two modes.
+					'''
+				HoldShiftTooltip:
+					'''
+					-----------------------------
+					Defense Mode:
+					Striking an enemy with the whip causes minion attacks to release blue shield shards for a short time
+					Collecting shards builds shield charge
+					At 100 charge, you gain a 100 HP shield
+					-----------------------------
+					Attack Mode:
+					Striking an enemy with the whip causes minion attacks to release red shield shards for a short time.
+					Red shards home in on enemies, dealing 10% of the minion's damage +5 flat damage.
+					-----------------------------
+					Shield shard release has a very short cooldown
+					When the shield takes damage, it enters a recharge cooldown lasting 5–50 seconds based on your remaining shield
+					If the shield is fully broken, the recharge cooldown becomes 60 seconds
+					During cooldown, switches to Attack Mode
+					When the cooldown ends, switches to Defense Mode
+					If any shield remains, collecting shards restores shield durability.
+					'''
+			}
+
+			ShieldConduitMkIII: {
+				DisplayName: Shield Conduit Mk-III
+				Tooltip:
+					'''
+					7 summon tag damage
+					Switches automatically between two modes.
+					'''
+				HoldShiftTooltip:
+					'''
+					-----------------------------
+					Defense Mode:
+					Striking an enemy with the whip causes minion attacks to release blue shield shards for a short time
+					Collecting shards builds shield charge
+					At 150 charge, you gain a 150 HP shield
+					-----------------------------
+					Attack Mode:
+					Striking an enemy with the whip causes minion attacks to release red shield shards for a short time.
+					Red shards home in on enemies, dealing 10% of the minion's damage +25 flat damage.
+					-----------------------------
+					Shield shard release has a very short cooldown
+					When the shield takes damage, it enters a recharge cooldown lasting 5–50 seconds based on your remaining shield
+					If the shield is fully broken, the recharge cooldown becomes 60 seconds
+					During cooldown, switches to Attack Mode
+					When the cooldown ends, switches to Defense Mode
+					If any shield remains, collecting shards restores shield durability.
+					'''
+			}
+
+			ShieldConduitMkIV: {
+				DisplayName: Shield Conduit Mk-IV
+				Tooltip:
+					'''
+					12 summon tag damage
+					Switches automatically between two modes.
+					'''
+				HoldShiftTooltip:
+					'''
+					-----------------------------
+					Defense Mode:
+					Striking an enemy with the whip causes minion attacks to release blue shield shards for a short time
+					Collecting shards builds shield charge
+					At 200 charge, you gain a 200 HP shield
+					-----------------------------
+					Attack Mode:
+					Striking an enemy with the whip causes minion attacks to release red shield shards for a short time.
+					Red shards home in on enemies, dealing 10% of the minion's damage +50 flat damage.
+					-----------------------------
+					Shield shard release has a very short cooldown
+					When the shield takes damage, it enters a recharge cooldown lasting 5–50 seconds based on your remaining shield
+					If the shield is fully broken, the recharge cooldown becomes 60 seconds
+					During cooldown, switches to Attack Mode
+					When the cooldown ends, switches to Defense Mode
+					If any shield remains, collecting shards restores shield durability.
+					'''
+			}
+
+			ShieldConduitMkV: {
+				DisplayName: Shield Conduit Mk-V
+				Tooltip:
+					'''
+					20 summon tag damage
+					Switches automatically between two modes.
+					'''
+				HoldShiftTooltip:
+					'''
+					-----------------------------
+					Defense Mode:
+					Striking an enemy with the whip causes minion attacks to release blue shield shards for a short time
+					Collecting shards builds shield charge
+					At 250 charge, you gain a 250 HP shield
+					-----------------------------
+					Attack Mode:
+					Striking an enemy with the whip causes minion attacks to release red shield shards for a short time.
+					Red shards home in on enemies, dealing 10% of the minion's damage +150 flat damage.
+					-----------------------------
+					Shield shard release has a very short cooldown
+					When the shield takes damage, it enters a recharge cooldown lasting 5–50 seconds based on your remaining shield
+					If the shield is fully broken, the recharge cooldown becomes 60 seconds
+					During cooldown, switches to Attack Mode
+					When the cooldown ends, switches to Defense Mode
+					If any shield remains, collecting shards restores shield durability.
+					'''
+			}
+
+			LayeredPain: {
+				DisplayName: Layered Pain
+				Tooltip:
+					'''
+					+1 summon tag damage per stack
+					This whip's tag damage stacks with itself, with older stacks expiring first
+					'''
+			}
+
+			NightButterfly: {
+				DisplayName: Night Butterfly
+				Tooltip:
+					'''
+					+2 summon tag damage per stack
+					This whip's tag damage stacks with itself, with older stacks expiring first
+					A number of moths equal to the number of stacks attach themselves to the enemy
+					'''
+			}
+
+			ActiasAliena: {
+				DisplayName: Actias Aliena
+				Tooltip:
+					'''
+					+3 summon tag damage per stack
+					This whip's tag damage stacks with itself, with older stacks expiring first
+					A number of moths equal to the number of stacks attach themselves to the enemy
+					'''
+			}
+
+			ButterflyEffect: {
+				DisplayName: Butterfly Effect
+				Tooltip:
+					'''
+					+6 summon tag damage per stack
+					This whip's tag damage stacks with itself, with older stacks expiring first
+					A number of moths equal to the number of stacks attach themselves to the enemy
+					'''
+			}
+
+			EtaCarinae: {
+				DisplayName: Eta Carinae
+				Tooltip:
+					'''
+					+10 summon tag damage per stack
+					This whip's tag damage stacks with itself, with older stacks expiring first
+					A number of comets equal to the number of stacks attach themselves to the enemy
+					'''
+			}
+
+			GoldRush: {
+				DisplayName: Gold Rush
+				Tooltip:
+					'''
+					8 summon tag damage
+					Striking enemies regularly summons physical weapons dealing 100% of your minion's damage.
+					'''
+			}
+
+			GildedReliquary: {
+				DisplayName: Gilded Reliquary
+				Tooltip:
+					'''
+					20 summon tag damage
+					Striking enemies rapidly summons a swift arsenal dealing 120% of your minion's damage
+					'''
+			}
+
+			AurelianSanctum: {
+				DisplayName: Aurelian Sanctum
+				Tooltip:
+					'''
+					80 summon tag damage
+					Striking enemies unleashes a relentless barrage of weapons dealing 200% of your minion's damage
+					'''
+			}
+
+			KingsMajesty: {
+				DisplayName: King's Majesty
+				Tooltip:
+					'''
+					2 summon tag damage
+					4% summon tag critical strike chance
+					While holding this whip, a gem follows you
+					and attacks whenever your minions damage an enemy marked by the whip.
+					The gem's attack deals 50% of the triggering hit's damage.
+					The gem instant charge before firing,
+					adding 5% of damage dealt during the charge to its attack.
+					'''
+			}
+
+			EmeraldSplash: {
+				DisplayName: Emerald Splash
+				Tooltip:
+					'''
+					5 summon tag damage
+					7% summon tag critical strike chance
+					While holding this whip, a gem follows you
+					and attacks whenever your minions damage an enemy marked by the whip.
+					The gem's attack deals 100% of the triggering hit's damage.
+					The gem instant charge before firing,
+					adding 15% of damage dealt during the charge to its attack.
+					'''
+			}
+
+			CrackoftheUniverse: {
+				DisplayName: Crack of the Universe
+				Tooltip:
+					'''
+					20 summon tag damage
+					10% summon tag critical strike chance
+					While holding this whip, a gem follows you
+					and attacks whenever your minions damage an enemy marked by the whip.
+					The gem's attack deals 100% of the triggering hit's damage.
+					The gem charges before firing,
+					adding 20% of damage dealt during the charge to its attack.
+					'''
+			}
+
+			Rubellus: {
+				DisplayName: Rubellus
+				Tooltip:
+					'''
+					8 summon tag damage
+					8% summon tag critical strike chance
+					While holding this whip, a gem follows you
+					and attacks whenever your minions damage an enemy marked by the whip.
+					The gem's attack deals 100% of the triggering hit's damage.
+					The gem instant charge before firing,
+					adding 40% of damage dealt during the charge to its attack.
+					The gem's attack trigger a chain reaction, targeting tagged enemies.
+					'''
+			}
+
+			WulfrumArm: {
+				DisplayName: Wulfrum Arm
+				Tooltip:
+					'''
+					4 summon tag damage
+					Enemies struck by this Arm discharge when hit by a minion,
+					taking 60% of the triggering hit's damage and spreading
+					the chain to enemies marked by the same tag.
+					The tag is consumed when triggered by a minion
+					or by chain damage.
+					The tip can grasp and pull in items.
+					'''
+			}
+
+			MechanicalArm: {
+				DisplayName: Mechanical Arm
+				Tooltip:
+					'''
+					15 summon tag damage
+					Enemies struck by this Arm discharge when hit by a minion,
+					taking 100% of the triggering hit's damage and spreading
+					the chain to enemies marked by the same tag.
+					The tag is consumed when triggered by a minion
+					or by chain damage.
+					The tip can grasp and pull in items.
+					'''
+			}
+
+			MassofWailing: {
+				DisplayName: Mass of Wailing
+				Tooltip:
+					'''
+					5% summon tag critical strike chance
+					Enemies tagged by this whip
+					release blobs equal to 15% of
+					damage dealt by minions.
+					The blobs gather above the wielder
+					and split apart to seek enemies
+					when fully charged.
+					'''
+			}
+
+			ChorusofExecration: {
+				DisplayName: Chorus of Execration
+				Tooltip:
+					'''
+					30% summon tag critical strike chance
+					Enemies tagged by this whip
+					release blobs equal to 25% of
+					damage dealt by minions.
+					The blobs gather above the wielder
+					and split apart to seek enemies
+					when fully charged.
+					'''
+			}
+
+			OpaqueOnyx: {
+				DisplayName: Opaque Onyx
+				Tooltip:
+					'''
+					3 summon tag damage
+					5% summon tag critical strike chance
+					While holding this whip, a gem follows you
+					and attacks whenever your minions damage an enemy marked by the whip.
+					The gem's attack deals 75% of the triggering hit's damage.
+					The gem instant charge before firing,
+					adding 10% of damage dealt during the charge to its attack.
+					'''
+			}
+
+			Accessories: {
+				BleachedNucleogenesis: {
+					DisplayName: Bleached Nucleogenesis
+					Tooltip:
+						'''
+						Increases max minions by 4
+						Grants immunity to Shadowflame and Irradiated
+						22% increased summon damage
+						Increased minion knockback
+						Cannot be equipped with its downgraded or Bleached versions.
+						'''
+				}
+
+				BleachedNuclearFuelRod: {
+					DisplayName: Bleached Nuclear Fuel Rod
+					Tooltip:
+						'''
+						Increases max minions by 1
+						7% increased summon damage
+						Grants immunity to Irradiated
+						Cannot be equipped with its Bleached versions.
+						'''
+				}
+
+				BleachedJellyChargedBattery: {
+					DisplayName: Bleached Jelly Charged Battery
+					Tooltip:
+						'''
+						Increases max minions by 1
+						12% increased summon damage
+						Cannot be equipped with its downgraded or Bleached versions.
+						'''
+				}
+
+				BleachedStarbusterCore: {
+					DisplayName: Bleached Starbuster Core
+					Tooltip:
+						'''
+						Increases max minions by 1
+						10% increased summon damage
+						Cannot be equipped with its Bleached versions.
+						'''
+				}
+
+				BleachedStarTaintedGenerator: {
+					DisplayName: Bleached Star Tainted Generator
+					Tooltip:
+						'''
+						Increases max minions by 2
+						15% increased summon damage
+						Grants immunity to Irradiated debuff
+						Cannot be equipped with its downgraded or Bleached versions.
+						'''
+				}
+
+				BleachedStatisCurse: {
+					DisplayName: Bleached Statis Curse
+					Tooltip:
+						'''
+						Increases max minions by 3
+						17% increased summon damage
+						Grants immunity to Shadowflame debuff
+						Cannot be equipped with its downgraded or Bleached versions.
+						'''
+				}
+
+				BleachedTheFirstShadowflame: {
+					DisplayName: Bleached The First Shadowflame
+					Tooltip:
+						'''
+						Increases max minions by 1
+						5% increased summon damage
+						Cannot be equipped with its Bleached versions.
+						'''
+				}
+
+				BleachedVoltaicJelly: {
+					DisplayName: Bleached Voltaic Jelly
+					Tooltip:
+						'''
+						Increases max minions by 1
+						5% increased summon damage
+						Cannot be equipped with its Bleached versions.
+						'''
+				}
+			}
+
+			LeatherGrip: {
+				DisplayName: Leather Grip
+				Tooltip:
+					'''
+					Increases whip range by 10% 
+					Whips gain 1.05x summon tag damage multiplier
+					Only one Grip accessory can be equipped at a time
+					'''
+			}
+
+			SilkGrip: {
+				DisplayName: Silk Grip
+				Tooltip:
+					'''
+					Increases whip range by 10% 
+					Whips gain 5% summon tag critical strike chance
+					Only one Grip accessory can be equipped at a time
+					'''
+			}
+
+			RubberGrip: {
+				DisplayName: Rubber Grip
+				Tooltip:
+					'''
+					Increases whip range by 15% 
+					Whips gain 1.03x summon tag damage multiplier and 3% summon tag critical strike chance
+					Only one Grip accessory can be equipped at a time
+					'''
+			}
+
+			NecromanticGrip: {
+				DisplayName: Necromantic Grip
+				Tooltip:
+					'''
+					Increases max minions by 1
+					Increases whip range by 15% 
+					Whips gain 1.05x summon tag damage multiplier and 5% summon tag critical strike chance
+					Allows whips to hit enemies through walls
+					Only one Grip accessory can be equipped at a time
+					'''
+			}
+
+			EmperorsGrip: {
+				DisplayName: Emperors Grip
+				Tooltip:
+					'''
+					Increases max minions by 2
+					Increases whip range by 30% 
+					Whips gain 1.07x summon tag damage multiplier and 7% summon tag critical strike chance
+					Allows whips to hit enemies through walls
+					Only one Grip accessory can be equipped at a time
+					'''
+			}
+
+			LightSpiritGrip: {
+				DisplayName: Light Spirit Grip
+				Tooltip:
+					'''
+					Allows whips to hit enemies through walls
+					Only one Grip accessory can be equipped at a time
+					'''
+			}
+
+			AirflowGrip: {
+				DisplayName: Airflow Grip
+				Tooltip:
+					'''
+					Reduces whip range by 15%
+					Allows whips to hit enemies through walls
+					Only one Grip accessory can be equipped at a time
+					'''
+			}
+
+			CommanderGrip: {
+				DisplayName: Commander Grip
+				Tooltip:
+					'''
+					Minion projectiles deal less damage but now home in on the taged enemy for a short duration
+					Only one Grip accessory can be equipped at a time
+					'''
+			}
+
+			MagneticGrip: {
+				DisplayName: Magnetic Grip
+				Tooltip:
+					'''
+					Reduces whip range by 15% but minion projectiles home in on the taged enemy for a short duration
+					Only one Grip accessory can be equipped at a time
+					'''
+			}
+
+			BuddyEmblem: {
+				DisplayName: Buddy Emblem
+				Tooltip:
+					'''
+					Significantly increases damage when only one Minion is present
+					The minion's damage increases based on the number of unused minion slots
+					The more this effect enhances a minion, the slightly larger it becomes
+					Some minions cannot benefit from this effect
+					Some whip tag effects are reduced
+					'I choose you!'
+					'''
+			}
+
+			StrikerEmblem: {
+				DisplayName: Striker Emblem
+				Tooltip:
+					'''
+					You can no longer summon minions or sentries
+					Whips strike enemies three additional times for 33% damage
+					These strikes benefit from summon tag effects
+					Increases whip range by 10% 
+					10% increased summon damage for each unused minion slot
+					'Die, monster!'
+					'''
+			}
+
+			WulfrumWhipMagnet: {
+				DisplayName: Wulfrum Whip Magnet
+				Tooltip:
+					'''
+					Increases whip range by 10% 
+					Whips collect any items they strike.
+					'''
+			}
+
+			LoadTestItem: {
+				DisplayName: Load Test Item
+				Tooltip: ""
+			}
+
+			InvisibleSummonTagItem: {
+				Tooltip: ""
+				DisplayName: Invisible Summon Tag Item
+			}
+
+			InvisibleSummonTagItem3: {
+				Tooltip: ""
+				DisplayName: Invisible Summon Tag Item3
+			}
+
+			InvisibleSummonTagItem2: {
+				Tooltip: ""
+				DisplayName: Invisible Summon Tag Item2
+			}
+
+			InvisibleSummonTagItem1: {
+				Tooltip: ""
+				DisplayName: Invisible Summon Tag Item1
+			}
+
+			InvisibleBreezePiercer: {
+				Tooltip: ""
+				DisplayName: Invisible Breeze Piercer
+			}
+
+			InvisibleAncientBonds: {
+				DisplayName: Invisible Ancient Bonds
+				Tooltip: ""
+			}
+
+			InvisibleDestructionChain: {
+				DisplayName: Invisible Destruction Chain
+				Tooltip: ""
+			}
+
+			InvisibleDroptide: {
+				DisplayName: Invisible Droptide
+				Tooltip: ""
+			}
+
+			InvisibleEctopia: {
+				DisplayName: Invisible Ectopia
+				Tooltip: ""
+			}
+
+			InvisibleEmperorsGrip: {
+				DisplayName: Invisible Emperors Grip
+				Tooltip: ""
+			}
+
+			InvisibleEntwinedBranches: {
+				DisplayName: Invisible Entwined Branches
+				Tooltip: ""
+			}
+
+			InvisibleExistenceBonds: {
+				DisplayName: Invisible Existence Bonds
+				Tooltip: ""
+			}
+
+			InvisibleGelxyribose: {
+				DisplayName: Invisible Gelxyribose
+				Tooltip: ""
+			}
+
+			InvisibleGlitterGutter: {
+				DisplayName: Invisible Glitter Gutter
+				Tooltip: ""
+			}
+
+			InvisibleGloamshardConduit: {
+				DisplayName: Invisible Gloamshard Conduit
+				Tooltip: ""
+			}
+
+			InvisibleGloamshardConduit2: {
+				DisplayName: Invisible Gloamshard Conduit2
+				Tooltip: ""
+			}
+
+			InvisibleGreenPhaseScourge: {
+				DisplayName: Invisible Green Phase Scourge
+				Tooltip: ""
+			}
+
+			InvisibleGreenPhaseWhip: {
+				DisplayName: Invisible Green Phase Whip
+				Tooltip: ""
+			}
+
+			InvisibleKusariGama: {
+				DisplayName: Invisible Kusari Gama
+				Tooltip: ""
+			}
+
+			InvisibleLeatherGrip: {
+				DisplayName: Invisible Leather Grip
+				Tooltip: ""
+			}
+
+			InvisibleLoadout: {
+				DisplayName: Invisible Loadout
+				Tooltip: ""
+			}
+
+			InvisibleLoadout2: {
+				DisplayName: Invisible Loadout2
+				Tooltip: ""
+			}
+
+			InvisibleMermaidsTear: {
+				DisplayName: Invisible Mermaids Tear
+				Tooltip: ""
+			}
+
+			InvisibleMilkyway: {
+				DisplayName: Invisible Milkyway
+				Tooltip: ""
+			}
+
+			InvisibleNecromanticGrip: {
+				DisplayName: Invisible Necromantic Grip
+				Tooltip: ""
+			}
+
+			InvisibleNecropsia: {
+				DisplayName: Invisible Necropsia
+				Tooltip: ""
+			}
+
+			InvisiblePrimalBonds: {
+				DisplayName: Invisible Primal Bonds
+				Tooltip: ""
+			}
+
+			InvisibleRapierWhip: {
+				DisplayName: Invisible Rapier Whip
+				Tooltip: ""
+			}
+
+			InvisibleResonantVoid: {
+				DisplayName: Invisible Resonant Void
+				Tooltip: ""
+			}
+
+			InvisibleResonantVoid2: {
+				DisplayName: Invisible Resonant Void2
+				Tooltip: ""
+			}
+
+			InvisibleRubberGrip: {
+				DisplayName: Invisible Rubber Grip
+				Tooltip: ""
+			}
+
+			InvisibleSatellite: {
+				DisplayName: Invisible Satellite
+				Tooltip: ""
+			}
+
+			InvisibleSilkGrip: {
+				DisplayName: Invisible Silk Grip
+				Tooltip: ""
+			}
+
+			InvisibleSkybreakerCoil: {
+				DisplayName: Invisible Skybreaker Coil
+				Tooltip: ""
+			}
+
+			InvisibleUnfathomable: {
+				DisplayName: Invisible Unfathomable
+				Tooltip: ""
+			}
+
+			InvisibleWoodenWhip: {
+				DisplayName: Invisible Wooden Whip
+				Tooltip: ""
+			}
+
+			InvisibleGlitterGutter2: {
+				DisplayName: Invisible Glitter Gutter2
+				Tooltip: ""
+			}
+
+			InvisibleMandibleLash2: {
+				DisplayName: Invisible Mandible Lash2
+				Tooltip: ""
+			}
+
+			InvisibleMilkyway2: {
+				DisplayName: Invisible Milkyway2
+				Tooltip: ""
+			}
+
+			TestWhip: {
+				Tooltip: ""
+				DisplayName: Test Whip
+			}
+		}
+
+		Buffs: {
+			SimpleWhipDebuff: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff.Description
+				DisplayName: Simple Whip Debuff
+			}
+
+			SimpleWhipDebuff10: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff10.Description
+				DisplayName: Simple Whip Debuff10
+			}
+
+			SimpleWhipDebuff70: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff70.Description
+				DisplayName: Simple Whip Debuff70
+			}
+
+			SimpleWhipDebuff08: {
+				DisplayName: Simple Whip Debuff08
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff08.Description
+			}
+
+			SimpleWhipDebuff10C: {
+				DisplayName: Simple Whip Debuff10 C
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff10C.Description
+			}
+
+			SimpleWhipDebuff0D09C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D09C.Description
+				DisplayName: Simple Whip Debuff0 D09 C
+			}
+
+			SimpleWhipDebuff0D08C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D08C.Description
+				DisplayName: Simple Whip Debuff0 D08 C
+			}
+
+			SimpleWhipDebuff09: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff09.Description
+				DisplayName: Simple Whip Debuff09
+			}
+
+			SimpleWhipDebuff11: {
+				DisplayName: Simple Whip Debuff11
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff11.Description
+			}
+
+			SimpleWhipDebuff12: {
+				DisplayName: Simple Whip Debuff12
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff12.Description
+			}
+
+			SimpleWhipDebuff13: {
+				DisplayName: Simple Whip Debuff13
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff13.Description
+			}
+
+			SimpleWhipDebuff14: {
+				DisplayName: Simple Whip Debuff14
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff14.Description
+			}
+
+			SimpleWhipDebuff15: {
+				DisplayName: Simple Whip Debuff15
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff15.Description
+			}
+
+			SimpleWhipDebuff20: {
+				DisplayName: Simple Whip Debuff20
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff20.Description
+			}
+
+			SimpleWhipDebuff25: {
+				DisplayName: Simple Whip Debuff25
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff25.Description
+			}
+
+			SimpleWhipDebuff5D05C: {
+				DisplayName: Simple Whip Debuff5 D05 C
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff5D05C.Description
+			}
+
+			SimpleWhipDebuff7D07C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff7D07C.Description
+				DisplayName: Simple Whip Debuff7 D07 C
+			}
+
+			SimpleWhipDebuff0D11C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D11C.Description
+				DisplayName: Simple Whip Debuff0 D11 C
+			}
+
+			SimpleWhipDebuff0D20C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D20C.Description
+				DisplayName: Simple Whip Debuff0 D20 C
+			}
+
+			SimpleWhipDebuff07: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff07.Description
+				DisplayName: Simple Whip Debuff07
+			}
+
+			SimpleWhipDebuff0D22C: {
+				DisplayName: Simple Whip Debuff0 D22 C
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D22C.Description
+			}
+
+			SimpleWhipDebuff27: {
+				DisplayName: Simple Whip Debuff27
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff27.Description
+			}
+
+			SimpleWhipDebuff2x: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff2x.Description
+				DisplayName: Simple Whip Debuff2x
+			}
+
+			SimpleWhipDebuffEx1: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx1.Description
+				DisplayName: Simple Whip Debuff Ex1
+			}
+
+			SimpleWhipDebuff10D10C: {
+				DisplayName: Simple Whip Debuff10 D10 C
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff10D10C.Description
+			}
+
+			SimpleWhipDebuffC100: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffC100.Description
+				DisplayName: Simple Whip Debuff C100
+			}
+
+			SimpleWhipDebuff0D10C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D10C.Description
+				DisplayName: Simple Whip Debuff0 D10 C
+			}
+
+			SimpleWhipDebuff30: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff30.Description
+				DisplayName: Simple Whip Debuff30
+			}
+
+			SimpleWhipDebuff0D25C: {
+				DisplayName: Simple Whip Debuff0 D25 C
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D25C.Description
+			}
+
+			SimpleWhipDebuff15D15C: {
+				DisplayName: Simple Whip Debuff15 D15 C
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff15D15C.Description
+			}
+
+			SimpleWhipDebuffEx2: {
+				DisplayName: Simple Whip Debuff Ex2
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx2.Description
+			}
+
+			SimpleWhipDebuff0D27C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D27C.Description
+				DisplayName: Simple Whip Debuff0 D27 C
+			}
+
+			SimpleWhipDebuffAc05: {
+				DisplayName: Simple Whip Debuff Ac05
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAc05.Description
+			}
+
+			SimpleWhipDebuffAcC05: {
+				DisplayName: Simple Whip Debuff Ac C05
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAcC05.Description
+			}
+
+			SimpleWhipDebuffAc05C05: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAc05C05.Description
+				DisplayName: Simple Whip Debuff Ac05 C05
+			}
+
+			SimpleWhipDebuffAc07C07: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAc07C07.Description
+				DisplayName: Simple Whip Debuff Ac07 C07
+			}
+
+			SimpleWhipDebuffAc10C10: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAc10C10.Description
+				DisplayName: Simple Whip Debuff Ac10 C10
+			}
+
+			SimpleWhipDebuffEx3: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx3.Description
+				DisplayName: Simple Whip Debuff Ex3
+			}
+
+			SimpleWhipDebuffC100x3: {
+				DisplayName: Simple Whip Debuff C100x3
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffC100x3.Description
+			}
+
+			SimpleWhipDebuffAcHo: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAcHo.Description
+				DisplayName: Simple Whip Debuff Ac Ho
+			}
+
+			SimpleWhipDebuffAcHo2: {
+				DisplayName: Simple Whip Debuff Ac Ho2
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAcHo2.Description
+			}
+
+			SimpleWhipDebuffEx4: {
+				DisplayName: Simple Whip Debuff Ex4
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx4.Description
+			}
+
+			SimpleWhipDebuffEx5: {
+				DisplayName: Simple Whip Debuff Ex5
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx5.Description
+			}
+
+			BuddyEmblemBuff: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.BuddyEmblemBuff.Description
+				DisplayName: Buddy Emblem Buff
+			}
+
+			BuddyEmblemSoloBuff: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.BuddyEmblemSoloBuff.Description
+				DisplayName: Buddy Emblem Solo Buff
+			}
+
+			SimpleWhipDebuffEx6: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx6.Description
+				DisplayName: Simple Whip Debuff Ex6
+			}
+
+			SimpleWhipDebuffEx7: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx7.Description
+				DisplayName: Simple Whip Debuff Ex7
+			}
+
+			SimpleWhipDebuffEx8: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx8.Description
+				DisplayName: Simple Whip Debuff Ex8
+			}
+
+			SimpleWhipDebuff7D07C2: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff7D07C2.Description
+				DisplayName: Simple Whip Debuff7 D07 C2
+			}
+
+			SimpleWhipDebuffEx9: {
+				DisplayName: Simple Whip Debuff Ex9
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx9.Description
+			}
+
+			SimpleWhipDebuffT2: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT2.Description
+				DisplayName: Simple Whip Debuff T2
+			}
+
+			SimpleWhipDebuffT1: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT1.Description
+				DisplayName: Simple Whip Debuff T1
+			}
+
+			SimpleWhipDebuffEx10: {
+				DisplayName: Simple Whip Debuff Ex10
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx10.Description
+			}
+
+			SimpleWhipDebuffEx11: {
+				DisplayName: Simple Whip Debuff Ex11
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx11.Description
+			}
+
+			SimpleWhipDebuffS1: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS1.Description
+				DisplayName: Simple Whip Debuff S1
+			}
+
+			SimpleWhipDebuffS2: {
+				DisplayName: Simple Whip Debuff S2
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS2.Description
+			}
+
+			SimpleWhipDebuffS3: {
+				DisplayName: Simple Whip Debuff S3
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS3.Description
+			}
+
+			SimpleWhipDebuffS4: {
+				DisplayName: Simple Whip Debuff S4
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS4.Description
+			}
+
+			SimpleWhipDebuffS5: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS5.Description
+				DisplayName: Simple Whip Debuff S5
+			}
+
+			SimpleWhipDebuffT2St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT2St.Description
+				DisplayName: Simple Whip Debuff T2 St
+			}
+
+			SimpleWhipDebuffT5St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT5St.Description
+				DisplayName: Simple Whip Debuff T5 St
+			}
+
+			SimpleWhipDebuffT4St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT4St.Description
+				DisplayName: Simple Whip Debuff T4 St
+			}
+
+			SimpleWhipDebuffT3St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT3St.Description
+				DisplayName: Simple Whip Debuff T3 St
+			}
+
+			SimpleWhipDebuffT1St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT1St.Description
+				DisplayName: Simple Whip Debuff T1 St
+			}
+
+			SimpleWhipDebuffT2St2: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT2St2.Description
+				DisplayName: Simple Whip Debuff T2 St2
+			}
+
+			SimpleWhipDebuffT10St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT10St.Description
+				DisplayName: Simple Whip Debuff T10 St
+			}
+
+			SimpleWhipDebuffT20St: {
+				DisplayName: Simple Whip Debuff T20 St
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT20St.Description
+			}
+
+			SimpleWhipDebuffEx12: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx12.Description
+				DisplayName: Simple Whip Debuff Ex12
+			}
+
+			SimpleWhipDebuffEx14: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx14.Description
+				DisplayName: Simple Whip Debuff Ex14
+			}
+
+			SimpleWhipDebuffEx13: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx13.Description
+				DisplayName: Simple Whip Debuff Ex13
+			}
+
+			SimpleWhipDebuffEx15: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx15.Description
+				DisplayName: Simple Whip Debuff Ex15
+			}
+
+			SimpleWhipDebuffEx16: {
+				DisplayName: Simple Whip Debuff Ex16
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx16.Description
+			}
+
+			SimpleWhipDebuffEx17: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx17.Description
+				DisplayName: Simple Whip Debuff Ex17
+			}
+
+			SimpleWhipDebuffEx18: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx18.Description
+				DisplayName: Simple Whip Debuff Ex18
+			}
+
+			SimpleWhipDebuffEx19: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx19.Description
+				DisplayName: Simple Whip Debuff Ex19
+			}
+
+			SimpleWhipDebuffEx20: {
+				DisplayName: Simple Whip Debuff Ex20
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx20.Description
+			}
+
+			SimpleWhipDebuffEx21: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx21.Description
+				DisplayName: Simple Whip Debuff Ex21
+			}
+
+			SimpleWhipDebuffEx22: {
+				DisplayName: Simple Whip Debuff Ex22
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx22.Description
+			}
+
+			SimpleWhipDebuffEx23: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx23.Description
+				DisplayName: Simple Whip Debuff Ex23
+			}
+
+			BuddyEmblemSoloHalfBuff: {
+				DisplayName: Buddy Emblem Solo Half Buff
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.BuddyEmblemSoloHalfBuff.Description
+			}
+		}
+
+		DamageClasses: {
+			PseudoSummonDamageClass.DisplayName: Pseudo Summon Damage Class
+			PseudoSummonDamageClass2.DisplayName: Pseudo Summon Damage Class2
+		}
+
+		NPCs.WhipDebuffNPC.DisplayName: Whip Debuff N P C
+	}
+}

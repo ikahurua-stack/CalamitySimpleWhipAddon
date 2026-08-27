@@ -1,0 +1,5 @@
+C:\Users\hukai\Documents\My Games\Terraria\tModLoader\ModSources\CalamitySimpleWhipAddon\obj\Debug\net8.0\CalamitySimpleWhipAddon.csproj.AssemblyReference.cache
+C:\Users\hukai\Documents\My Games\Terraria\tModLoader\ModSources\CalamitySimpleWhipAddon\obj\Debug\net8.0\CalamitySimpleWhipAddon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hukai\Documents\My Games\Terraria\tModLoader\ModSources\CalamitySimpleWhipAddon\obj\Debug\net8.0\CalamitySimpleWhipAddon.AssemblyInfoInputs.cache
+C:\Users\hukai\Documents\My Games\Terraria\tModLoader\ModSources\CalamitySimpleWhipAddon\obj\Debug\net8.0\CalamitySimpleWhipAddon.AssemblyInfo.cs
+C:\Users\hukai\Documents\My Games\Terraria\tModLoader\ModSources\CalamitySimpleWhipAddon\obj\Debug\net8.0\CalamitySimpleWhipAddon.csproj.CoreCompileInputs.cache

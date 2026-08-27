@@ -1,0 +1,1610 @@
+Mods: {
+	CalamitySimpleWhipAddon: {
+		RecipeGroups: {
+			AnyPhaseScourge: 任意陨石光鞭
+			AnyWood: 任意木材
+		}
+
+		Items: {
+			WoodenWhip: {
+				DisplayName: 木鞭
+				Tooltip: 1.07倍 召唤标记伤害
+			}
+
+			RapierWhip: {
+				DisplayName: 刺鞭
+				Tooltip:
+					'''
+					8% 召唤标记暴击率
+
+					双拳难敌四手，刺鞭群怪苦手
+					'''
+			}
+
+			BreezePiercer: {
+				DisplayName: 刺风
+				Tooltip: 9% 召唤标记暴击率
+			}
+
+			Gelxyribose: {
+				DisplayName: 凝糖
+				Tooltip:
+					'''
+					1.07倍 召唤标记伤害
+					7% 召唤标记暴击率
+					'''
+			}
+
+			OrangePhaseWhip: {
+				DisplayName: 橙陨石光鞭
+				Tooltip:
+					'''
+					1.08倍 召唤标记伤害
+
+					鞭攻击无视防御，但无法无视免伤
+					'''
+			}
+
+			GreenPhaseWhip: {
+				DisplayName: 绿陨石光鞭
+				Tooltip:
+					'''
+					1.08倍 召唤标记伤害
+
+					鞭攻击无视防御，但无法无视免伤
+					'''
+			}
+
+			BluePhaseWhip: {
+				DisplayName: 蓝陨石光鞭
+				Tooltip:
+					'''
+					1.08倍 召唤标记伤害
+
+					鞭攻击无视防御，但无法无视免伤
+					'''
+			}
+
+			PurplePhaseWhip: {
+				DisplayName: 紫陨石光鞭
+				Tooltip:
+					'''
+					1.08倍 召唤标记伤害
+
+					鞭攻击无视防御，但无法无视免伤
+					'''
+			}
+
+			RedPhaseWhip: {
+				DisplayName: 红陨石光鞭
+				Tooltip:
+					'''
+					1.08倍 召唤标记伤害
+
+					鞭攻击无视防御，但无法无视免伤
+					'''
+			}
+
+			WhitePhaseWhip: {
+				DisplayName: 白陨石光鞭
+				Tooltip:
+					'''
+					1.08倍 召唤标记伤害
+
+					鞭攻击无视防御，但无法无视免伤
+					'''
+			}
+
+			YellowPhaseWhip: {
+				DisplayName: 黄陨石光鞭
+				Tooltip:
+					'''
+					1.08倍 召唤标记伤害
+
+					鞭攻击无视防御，但无法无视免伤
+					'''
+			}
+
+			OrangePhaseScourge: {
+				DisplayName: 橙晶光鞭
+				Tooltip:
+					'''
+					1.09倍 召唤标记伤害
+
+					鞭攻击无视防御，但无法无视免伤
+					'''
+			}
+
+			GreenPhaseScourge: {
+				DisplayName: 绿晶光鞭
+				Tooltip:
+					'''
+					1.09倍 召唤标记伤害
+
+					鞭攻击无视防御，但无法无视免伤
+					'''
+			}
+
+			BluePhaseScourge: {
+				DisplayName: 蓝晶光鞭
+				Tooltip:
+					'''
+					1.09倍 召唤标记伤害
+
+					鞭攻击无视防御，但无法无视免伤
+					'''
+			}
+
+			PurplePhaseScourge: {
+				DisplayName: 紫晶光鞭
+				Tooltip:
+					'''
+					1.09倍 召唤标记伤害
+
+					鞭攻击无视防御，但无法无视免伤
+					'''
+			}
+
+			RedPhaseScourge: {
+				DisplayName: 红晶光鞭
+				Tooltip:
+					'''
+					1.09倍 召唤标记伤害
+
+					鞭攻击无视防御，但无法无视免伤
+					'''
+			}
+
+			WhitePhaseScourge: {
+				DisplayName: 白晶光鞭
+				Tooltip:
+					'''
+					1.09倍 召唤标记伤害
+
+					鞭攻击无视防御，但无法无视免伤
+					'''
+			}
+
+			YellowPhaseScourge: {
+				DisplayName: 黄晶光鞭
+				Tooltip:
+					'''
+					1.09倍 召唤标记伤害
+
+					鞭攻击无视防御，但无法无视免伤
+					'''
+			}
+
+			GlitterGutter: {
+				DisplayName: 光耀裂壑
+				Tooltip:
+					'''
+					10% 召唤标记暴击率
+
+					鞭子击中的敌人，
+					被仆从击中时释放两块追踪水晶，
+					水晶碎块造成20%仆从伤害
+					'''
+			}
+
+			Droptide: {
+				DisplayName: 潮落
+				Tooltip: 1.12倍 召唤标记伤害
+			}
+
+			Ectopia: {
+				DisplayName: 错位
+				Tooltip: 22% 召唤标记暴击率
+			}
+
+			Unfathomable: {
+				DisplayName: 沉渊
+				Tooltip: 1.25倍 召唤标记伤害
+			}
+
+			DestructionChain: {
+				DisplayName: 熔炼毁索
+				Tooltip:
+					'''
+					鞭子击中的敌人，
+					被仆从击中时释放爆炸，
+					爆炸造成100%仆从伤害
+					若敌人被爆炸击杀，
+					再触发一次可连锁的爆炸
+					'''
+			}
+
+			GloamshardConduit: {
+				DisplayName: 残暮束管
+				Tooltip:
+					'''
+					1.1倍 召唤标记伤害
+					10% 召唤标记暴击率
+
+					鞭子击中的敌人，
+					仆从攻击对其造成1.25倍伤害并爆炸
+					爆炸对周围敌人造成10%仆从伤害
+					'''
+			}
+
+			Satellite: {
+				DisplayName: 仆星
+				Tooltip:
+					'''
+					鞭子击中的敌人，
+					仆从攻击必定对其造成一次暴击
+					'''
+			}
+
+			EntwinedBranches: {
+				DisplayName: 繁花绕枝
+				Tooltip: 1.27倍 召唤标记伤害
+			}
+
+			Necropsia: {
+				DisplayName: 鞭尸者
+				Tooltip: 27% 召唤标记暴击率
+			}
+
+			ResonantVoid: {
+				DisplayName: 虚鸣
+				Tooltip:
+					'''
+					1.12倍 召唤标记伤害
+					12% 召唤标记暴击率
+
+					鞭子击中的敌人，
+					仆从攻击对其造成1.50倍伤害并爆炸
+					爆炸对附近敌人造成20%仆从伤害
+
+					鞭攻击无视防御，但无法无视免伤
+					'''
+			}
+
+			SkybreakerCoil: {
+				DisplayName: 碎穹之弦
+				Tooltip:
+					'''
+					鞭子击中的敌人，
+					仆从对其造成1.30倍伤害
+					然后释放电涌持续震击附近敌人
+					震击无视防御，但无法无视免伤
+					'''
+			}
+
+			Milkyway: {
+				DisplayName: 辰星银道
+				Tooltip:
+					'''
+					+10 召唤标记伤害每层
+					鞭攻击可累加层数，旧的层数先过期
+
+					鞭子击中的敌人，
+					仆从必定对其造成4倍暴击伤害
+					并召唤等于层数的彗星围绕敌人
+					'''
+			}
+
+			KusariGama: {
+				DisplayName: 锁镰
+				Tooltip:
+					'''
+					1.13倍 召唤标记伤害
+
+					手持时免疫击退
+					'''
+			}
+
+			Loadout: {
+				DisplayName: 机械配置
+				Tooltip:
+					'''
+					1.07倍 召唤标记伤害
+					7% 召唤标记暴击率
+
+					鞭子击中的敌人，
+					被仆从攻击时召唤一道激光，
+					造成50%仆从伤害
+					激光无视防御，但无法无视免伤
+					'''
+			}
+
+			AncientBonds: {
+				DisplayName: 远古羁绊
+				Tooltip:
+					'''
+					鞭子击中的敌人，
+					被仆从攻击时召唤一道灵体剑刃，
+					持续一段时间，造成3次20%仆从伤害
+					剑刃攻击具有5点穿甲
+					'''
+			}
+
+			PrimalBonds: {
+				DisplayName: 原初连结
+				Tooltip:
+					'''
+					鞭子击中的敌人，
+					被仆从攻击时召唤一道灵体剑刃，
+					持续一段时间，造成5次20%仆从伤害
+					剑刃攻击具有10点穿甲
+					'''
+			}
+
+			ExistenceBonds: {
+				DisplayName: 生存纽带
+				Tooltip:
+					'''
+					鞭子击中的敌人，
+					被仆从攻击时召唤一道灵体剑刃，
+					持续一段时间，造成6次20%仆从伤害
+					剑刃攻击具有15点穿甲
+					'''
+			}
+
+			MermaidsTear: {
+				DisplayName: 人鱼之泪
+				Tooltip:
+					'''
+					鞭子击中的敌人，
+					被仆从攻击时召唤一道灵体长枪，
+					持续一段时间，造成8次25%仆从伤害
+					剑刃攻击具有50点穿甲
+					'''
+			}
+
+			MandibleLash: {
+				DisplayName: 颌骨鞭
+				Tooltip:
+					'''
+					1 召唤标记伤害
+
+					鞭子击中的敌人，
+					被仆从攻击时会召唤一颗沙球
+					造成仆从40%伤害，其受重力影响
+					会因方块阻隔而爆炸，对附近敌人造成伤害
+					'''
+			}
+
+			DarkMandibleLash: {
+				DisplayName: 暗颌骨鞭
+				Tooltip:
+					'''
+					2 召唤标记伤害
+
+					鞭子击中的敌人，
+					被仆从攻击时会召唤一颗沙球
+					造成仆从40%伤害，其受重力影响
+					会因方块阻隔而爆炸，对附近敌人造成伤害
+					'''
+			}
+
+			ShieldConduit: {
+				DisplayName: 屏障脉管
+				Tooltip:
+					'''
+					2 召唤标记伤害
+					两种模式自动切换
+					'''
+				HoldShiftTooltip:
+					'''
+					-----------------------------
+					防御模式：
+					鞭子击中的敌人，
+					仆从攻击其会释放短暂存在的蓝色护盾碎片
+					收集碎片为护盾充能
+					达到50点充能值后，激活50点HP的护盾
+					获得护盾时进入攻击模式
+					-----------------------------
+					攻击模式：
+					鞭子击中的敌人，
+					仆从攻击其会释放短暂存在的红色护盾碎片
+					其会追踪敌怪，造成仆从面板10%+3伤害
+					-----------------------------
+					护盾碎片的释放有短暂内置CD
+					当护盾承受伤害时，会根据剩余护盾进入5-50秒的CD；
+					若护盾完全碎裂，CD会变为60秒
+					护盾冷却时，转到攻击模式；冷却结束，转到防御模式
+					护盾存在时，收集护盾碎片可修复护盾耐久值
+					'''
+			}
+
+			ShieldConduitMkII: {
+				DisplayName: 屏障脉管 Mk-II
+				Tooltip:
+					'''
+					4 召唤标记伤害
+					两种模式自动切换
+					'''
+				HoldShiftTooltip:
+					'''
+					-----------------------------
+					防御模式：
+					鞭子击中的敌人，
+					仆从攻击其会释放短暂存在的蓝色护盾碎片
+					收集碎片为护盾充能
+					达到100点充能值后，激活100点HP的护盾
+					获得护盾时进入攻击模式
+					-----------------------------
+					攻击模式：
+					鞭子击中的敌人，
+					仆从攻击其会释放短暂存在的红色护盾碎片
+					其会追踪敌怪，造成仆从面板10%+5伤害
+					-----------------------------
+					护盾碎片的释放有短暂内置CD
+					当护盾承受伤害时，会根据剩余护盾进入5-50秒的CD；
+					若护盾完全碎裂，CD会变为60秒
+					护盾冷却时，转到攻击模式；冷却结束，转到防御模式
+					护盾存在时，收集护盾碎片可修复护盾耐久值
+					'''
+			}
+
+			ShieldConduitMkIII: {
+				DisplayName: 屏障脉管 Mk-III
+				Tooltip:
+					'''
+					7 召唤标记伤害
+					两种模式自动切换
+					'''
+				HoldShiftTooltip:
+					'''
+					-----------------------------
+					防御模式：
+					鞭子击中的敌人，
+					仆从攻击其会释放短暂存在的蓝色护盾碎片
+					收集碎片为护盾充能
+					达到150点充能值后，激活150点HP的护盾
+					获得护盾时进入攻击模式
+					-----------------------------
+					攻击模式：
+					鞭子击中的敌人，
+					仆从攻击其会释放短暂存在的红色护盾碎片
+					其会追踪敌怪，造成仆从面板10%+25伤害
+					-----------------------------
+					护盾碎片的释放有短暂内置CD
+					当护盾承受伤害时，会根据剩余护盾进入5-50秒的CD；
+					若护盾完全碎裂，CD会变为60秒
+					护盾冷却时，转到攻击模式；冷却结束，转到防御模式
+					护盾存在时，收集护盾碎片可修复护盾耐久值
+					'''
+			}
+
+			ShieldConduitMkIV: {
+				DisplayName: 屏障脉管 Mk-IV
+				Tooltip:
+					'''
+					12 召唤标记伤害
+					两种模式自动切换
+					'''
+				HoldShiftTooltip:
+					'''
+					-----------------------------
+					防御模式：
+					鞭子击中的敌人，
+					仆从攻击其会释放短暂存在的蓝色护盾碎片
+					收集碎片为护盾充能
+					达到200点充能值后，激活200点HP的护盾
+					获得护盾时进入攻击模式
+					-----------------------------
+					攻击模式：
+					鞭子击中的敌人，
+					仆从攻击其会释放短暂存在的红色护盾碎片
+					其会追踪敌怪，造成仆从面板10%+50伤害
+					-----------------------------
+					护盾碎片的释放有短暂内置CD
+					当护盾承受伤害时，会根据剩余护盾进入5-50秒的CD；
+					若护盾完全碎裂，CD会变为60秒
+					护盾冷却时，转到攻击模式；冷却结束，转到防御模式
+					护盾存在时，收集护盾碎片可修复护盾耐久值
+					'''
+			}
+
+			ShieldConduitMkV: {
+				DisplayName: 屏障脉管 Mk-V
+				Tooltip:
+					'''
+					20 召唤标记伤害
+					两种模式自动切换
+					'''
+				HoldShiftTooltip:
+					'''
+					-----------------------------
+					防御模式：
+					鞭子击中的敌人，
+					仆从攻击其会释放短暂存在的蓝色护盾碎片
+					收集碎片为护盾充能
+					达到250点充能值后，激活250点HP的护盾
+					获得护盾时进入攻击模式
+					-----------------------------
+					攻击模式：
+					鞭子击中的敌人，
+					仆从攻击其会释放短暂存在的红色护盾碎片
+					其会追踪敌怪，造成仆从面板10%+150伤害
+					-----------------------------
+					护盾碎片的释放有短暂内置CD
+					当护盾承受伤害时，会根据剩余护盾进入5-50秒的CD；
+					若护盾完全碎裂，CD会变为60秒
+					护盾冷却时，转到攻击模式；冷却结束，转到防御模式
+					护盾存在时，收集护盾碎片可修复护盾耐久值
+					'''
+			}
+
+			LayeredPain: {
+				DisplayName: 痛彻心扉
+				Tooltip:
+					'''
+					+1 召唤标记伤害每层
+					鞭攻击可累加层数，旧的层数先过期
+					'''
+			}
+
+			NightButterfly: {
+				DisplayName: 暗夜翩蝶
+				Tooltip:
+					'''
+					+2 召唤标记伤害每层
+					鞭攻击可累加层数，旧的层数先过期
+
+					召唤等于层数的飞蛾依附敌人
+					'''
+			}
+
+			ActiasAliena: {
+				DisplayName: 星外天蛾
+				Tooltip:
+					'''
+					+3 召唤标记伤害每层
+					鞭攻击可累加层数，旧的层数先过期
+
+					召唤等于层数的飞蛾依附敌人
+					'''
+			}
+
+			ButterflyEffect: {
+				DisplayName: 蝶振风倾
+				Tooltip:
+					'''
+					+6 召唤标记伤害每层
+					鞭攻击可累加层数，旧的层数先过期
+
+					召唤等于层数的飞蛾依附敌人
+					'''
+			}
+
+			EtaCarinae: {
+				DisplayName: 船底双子
+				Tooltip:
+					'''
+					+10 召唤标记伤害每层
+					鞭攻击可累加层数，旧的层数先过期
+
+					并召唤等于层数的彗星围绕敌人
+					'''
+			}
+
+			GoldRush: {
+				DisplayName: 淘金热
+				Tooltip:
+					'''
+					8 召唤标记伤害
+
+					攻击敌人召唤武器实体，
+					造成100%仆从伤害
+					'''
+			}
+
+			GildedReliquary: {
+				DisplayName: 覆金圣龛
+				Tooltip:
+					'''
+					20 召唤标记伤害
+
+					攻击敌人召唤武器实体，
+					造成120%仆从伤害
+					'''
+			}
+
+			AurelianSanctum: {
+				DisplayName: 鎏金圣堂
+				Tooltip:
+					'''
+					80 召唤标记伤害
+
+					攻击敌人召唤武器实体
+					造成200%仆从伤害
+					'''
+			}
+
+			KingsMajesty: {
+				DisplayName: 君威
+				Tooltip:
+					'''
+					2 召唤标记伤害
+					4% 召唤标记暴击率
+
+					持有此鞭时，一颗宝石会跟随你
+					鞭子标记的敌人被召唤物命中时，
+					宝石发动攻击，造成仆从50%的伤害
+
+					宝石在发射前蓄能
+					并将蓄能时仆从总伤的5%附加到光束中
+					'''
+			}
+
+			EmeraldSplash: {
+				DisplayName: 溅翠
+				Tooltip:
+					'''
+					5 召唤标记伤害
+					7% 召唤标记暴击率
+
+					持有此鞭时，一颗宝石会跟随你，
+					鞭子标记的敌人被召唤物命中时，
+					宝石发动攻击，造成仆从100%的伤害
+
+					宝石在发射前蓄能
+					并将蓄能时仆从总伤的15%附加到光束中
+					'''
+			}
+
+			CrackoftheUniverse: {
+				DisplayName: 寰宇裂隙
+				Tooltip:
+					'''
+					20 召唤标记伤害
+					10% 召唤标记暴击率
+
+					持有此鞭时，一颗宝石会跟随你，
+					鞭子标记的敌人被召唤物命中时，
+					宝石发动攻击，造成仆从100%的伤害
+
+					宝石在发射前蓄能
+					并将蓄能时仆从总伤的20%附加到光束中
+					'''
+			}
+
+			Rubellus: {
+				DisplayName: 绯迹
+				Tooltip:
+					'''
+					8 召唤标记伤害
+					8% 召唤标记暴击率
+
+					持有此鞭时，一颗宝石会跟随你，
+					鞭子标记的敌人被召唤物命中时，
+					宝石发动攻击，造成仆从100%的伤害
+
+					宝石在发射前蓄能
+					并将蓄能时仆从总伤的40%附加到光束中
+					宝石攻击触发连锁反应特效
+					自动锁定其他被标记的敌怪
+					'''
+			}
+
+			WulfrumArm: {
+				DisplayName: 钨钢臂
+				Tooltip:
+					'''
+					4 召唤标记伤害
+
+					手臂击中的敌人
+					被仆从攻击时会释放电弧
+					造成60%仆从伤害两次
+					并连锁扩散至被标记的其他敌人身上
+					标记由仆从、连锁伤害触发后消耗
+
+					尖端可以抓住并收取物品
+
+					'''
+			}
+
+			MechanicalArm: {
+				DisplayName: 机械臂
+				Tooltip:
+					'''
+					15 召唤标记伤害
+
+					手臂击中的敌人
+					被仆从攻击时会释放电弧
+					造成100%仆从伤害两次
+					并连锁扩散至被标记的其他敌人身上
+					标记由仆从、连锁伤害触发后消耗
+
+					尖端可以抓住并收取物品
+
+					'''
+			}
+
+			MassofWailing: {
+				DisplayName: 哀嚎之结
+				Tooltip:
+					'''
+					5% 召唤标记暴击率
+
+					鞭子标记的敌人，
+					被仆从攻击时释放15%仆从伤害的团块
+					团块在玩家头顶聚集，充能完毕时分裂并追踪敌人
+					（仅仆从攻击时才会充能）
+					'''
+			}
+
+			ChorusofExecration: {
+				DisplayName: 咒言合吟
+				Tooltip:
+					'''
+					30% 召唤标记暴击率
+
+					鞭子标记的敌人，
+					被仆从攻击时释放25%仆从伤害的团块
+					团块在玩家头顶聚集，充能完毕时分裂并追踪敌人
+					（仅仆从攻击时才会充能）
+					'''
+			}
+
+			OpaqueOnyx: {
+				DisplayName: 晦暗玛瑙鞭
+				Tooltip:
+					'''
+					3 召唤标记伤害
+					5% 召唤标记暴击率
+
+					持有此鞭时，一颗宝石会跟随你，
+					鞭子标记的敌人被召唤物命中时，
+					宝石发动攻击，造成仆从75%的伤害
+
+					宝石在发射前蓄能
+					并将蓄能时仆从总伤的10%附加到光束中
+					'''
+			}
+
+			Accessories: {
+				BleachedNucleogenesis: {
+					DisplayName: 褪色-核子之源
+					Tooltip:
+						'''
+						+4仆从栏
+						+22%召唤伤害
+						仆从击退增加
+						免疫暗影焰和辐射减益
+
+						不可与降级、正常版本共同佩戴
+						'''
+				}
+
+				BleachedNuclearFuelRod: {
+					DisplayName: 褪色-核燃料棒
+					Tooltip:
+						'''
+						+1仆从栏
+						+7%召唤伤害
+						免疫辐射减益
+
+						不可与正常版本一同佩戴
+						'''
+				}
+
+				BleachedJellyChargedBattery: {
+					DisplayName: 褪色-凝胶充能电池
+					Tooltip:
+						'''
+						+1仆从栏
+						+12%召唤伤害
+
+						不可与降级、正常版本共同佩戴
+						'''
+				}
+
+				BleachedStarbusterCore: {
+					DisplayName: 褪色-星爆核心
+					Tooltip:
+						'''
+						+1仆从栏
+						+10%召唤伤害
+
+						不可与正常版本一同佩戴
+						'''
+				}
+
+				BleachedStarTaintedGenerator: {
+					DisplayName: 褪色-玷星之源
+					Tooltip:
+						'''
+						+2仆从栏
+						+15%召唤伤害
+						免提辐射减益
+
+						不可与降级、正常版本共同佩戴
+						'''
+				}
+
+				BleachedStatisCurse: {
+					DisplayName: 褪色-斯塔提斯的诅咒
+					Tooltip:
+						'''
+						+3仆从栏
+						+17%召唤伤害
+						免疫暗影焰减益
+
+						不可与降级、正常版本共同佩戴
+						'''
+				}
+
+				BleachedTheFirstShadowflame: {
+					DisplayName: 褪色-始源暗影炎
+					Tooltip:
+						'''
+						+1仆从栏
+						+5%召唤伤害
+
+						不可与正常版本一同佩戴
+						'''
+				}
+
+				BleachedVoltaicJelly: {
+					DisplayName: 褪色-伏打凝胶
+					Tooltip:
+						'''
+						+1仆从栏
+						+5%召唤伤害
+
+						不可与正常版本一同佩戴
+						'''
+				}
+			}
+
+			LeatherGrip: {
+				DisplayName: 皮革握把
+				Tooltip:
+					'''
+					+10%鞭子范围
+					鞭子获得1.05倍召唤标记伤害
+
+					只能装备一个握把饰品
+					'''
+			}
+
+			SilkGrip: {
+				DisplayName: 绸布握把
+				Tooltip:
+					'''
+					+10%鞭子范围
+					+5%召唤标记暴击率
+
+					只能装备一个握把饰品
+					'''
+			}
+
+			RubberGrip: {
+				DisplayName: 橡胶握把
+				Tooltip:
+					'''
+					+15%鞭子范围
+					+3%召唤标记暴击率
+					鞭子获得1.03倍召唤标记伤害
+
+					只能装备一个握把饰品
+					'''
+			}
+
+			NecromanticGrip: {
+				DisplayName: 死灵握把
+				Tooltip:
+					'''
+					+1仆从栏
+					+15%鞭子范围
+					鞭子获得1.05倍召唤标记伤害
+					鞭子+5%召唤标记暴击率
+					鞭子可穿墙攻击敌人
+
+					只能装备一个握把饰品
+					'''
+			}
+
+			EmperorsGrip: {
+				DisplayName: 帝王握把
+				Tooltip:
+					'''
+					+2仆从栏
+					+30%鞭子范围
+					鞭子获得1.07倍召唤标记伤害
+					鞭子+7%召唤标记暴击率
+					可穿墙攻击敌人
+
+					只能装备一个握把饰品
+					'''
+			}
+
+			LightSpiritGrip: {
+				DisplayName: 光灵握把
+				Tooltip:
+					'''
+					鞭子可穿墙攻击敌人
+
+					只能装备一个握把饰品
+					'''
+			}
+
+			AirflowGrip: {
+				DisplayName: 冯风握把
+				Tooltip:
+					'''
+					-15%鞭子范围
+					鞭子可穿墙攻击敌人
+
+					只能装备一个握把饰品
+					'''
+			}
+
+			CommanderGrip: {
+				DisplayName: 指挥官握把
+				Tooltip:
+					'''
+					被鞭子抽中的敌人会被仆从射弹跟踪
+
+					只能装备一个握把饰品
+					'''
+			}
+
+			MagneticGrip: {
+				DisplayName: 磁极握把
+				Tooltip:
+					'''
+					-15%鞭子范围
+					被鞭子抽中的敌人会被仆从射弹跟踪
+
+					只能装备一个握把饰品
+					'''
+			}
+
+			BuddyEmblem: {
+				DisplayName: 伙伴徽章
+				Tooltip:
+					'''
+					仅有一只仆从在场时增加伤害
+					伤害根据未使用的仆从栏数量而提升
+					增强效果越高，仆从外观越大
+					对部分仆从无效，会削减鞭子的标记伤害
+
+					"我选择了你！"
+					'''
+			}
+
+			StrikerEmblem: {
+				DisplayName: 鞭宗徽章
+				Tooltip:
+					'''
+					无法再召唤仆从或哨兵
+					鞭子命中敌人时会额外攻击三次，每次造成33%伤害
+					额外攻击可受召唤标记伤害及效果加成
+					+10%鞭子范围
+					每个空闲仆从栏位都会使召唤伤害提升10%
+
+					"去死吧，怪物！"
+					'''
+			}
+
+			WulfrumWhipMagnet: {
+				DisplayName: 钨钢鞭子磁铁
+				Tooltip:
+					'''
+					+10%鞭子范围
+					鞭子会拾取击中的物品
+					'''
+			}
+
+			LoadTestItem: {
+				DisplayName: Load Test Item
+				Tooltip: ""
+			}
+
+			InvisibleSummonTagItem: {
+				Tooltip: ""
+				DisplayName: Invisible Summon Tag Item
+			}
+
+			InvisibleSummonTagItem3: {
+				Tooltip: ""
+				DisplayName: Invisible Summon Tag Item3
+			}
+
+			InvisibleSummonTagItem2: {
+				Tooltip: ""
+				DisplayName: Invisible Summon Tag Item2
+			}
+
+			InvisibleSummonTagItem1: {
+				Tooltip: ""
+				DisplayName: Invisible Summon Tag Item1
+			}
+
+			InvisibleBreezePiercer: {
+				Tooltip: ""
+				DisplayName: Invisible Breeze Piercer
+			}
+
+			InvisibleAncientBonds: {
+				DisplayName: Invisible Ancient Bonds
+				Tooltip: ""
+			}
+
+			InvisibleDestructionChain: {
+				DisplayName: Invisible Destruction Chain
+				Tooltip: ""
+			}
+
+			InvisibleDroptide: {
+				DisplayName: Invisible Droptide
+				Tooltip: ""
+			}
+
+			InvisibleEctopia: {
+				DisplayName: Invisible Ectopia
+				Tooltip: ""
+			}
+
+			InvisibleEmperorsGrip: {
+				// DisplayName: Invisible Emperors Grip
+				// Tooltip: ""
+			}
+
+			InvisibleEntwinedBranches: {
+				// DisplayName: Invisible Entwined Branches
+				// Tooltip: ""
+			}
+
+			InvisibleExistenceBonds: {
+				// DisplayName: Invisible Existence Bonds
+				// Tooltip: ""
+			}
+
+			InvisibleGelxyribose: {
+				// DisplayName: Invisible Gelxyribose
+				// Tooltip: ""
+			}
+
+			InvisibleGlitterGutter: {
+				// DisplayName: Invisible Glitter Gutter
+				// Tooltip: ""
+			}
+
+			InvisibleGloamshardConduit: {
+				// DisplayName: Invisible Gloamshard Conduit
+				// Tooltip: ""
+			}
+
+			InvisibleGloamshardConduit2: {
+				// DisplayName: Invisible Gloamshard Conduit2
+				// Tooltip: ""
+			}
+
+			InvisibleGreenPhaseScourge: {
+				// DisplayName: Invisible Green Phase Scourge
+				// Tooltip: ""
+			}
+
+			InvisibleGreenPhaseWhip: {
+				// DisplayName: Invisible Green Phase Whip
+				// Tooltip: ""
+			}
+
+			InvisibleKusariGama: {
+				// DisplayName: Invisible Kusari Gama
+				// Tooltip: ""
+			}
+
+			InvisibleLeatherGrip: {
+				// DisplayName: Invisible Leather Grip
+				// Tooltip: ""
+			}
+
+			InvisibleLoadout: {
+				// DisplayName: Invisible Loadout
+				// Tooltip: ""
+			}
+
+			InvisibleLoadout2: {
+				// DisplayName: Invisible Loadout2
+				// Tooltip: ""
+			}
+
+			InvisibleMermaidsTear: {
+				// DisplayName: Invisible Mermaids Tear
+				// Tooltip: ""
+			}
+
+			InvisibleMilkyway: {
+				// DisplayName: Invisible Milkyway
+				// Tooltip: ""
+			}
+
+			InvisibleNecromanticGrip: {
+				// DisplayName: Invisible Necromantic Grip
+				// Tooltip: ""
+			}
+
+			InvisibleNecropsia: {
+				// DisplayName: Invisible Necropsia
+				// Tooltip: ""
+			}
+
+			InvisiblePrimalBonds: {
+				// DisplayName: Invisible Primal Bonds
+				// Tooltip: ""
+			}
+
+			InvisibleRapierWhip: {
+				// DisplayName: Invisible Rapier Whip
+				// Tooltip: ""
+			}
+
+			InvisibleResonantVoid: {
+				// DisplayName: Invisible Resonant Void
+				// Tooltip: ""
+			}
+
+			InvisibleResonantVoid2: {
+				// DisplayName: Invisible Resonant Void2
+				// Tooltip: ""
+			}
+
+			InvisibleRubberGrip: {
+				// DisplayName: Invisible Rubber Grip
+				// Tooltip: ""
+			}
+
+			InvisibleSatellite: {
+				// DisplayName: Invisible Satellite
+				// Tooltip: ""
+			}
+
+			InvisibleSilkGrip: {
+				// DisplayName: Invisible Silk Grip
+				// Tooltip: ""
+			}
+
+			InvisibleSkybreakerCoil: {
+				// DisplayName: Invisible Skybreaker Coil
+				// Tooltip: ""
+			}
+
+			InvisibleUnfathomable: {
+				// DisplayName: Invisible Unfathomable
+				// Tooltip: ""
+			}
+
+			InvisibleWoodenWhip: {
+				// DisplayName: Invisible Wooden Whip
+				// Tooltip: ""
+			}
+
+			InvisibleGlitterGutter2: {
+				// DisplayName: Invisible Glitter Gutter2
+				// Tooltip: ""
+			}
+
+			InvisibleMandibleLash2: {
+				// DisplayName: Invisible Mandible Lash2
+				// Tooltip: ""
+			}
+
+			InvisibleMilkyway2: {
+				// DisplayName: Invisible Milkyway2
+				// Tooltip: ""
+			}
+
+			TestWhip: {
+				// Tooltip: ""
+				// DisplayName: Test Whip
+			}
+		}
+
+		Buffs: {
+			SimpleWhipDebuff: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff.Description
+				// DisplayName: Simple Whip Debuff
+			}
+
+			SimpleWhipDebuff10: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff10.Description
+				// DisplayName: Simple Whip Debuff10
+			}
+
+			SimpleWhipDebuff70: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff70.Description
+				// DisplayName: Simple Whip Debuff70
+			}
+
+			SimpleWhipDebuff08: {
+				// DisplayName: Simple Whip Debuff08
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff08.Description
+			}
+
+			SimpleWhipDebuff10C: {
+				// DisplayName: Simple Whip Debuff10 C
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff10C.Description
+			}
+
+			SimpleWhipDebuff0D09C: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D09C.Description
+				// DisplayName: Simple Whip Debuff0 D09 C
+			}
+
+			SimpleWhipDebuff0D08C: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D08C.Description
+				// DisplayName: Simple Whip Debuff0 D08 C
+			}
+
+			SimpleWhipDebuff09: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff09.Description
+				// DisplayName: Simple Whip Debuff09
+			}
+
+			SimpleWhipDebuff11: {
+				// DisplayName: Simple Whip Debuff11
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff11.Description
+			}
+
+			SimpleWhipDebuff12: {
+				// DisplayName: Simple Whip Debuff12
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff12.Description
+			}
+
+			SimpleWhipDebuff13: {
+				// DisplayName: Simple Whip Debuff13
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff13.Description
+			}
+
+			SimpleWhipDebuff14: {
+				// DisplayName: Simple Whip Debuff14
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff14.Description
+			}
+
+			SimpleWhipDebuff15: {
+				// DisplayName: Simple Whip Debuff15
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff15.Description
+			}
+
+			SimpleWhipDebuff20: {
+				// DisplayName: Simple Whip Debuff20
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff20.Description
+			}
+
+			SimpleWhipDebuff25: {
+				// DisplayName: Simple Whip Debuff25
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff25.Description
+			}
+
+			SimpleWhipDebuff5D05C: {
+				// DisplayName: Simple Whip Debuff5 D05 C
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff5D05C.Description
+			}
+
+			SimpleWhipDebuff7D07C: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff7D07C.Description
+				// DisplayName: Simple Whip Debuff7 D07 C
+			}
+
+			SimpleWhipDebuff0D11C: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D11C.Description
+				// DisplayName: Simple Whip Debuff0 D11 C
+			}
+
+			SimpleWhipDebuff0D20C: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D20C.Description
+				// DisplayName: Simple Whip Debuff0 D20 C
+			}
+
+			SimpleWhipDebuff07: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff07.Description
+				// DisplayName: Simple Whip Debuff07
+			}
+
+			SimpleWhipDebuff0D22C: {
+				// DisplayName: Simple Whip Debuff0 D22 C
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D22C.Description
+			}
+
+			SimpleWhipDebuff27: {
+				// DisplayName: Simple Whip Debuff27
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff27.Description
+			}
+
+			SimpleWhipDebuff2x: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff2x.Description
+				// DisplayName: Simple Whip Debuff2x
+			}
+
+			SimpleWhipDebuffEx1: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx1.Description
+				// DisplayName: Simple Whip Debuff Ex1
+			}
+
+			SimpleWhipDebuff10D10C: {
+				// DisplayName: Simple Whip Debuff10 D10 C
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff10D10C.Description
+			}
+
+			SimpleWhipDebuffC100: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffC100.Description
+				// DisplayName: Simple Whip Debuff C100
+			}
+
+			SimpleWhipDebuff0D10C: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D10C.Description
+				// DisplayName: Simple Whip Debuff0 D10 C
+			}
+
+			SimpleWhipDebuff30: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff30.Description
+				// DisplayName: Simple Whip Debuff30
+			}
+
+			SimpleWhipDebuff0D25C: {
+				// DisplayName: Simple Whip Debuff0 D25 C
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D25C.Description
+			}
+
+			SimpleWhipDebuff15D15C: {
+				// DisplayName: Simple Whip Debuff15 D15 C
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff15D15C.Description
+			}
+
+			SimpleWhipDebuffEx2: {
+				// DisplayName: Simple Whip Debuff Ex2
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx2.Description
+			}
+
+			SimpleWhipDebuff0D27C: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D27C.Description
+				// DisplayName: Simple Whip Debuff0 D27 C
+			}
+
+			SimpleWhipDebuffAc05: {
+				// DisplayName: Simple Whip Debuff Ac05
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAc05.Description
+			}
+
+			SimpleWhipDebuffAcC05: {
+				// DisplayName: Simple Whip Debuff Ac C05
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAcC05.Description
+			}
+
+			SimpleWhipDebuffAc05C05: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAc05C05.Description
+				// DisplayName: Simple Whip Debuff Ac05 C05
+			}
+
+			SimpleWhipDebuffAc07C07: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAc07C07.Description
+				// DisplayName: Simple Whip Debuff Ac07 C07
+			}
+
+			SimpleWhipDebuffAc10C10: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAc10C10.Description
+				// DisplayName: Simple Whip Debuff Ac10 C10
+			}
+
+			SimpleWhipDebuffEx3: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx3.Description
+				// DisplayName: Simple Whip Debuff Ex3
+			}
+
+			SimpleWhipDebuffC100x3: {
+				// DisplayName: Simple Whip Debuff C100x3
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffC100x3.Description
+			}
+
+			SimpleWhipDebuffAcHo: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAcHo.Description
+				// DisplayName: Simple Whip Debuff Ac Ho
+			}
+
+			SimpleWhipDebuffAcHo2: {
+				// DisplayName: Simple Whip Debuff Ac Ho2
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAcHo2.Description
+			}
+
+			SimpleWhipDebuffEx4: {
+				// DisplayName: Simple Whip Debuff Ex4
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx4.Description
+			}
+
+			SimpleWhipDebuffEx5: {
+				// DisplayName: Simple Whip Debuff Ex5
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx5.Description
+			}
+
+			BuddyEmblemBuff: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.BuddyEmblemBuff.Description
+				// DisplayName: Buddy Emblem Buff
+			}
+
+			BuddyEmblemSoloBuff: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.BuddyEmblemSoloBuff.Description
+				// DisplayName: Buddy Emblem Solo Buff
+			}
+
+			SimpleWhipDebuffEx6: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx6.Description
+				// DisplayName: Simple Whip Debuff Ex6
+			}
+
+			SimpleWhipDebuffEx7: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx7.Description
+				// DisplayName: Simple Whip Debuff Ex7
+			}
+
+			SimpleWhipDebuffEx8: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx8.Description
+				// DisplayName: Simple Whip Debuff Ex8
+			}
+
+			SimpleWhipDebuff7D07C2: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff7D07C2.Description
+				// DisplayName: Simple Whip Debuff7 D07 C2
+			}
+
+			SimpleWhipDebuffEx9: {
+				// DisplayName: Simple Whip Debuff Ex9
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx9.Description
+			}
+
+			SimpleWhipDebuffT2: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT2.Description
+				// DisplayName: Simple Whip Debuff T2
+			}
+
+			SimpleWhipDebuffT1: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT1.Description
+				// DisplayName: Simple Whip Debuff T1
+			}
+
+			SimpleWhipDebuffEx10: {
+				// DisplayName: Simple Whip Debuff Ex10
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx10.Description
+			}
+
+			SimpleWhipDebuffEx11: {
+				// DisplayName: Simple Whip Debuff Ex11
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx11.Description
+			}
+
+			SimpleWhipDebuffS1: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS1.Description
+				// DisplayName: Simple Whip Debuff S1
+			}
+
+			SimpleWhipDebuffS2: {
+				// DisplayName: Simple Whip Debuff S2
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS2.Description
+			}
+
+			SimpleWhipDebuffS3: {
+				// DisplayName: Simple Whip Debuff S3
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS3.Description
+			}
+
+			SimpleWhipDebuffS4: {
+				// DisplayName: Simple Whip Debuff S4
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS4.Description
+			}
+
+			SimpleWhipDebuffS5: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS5.Description
+				// DisplayName: Simple Whip Debuff S5
+			}
+
+			SimpleWhipDebuffT2St: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT2St.Description
+				// DisplayName: Simple Whip Debuff T2 St
+			}
+
+			SimpleWhipDebuffT5St: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT5St.Description
+				// DisplayName: Simple Whip Debuff T5 St
+			}
+
+			SimpleWhipDebuffT4St: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT4St.Description
+				// DisplayName: Simple Whip Debuff T4 St
+			}
+
+			SimpleWhipDebuffT3St: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT3St.Description
+				// DisplayName: Simple Whip Debuff T3 St
+			}
+
+			SimpleWhipDebuffT1St: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT1St.Description
+				// DisplayName: Simple Whip Debuff T1 St
+			}
+
+			SimpleWhipDebuffT2St2: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT2St2.Description
+				// DisplayName: Simple Whip Debuff T2 St2
+			}
+
+			SimpleWhipDebuffT10St: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT10St.Description
+				// DisplayName: Simple Whip Debuff T10 St
+			}
+
+			SimpleWhipDebuffT20St: {
+				// DisplayName: Simple Whip Debuff T20 St
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT20St.Description
+			}
+
+			SimpleWhipDebuffEx12: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx12.Description
+				// DisplayName: Simple Whip Debuff Ex12
+			}
+
+			SimpleWhipDebuffEx14: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx14.Description
+				// DisplayName: Simple Whip Debuff Ex14
+			}
+
+			SimpleWhipDebuffEx13: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx13.Description
+				// DisplayName: Simple Whip Debuff Ex13
+			}
+
+			SimpleWhipDebuffEx15: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx15.Description
+				// DisplayName: Simple Whip Debuff Ex15
+			}
+
+			SimpleWhipDebuffEx16: {
+				// DisplayName: Simple Whip Debuff Ex16
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx16.Description
+			}
+
+			SimpleWhipDebuffEx17: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx17.Description
+				// DisplayName: Simple Whip Debuff Ex17
+			}
+
+			SimpleWhipDebuffEx18: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx18.Description
+				// DisplayName: Simple Whip Debuff Ex18
+			}
+
+			SimpleWhipDebuffEx19: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx19.Description
+				// DisplayName: Simple Whip Debuff Ex19
+			}
+
+			SimpleWhipDebuffEx20: {
+				// DisplayName: Simple Whip Debuff Ex20
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx20.Description
+			}
+
+			SimpleWhipDebuffEx21: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx21.Description
+				// DisplayName: Simple Whip Debuff Ex21
+			}
+
+			SimpleWhipDebuffEx22: {
+				// DisplayName: Simple Whip Debuff Ex22
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx22.Description
+			}
+
+			SimpleWhipDebuffEx23: {
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx23.Description
+				// DisplayName: Simple Whip Debuff Ex23
+			}
+
+			BuddyEmblemSoloHalfBuff: {
+				// DisplayName: Buddy Emblem Solo Half Buff
+				// Description: Mods.CalamitySimpleWhipAddon.Buffs.BuddyEmblemSoloHalfBuff.Description
+			}
+		}
+
+		DamageClasses: {
+			// PseudoSummonDamageClass.DisplayName: Pseudo Summon Damage Class
+			// PseudoSummonDamageClass2.DisplayName: Pseudo Summon Damage Class2
+		}
+
+		// NPCs.WhipDebuffNPC.DisplayName: Whip Debuff N P C
+	}
+}

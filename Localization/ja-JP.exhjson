@@ -1,0 +1,1170 @@
+Mods: {
+	CalamitySimpleWhipAddon: {
+		RecipeGroups: {
+    		  AnyPhaseScourge: "任意のフェーズスカージ"
+			  AnyWood: "任意の木"
+
+    		}
+		Items: {
+			WoodenWhip: {
+				DisplayName: 木のムチ
+				Tooltip: 召喚タグダメージ倍率 1.07x
+			}
+
+			RapierWhip: {
+				DisplayName: レイピアウィップ
+				Tooltip:
+					'''
+					召喚タグクリティカル率 8%
+
+					レイピアタイプの鞭は複数の敵を攻撃するのには向いていない
+					'''
+			}
+
+			BreezePiercer: {
+				DisplayName: ブリーズピアサー
+				Tooltip: 召喚タグクリティカル率 9%
+			}
+
+			Gelxyribose: {
+				DisplayName: ゲルキシリボース
+				Tooltip:
+					'''
+					召喚タグダメージ倍率 1.07x
+					召喚タグクリティカル率 7%
+					'''
+			}
+
+			OrangePhaseWhip: {
+				DisplayName: フェーズウィップ（橙）
+				Tooltip:
+					'''
+					召喚タグダメージ倍率 1.08x
+
+					この鞭の攻撃は防御力を無視する
+					ただし、ダメージ軽減は無視できない
+					'''
+			}
+
+			GreenPhaseWhip: {
+				DisplayName: フェーズウィップ（緑）
+				Tooltip:
+					'''
+					召喚タグダメージ倍率 1.08x
+
+					この鞭の攻撃は防御力を無視する
+					ただし、ダメージ軽減は無視できない
+					'''
+			}
+
+			BluePhaseWhip: {
+				DisplayName: フェーズウィップ（青）
+				Tooltip:
+					'''
+					召喚タグダメージ倍率 1.08x
+
+					この鞭の攻撃は防御力を無視する
+					ただし、ダメージ軽減は無視できない
+					'''
+			}
+
+			PurplePhaseWhip: {
+				DisplayName: フェーズウィップ（紫）
+				Tooltip:
+					'''
+					召喚タグダメージ倍率 1.08x
+
+					この鞭の攻撃は防御力を無視する
+					ただし、ダメージ軽減は無視できない
+					'''
+			}
+
+			RedPhaseWhip: {
+				DisplayName: フェーズウィップ（赤）
+				Tooltip:
+					'''
+					召喚タグダメージ倍率 1.08x
+
+					この鞭の攻撃は防御力を無視する
+					ただし、ダメージ軽減は無視できない
+					'''
+			}
+
+			WhitePhaseWhip: {
+				DisplayName: フェーズウィップ（白）
+				Tooltip:
+					'''
+					召喚タグダメージ倍率 1.08x
+
+					この鞭の攻撃は防御力を無視する
+					ただし、ダメージ軽減は無視できない
+					'''
+			}
+
+			YellowPhaseWhip: {
+				DisplayName: フェーズウィップ（黄）
+				Tooltip:
+					'''
+					召喚タグダメージ倍率 1.08x
+
+					この鞭の攻撃は防御力を無視する
+					ただし、ダメージ軽減は無視できない
+					'''
+			}
+
+			OrangePhaseScourge: {
+				DisplayName: フェーズスカージ（橙）
+				Tooltip:
+					'''
+					召喚タグダメージ倍率 1.09x
+
+					この鞭の攻撃は防御力を無視する
+					ただし、ダメージ軽減は無視できない
+					'''
+			}
+
+			GreenPhaseScourge: {
+				DisplayName: フェーズスカージ（緑）
+				Tooltip:
+					'''
+					召喚タグダメージ倍率 1.09x
+
+					この鞭の攻撃は防御力を無視する
+					ただし、ダメージ軽減は無視できない
+					'''
+			}
+
+			BluePhaseScourge: {
+				DisplayName: フェーズスカージ（青）
+				Tooltip:
+					'''
+					召喚タグダメージ倍率 1.09x
+
+					この鞭の攻撃は防御力を無視する
+					ただし、ダメージ軽減は無視できない
+					'''
+			}
+
+			PurplePhaseScourge: {
+				DisplayName: フェーズスカージ（紫）
+				Tooltip:
+					'''
+					召喚タグダメージ倍率 1.09x
+
+					この鞭の攻撃は防御力を無視する
+					ただし、ダメージ軽減は無視できない
+					'''
+			}
+
+			RedPhaseScourge: {
+				DisplayName: フェーズスカージ（赤）
+				Tooltip:
+					'''
+					召喚タグダメージ倍率 1.09x
+
+					この鞭の攻撃は防御力を無視する
+					ただし、ダメージ軽減は無視できない
+					'''
+			}
+
+			WhitePhaseScourge: {
+				DisplayName: フェーズスカージ（白）
+				Tooltip:
+					'''
+					召喚タグダメージ倍率 1.09x
+
+					この鞭の攻撃は防御力を無視する
+					ただし、ダメージ軽減は無視できない
+					'''
+			}
+
+			YellowPhaseScourge: {
+				DisplayName: フェーズスカージ（黄）
+				Tooltip:
+					'''
+					召喚タグダメージ倍率 1.09x
+
+					この鞭の攻撃は防御力を無視する
+					ただし、ダメージ軽減は無視できない
+					'''
+			}
+
+			GlitterGutter: {
+				DisplayName: グリッターガッター
+				Tooltip: 
+					'''
+					召喚タグクリティカル率 10%
+					この鞭が命中した敵は
+					次のミニオン攻撃が当たった際に
+					与えたダメージの20%のクリスタルの破片が2つ放出され
+					元の敵に戻ってダメージを与える
+					'''
+			}
+
+			Droptide: {
+				DisplayName: ドロップタイド
+				Tooltip: 召喚タグダメージ倍率 1.12x
+			}
+
+			Ectopia: {
+				DisplayName: エクトピア
+				Tooltip: 召喚タグクリティカル率 22%
+			}
+
+			Unfathomable: {
+				DisplayName: アンファゾマブル
+				Tooltip: 召喚タグダメージ倍率 1.25x
+			}
+
+			DestructionChain: {
+				DisplayName: 破壊の鎖
+				Tooltip:
+					'''
+					この鞭が命中した敵は
+					次のミニオン攻撃で爆発して範囲内の敵に100%のダメージを与える
+					この爆発で死んだ敵は同様の効果の爆発を起こし、敵が死ぬ限り連鎖していく
+
+					'''
+			}
+
+			GloamshardConduit: {
+				DisplayName: 黄昏晶の導管
+				Tooltip:
+					'''
+					召喚タグダメージ倍率 1.10x
+					召喚タグクリティカル率 10%
+
+					この鞭が命中した敵は
+					次のミニオン攻撃から 1.25倍のダメージを受け
+					爆発して周囲の敵に10%のダメージを与える
+					'''
+			}
+
+			Satellite: {
+				DisplayName: サテライト
+				Tooltip:
+					'''
+					この鞭が命中した敵は
+					次のミニオン攻撃が必ずクリティカルになる
+					'''
+			}
+
+			EntwinedBranches: {
+				DisplayName: 絡樹の鎖
+				Tooltip: 召喚タグダメージ倍率 1.27x
+			}
+
+			Necropsia: {
+				DisplayName: ネクロプシア
+				Tooltip: 召喚タグクリティカル率 27%
+			}
+
+			ResonantVoid: {
+				DisplayName: レゾナントヴォイド
+				Tooltip:
+					'''
+					召喚タグダメージ倍率 1.12x
+					召喚タグクリティカル率 12%
+
+					この鞭が命中した敵は
+					次のミニオン攻撃から 1.50倍のダメージを受け
+					爆発して周囲の敵に20%のダメージを与える
+
+					この鞭の攻撃は防御力を無視する
+					ただし、ダメージ軽減は無視できない
+					'''
+			}
+
+			SkybreakerCoil: {
+				DisplayName: スカイブレイカーコイル
+				Tooltip:
+					'''
+					この鞭が命中した敵は
+					次のミニオン攻撃から 1.30倍のダメージを受け
+					電撃爆発を起こして周囲の敵に短時間の防御無視の連続ダメージを与える
+					ただし、ダメージ軽減は無視できない
+					'''
+			}
+
+			Milkyway: {
+				DisplayName: ミルキーウェイ
+				Tooltip:
+					'''
+					10 召喚タグダメージ x α
+					この鞭が命中した敵は
+					次のミニオン攻撃が必ず4倍のダメージを与える特殊クリティカルになる
+					この鞭のタグダメージは自らのタグダメージと重複できる
+					時間の延長はされず、古いタグから消えていく
+					タグ1つにつき1つの彗星が敵を周回する
+					'''
+			}
+
+			KusariGama: {
+				DisplayName: クサリガマ
+				Tooltip:
+					'''
+					召喚タグダメージ倍率 1.13x
+					この鞭を手に持っている間はノックバック無効を得る
+					'''
+			}
+
+			Loadout: {
+				DisplayName: ロードアウト
+				Tooltip:
+					'''
+					召喚タグダメージ倍率 1.07x
+					召喚タグクリティカル率 7%
+					この鞭が命中した敵は
+					次のミニオン攻撃が当たった際に
+					与えたダメージの50%ダメージのレーザーが飛んでくる
+					'''
+			}
+
+			AncientBonds: {
+				DisplayName: エンシェントボンド
+				Tooltip:
+					'''
+					この鞭が命中した敵は
+					次のミニオン攻撃時に幻影の刃が一定時間刺さり
+					ミニオンのダメージの20%を3回連続で受ける
+					連続ダメージは防御力を5貫通する
+					'''
+			}
+
+			PrimalBonds: {
+				DisplayName: プライマルボンド
+				Tooltip:
+					'''
+					この鞭が命中した敵は
+					次のミニオン攻撃時に幻影の刃が一定時間刺さり
+					ミニオンのダメージの20%を5回連続で受ける
+					連続ダメージは防御力を10貫通する
+					'''
+			}
+
+			ExistenceBonds: {
+				DisplayName: エグジスタンスボンド
+				Tooltip:
+					'''
+					この鞭が命中した敵は
+					次のミニオン攻撃時に幻影の刃が一定時間刺さり
+					ミニオンのダメージの20%を6回連続で受ける
+					連続ダメージは防御力を15貫通する
+					'''
+			}
+
+			MermaidsTear: {
+				DisplayName: マーメイドティアー
+				Tooltip:
+					'''
+					この鞭が命中した敵は
+					次のミニオン攻撃時に幻影の槍が一定時間刺さり
+					ミニオンのダメージの25%を8回連続で受ける
+					連続ダメージは防御力を50貫通する
+					'''
+			}
+
+			
+			MandibleLash: {
+				DisplayName: マンディブルラッシュ
+				Tooltip:
+					'''
+					1 召喚タグダメージ
+					この鞭が命中した敵は
+					次のミニオンの攻撃が当たった際に
+					砂の塊が上空へ放出され重力で落ちる
+					敵に当たるとミニオンの与えたダメージの40%のダメージを与える
+					ブロックに当たると小爆発して周囲の敵にダメージを与える
+					'''
+			}
+
+			DarkMandibleLash: {
+				DisplayName: ダークマンディブルラッシュ
+				Tooltip:
+					'''
+					2 召喚タグダメージ
+					この鞭が命中した敵は
+					次のミニオンの攻撃が当たった際に
+					砂の塊が上空へ放出され重力で落ちる
+					敵に当たるとミニオンの与えたダメージの40%のダメージを与える
+					ブロックに当たると爆発して周囲の敵にダメージを与える
+					'''
+			}
+
+			ShieldConduit: {
+				DisplayName: シールドコンジット
+				Tooltip:
+					'''
+					2 召喚タグダメージ
+					2つのモードを自動で切り替える
+					'''
+				HoldShiftTooltip:
+					'''
+					-----------------------------
+					防御モード:
+					敵に鞭を当てると一定時間、
+					ミニオンの攻撃で青いシールドの断片が放出されるようになる
+					断片を取得するとシールドがチャージされる
+					50チャージで耐久値50のシールドを獲得し攻撃モードに移行する
+					-----------------------------
+					攻撃モード:
+					敵に鞭を当てると一定時間、
+					ミニオンの攻撃で赤いシールドの断片が放出されるようになる
+					赤い断片は敵を追尾し、
+					ミニオンダメージの10%+3の固定ダメージを与える
+					-----------------------------
+					シールド断片の放出には短いクールダウンがある
+					シールドがダメージを受けると、
+					残量に応じて5～50秒のリチャージクールダウンに入る
+					シールドが完全に破壊されるとクールダウンは60秒になる
+					クールダウン中は攻撃モードになる
+					クールダウン終了後は防御モードに戻る
+					シールドが残っている場合は断片を取得すると耐久値が回復する
+					'''
+			}
+
+			ShieldConduitMkII: {
+				DisplayName: シールドコンジット Mk-II
+				Tooltip:
+					'''
+					4 召喚タグダメージ
+					2つのモードを自動で切り替える
+					'''
+				HoldShiftTooltip:
+					'''
+					-----------------------------
+					防御モード:
+					敵に鞭を当てると一定時間、
+					ミニオンの攻撃で青いシールドの断片が放出されるようになる
+					断片を取得するとシールドがチャージされる
+					100チャージで耐久値100のシールドを獲得し攻撃モードに移行する
+					-----------------------------
+					攻撃モード:
+					敵に鞭を当てると一定時間、
+					ミニオンの攻撃で赤いシールドの断片が放出されるようになる
+					赤い断片は敵を追尾し、
+					ミニオンダメージの10%+5の固定ダメージを与える
+					-----------------------------
+					シールド断片の放出には短いクールダウンがある
+					シールドがダメージを受けると、
+					残量に応じて5～50秒のリチャージクールダウンに入る
+					シールドが完全に破壊されるとクールダウンは60秒になる
+					クールダウン中は攻撃モードになる
+					クールダウン終了後は防御モードに戻る
+					シールドが残っている場合は断片を取得すると耐久値が回復する
+					'''
+			}
+
+			ShieldConduitMkIII: {
+				DisplayName: シールドコンジット Mk-III
+				Tooltip:
+					'''
+					7 召喚タグダメージ
+					2つのモードを自動で切り替える
+					'''
+				HoldShiftTooltip:
+					'''
+					-----------------------------
+					防御モード:
+					敵に鞭を当てると一定時間、
+					ミニオンの攻撃で青いシールドの断片が放出されるようになる
+					断片を取得するとシールドがチャージされる
+					150チャージで耐久値150のシールドを獲得し攻撃モードに移行する
+					-----------------------------
+					攻撃モード:
+					敵に鞭を当てると一定時間、
+					ミニオンの攻撃で赤いシールドの断片が放出されるようになる
+					赤い断片は敵を追尾し、
+					ミニオンダメージの10%+25の固定ダメージを与える
+					-----------------------------
+					シールド断片の放出には短いクールダウンがある
+					シールドがダメージを受けると、
+					残量に応じて5～50秒のリチャージクールダウンに入る
+					シールドが完全に破壊されるとクールダウンは60秒になる
+					クールダウン中は攻撃モードになる
+					クールダウン終了後は防御モードに戻る
+					シールドが残っている場合は断片を取得すると耐久値が回復する
+					'''
+			}
+
+			ShieldConduitMkIV: {
+				DisplayName: シールドコンジット Mk-IV
+				Tooltip:
+					'''
+					12 召喚タグダメージ
+					2つのモードを自動で切り替える
+					'''
+				HoldShiftTooltip:
+					'''
+					-----------------------------
+					防御モード:
+					敵に鞭を当てると一定時間、
+					ミニオンの攻撃で青いシールドの断片が放出されるようになる
+					断片を取得するとシールドがチャージされる
+					200チャージで耐久値200のシールドを獲得し攻撃モードに移行する
+					-----------------------------
+					攻撃モード:
+					敵に鞭を当てると一定時間、
+					ミニオンの攻撃で赤いシールドの断片が放出されるようになる
+					赤い断片は敵を追尾し、
+					ミニオンダメージの10%+50の固定ダメージを与える
+					-----------------------------
+					シールド断片の放出には短いクールダウンがある
+					シールドがダメージを受けると、
+					残量に応じて5～50秒のリチャージクールダウンに入る
+					シールドが完全に破壊されるとクールダウンは60秒になる
+					クールダウン中は攻撃モードになる
+					クールダウン終了後は防御モードに戻る
+					シールドが残っている場合は断片を取得すると耐久値が回復する
+					'''
+			}
+
+			ShieldConduitMkV: {
+				DisplayName: シールドコンジット Mk-V
+				Tooltip:
+					'''
+					20 召喚タグダメージ
+					2つのモードを自動で切り替える
+					'''
+				HoldShiftTooltip:
+					'''
+					-----------------------------
+					防御モード:
+					敵に鞭を当てると一定時間、
+					ミニオンの攻撃で青いシールドの断片が放出されるようになる
+					断片を取得するとシールドがチャージされる
+					250チャージで耐久値250のシールドを獲得し攻撃モードに移行する
+					-----------------------------
+					攻撃モード:
+					敵に鞭を当てると一定時間、
+					ミニオンの攻撃で赤いシールドの断片が放出されるようになる
+					赤い断片は敵を追尾し、
+					ミニオンダメージの10%+150の固定ダメージを与える
+					-----------------------------
+					シールド断片の放出には短いクールダウンがある
+					シールドがダメージを受けると、
+					残量に応じて5～50秒のリチャージクールダウンに入る
+					シールドが完全に破壊されるとクールダウンは60秒になる
+					クールダウン中は攻撃モードになる
+					クールダウン終了後は防御モードに戻る
+					シールドが残っている場合は断片を取得すると耐久値が回復する
+					'''
+			}
+
+			LayeredPain: {
+				DisplayName: レイヤードペイン
+				Tooltip:
+					'''
+					1 召喚タグダメージ x α
+					この鞭のタグダメージは自らのタグダメージと重複できる
+					時間の延長はされず、古いタグから消えていく
+					'''
+			}
+
+			NightButterfly: {
+				DisplayName: 夜の蝶
+				Tooltip:
+					'''
+					2 召喚タグダメージ x α
+					この鞭のタグダメージは自らのタグダメージと重複できる
+					時間の延長はされず、古いタグから消えていく
+					タグ1つにつき1匹の蛾が敵に張り付く
+					'''
+			}
+
+			ActiasAliena: {
+				DisplayName: アクティアスアリエナ
+				Tooltip:
+					'''
+					3 召喚タグダメージ x α
+					この鞭のタグダメージは自らのタグダメージと重複できる
+					時間の延長はされず、古いタグから消えていく
+					タグ1つにつき1匹の蛾が敵に張り付く
+					'''
+			}
+
+			ButterflyEffect: {
+				DisplayName: バタフライエフェクト
+				Tooltip:
+					'''
+					6 召喚タグダメージ x α
+					この鞭のタグダメージは自らのタグダメージと重複できる
+					時間の延長はされず、古いタグから消えていく
+					タグ1つにつき1匹の蛾が敵に張り付く
+					'''
+			}
+
+			
+			EtaCarinae: {
+				DisplayName: イータカリーナ
+				Tooltip:
+					'''
+					10 召喚タグダメージ x α
+					この鞭のタグダメージは自らのタグダメージと重複できる
+					時間の延長はされず、古いタグから消えていく
+					タグ1つにつき1つの彗星が敵を周回する
+					'''
+			}
+
+			GoldRush: {
+				DisplayName: ゴールドラッシュ
+				Tooltip:
+					'''
+					8 召喚タグダメージ
+					鞭を当てた敵にミニオンの攻撃が当たるたびに
+					定期的に射出される武器を召喚し、ミニオンダメージの100%を与える
+					'''
+			}
+
+			GildedReliquary: {
+				DisplayName: 金色の宝物庫
+				Tooltip:
+					'''
+					20 召喚タグダメージ
+					鞭を当てた敵にミニオンの攻撃が当たるたびに
+					武器の弾幕を召喚し、ミニオンダメージの120%を与える
+					'''
+			}
+
+			AurelianSanctum: {
+				DisplayName: 秘宝の黄金聖域
+				Tooltip:
+					'''
+					80 召喚タグダメージ
+					鞭を当てた敵にミニオンの攻撃が当たるたびに
+					絶え間ない武器の弾幕を召喚し、ミニオンダメージの200%を与える
+					弾幕は敵の周囲にも召喚される
+					'''
+			}
+
+			KingsMajesty: {
+				DisplayName: キングスマジェスティ
+				Tooltip:
+					'''
+					2 召喚タグダメージ
+					召喚タグクリティカル率 4%
+					この鞭を持っている間、宝石が追従する
+					鞭を当てた敵にミニオンが攻撃するたびに宝石が追撃を行う
+					追撃はミニオンが与えた50%のダメージを与える
+					宝石は追撃をする前に一瞬のチャージを行う
+					チャージ中にミニオンが与えたダメージの5%を追撃に上乗せする
+					'''
+			}
+
+			EmeraldSplash: {
+				DisplayName: エメラルドスプラッシュ
+				Tooltip:
+					'''
+					5 召喚タグダメージ
+					召喚タグクリティカル率 7%
+					この鞭を持っている間、宝石が追従する
+					鞭を当てた敵にミニオンが攻撃するたびに宝石が追撃を行う
+					追撃はミニオンが与えた100%のダメージを与える
+					宝石は追撃をする前に一瞬のチャージを行う
+					チャージ中にミニオンが与えたダメージの15%を追撃に上乗せする
+					'''
+			}
+
+			CrackoftheUniverse: {
+				DisplayName: クラック・オブ・ザ・ユニバース
+				Tooltip:
+					'''
+					20 召喚タグダメージ
+					召喚タグクリティカル率 10%
+					この鞭を持っている間、宝石が追従する
+					鞭を当てた敵にミニオンが攻撃するたびに宝石が追撃を行う
+					追撃はミニオンが与えた100%のダメージを与える
+					宝石は追撃をする前に短いチャージを行う
+					チャージ中にミニオンが与えたダメージの20%を追撃に上乗せする
+					'''
+			}
+
+			Rubellus: {
+				DisplayName: ルベラース
+				Tooltip:
+					'''
+					8 召喚タグダメージ
+					召喚タグクリティカル率 8%
+					この鞭を持っている間、宝石が追従する
+					鞭を当てた敵にミニオンが攻撃するたびに宝石が追撃を行う
+					追撃はミニオンが与えた100%のダメージを与える
+					宝石は追撃をする前に一瞬のチャージを行う
+					チャージ中にミニオンが与えたダメージの40%を追撃に上乗せする
+					追撃はタグの付いた敵を連鎖していく
+					'''
+
+			}
+
+			WulfrumArm: {
+				DisplayName: ウルフラムアーム
+				Tooltip:
+					'''
+					4 召喚タグダメージ
+					このアームの攻撃を受けた敵は帯電し、ミニオンの攻撃で放電する
+					その敵はトリガーとなった攻撃の60%のダメージを受け、タグのついた敵へ連鎖していく
+					タグと帯電はミニオンの攻撃か連鎖ダメージによって解除される
+					アームの先端はアイテムを掴んで引き寄せることができる
+					'''
+			}
+
+			MechanicalArm: {
+				DisplayName: メカニカルアーム
+				Tooltip:
+					'''
+					15 召喚タグダメージ
+					このアームの攻撃を受けた敵は帯電し、ミニオンの攻撃で放電する
+					その敵はトリガーとなった攻撃の100%のダメージを受け、タグのついた敵へ連鎖していく
+					タグと帯電はミニオンの攻撃か連鎖ダメージによって解除される
+					アームの先端はアイテムを掴んで引き寄せることができる
+					'''
+			}
+
+			MassofWailing: {
+				DisplayName: 慟哭の魂塊
+				Tooltip:
+					'''
+					召喚タグクリティカル率 5%
+					この鞭のタグが付いた敵は、
+					ミニオンの与えたダメージの15%を
+					魂塊として放出する
+					魂塊は使用者の頭上に蓄積され、
+					限界に達すると分裂して敵へ飛ぶ
+					'''
+			}
+
+			ChorusofExecration: {
+				DisplayName: 怨嗟の群唱
+				Tooltip:
+					'''
+					召喚タグクリティカル率 30%
+					この鞭のタグが付いた敵は、
+					ミニオンの与えたダメージの25%を
+					魂塊として放出する
+					魂塊は使用者の頭上に蓄積され、
+					限界に達すると分裂して敵へ飛ぶ
+					'''
+			}
+
+			OpaqueOnyx: {
+				DisplayName: オペークオニキス
+				Tooltip:
+					'''
+					3 召喚タグダメージ
+					召喚タグクリティカル率 5%
+					この鞭を持っている間、宝石が追従する
+					鞭を当てた敵にミニオンが攻撃するたびに宝石が追撃を行う
+					追撃はミニオンが与えた75%のダメージを与える
+					宝石は追撃をする前に一瞬のチャージを行う
+					チャージ中にミニオンが与えたダメージの10%を追撃に上乗せする
+					'''
+			}
+		
+
+
+			Accessories: {
+				BleachedNucleogenesis: {
+					DisplayName: 脱色されたニュークレオジェネシス
+					Tooltip:
+						'''
+						ミニオンの最大数を4増加させる
+						シャドウフレアと被曝を無効化
+						召喚ダメージ22%増加
+						ミニオンのノックバック増加
+						素材のアクセサリや脱色されていない同名の装飾品は同時に装備できない
+						'''
+				}
+
+				BleachedNuclearFuelRod: {
+					DisplayName: 脱色された核燃料棒
+					Tooltip:
+						'''
+						ミニオンの最大数を1増加させる
+						召喚ダメージ7%増加
+						被曝を無効化
+						脱色されていない同名の装飾品は同時に装備できない
+						'''
+				}
+
+				BleachedJellyChargedBattery: {
+					DisplayName: 脱色されたゼリー充電式バッテリー
+					Tooltip:
+						'''
+						ミニオンの最大数を1増加させる
+						召喚ダメージ12%増加
+						素材のアクセサリや脱色されていない同名の装飾品は同時に装備できない
+						'''
+				}
+
+				BleachedStarbusterCore: {
+					DisplayName: 脱色されたスターバーストコア
+					Tooltip:
+						'''
+						ミニオンの最大数を1増加させる
+						召喚ダメージ10%増加
+						脱色されていない同名の装飾品は同時に装備できない
+						'''
+				}
+
+				BleachedStarTaintedGenerator: {
+					DisplayName: 脱色された汚染ジェネレーター
+					Tooltip:
+						'''
+						ミニオンの最大数を2増加させる
+						召喚ダメージ15%増加
+						被曝を無効化
+						素材のアクセサリや脱色されていない同名の装飾品は同時に装備できない
+						'''
+				}
+
+				BleachedStatisCurse: {
+					DisplayName: 脱色されたスタティスの呪い
+					Tooltip:
+						'''
+						ミニオンの最大数を3増加させる
+						召喚ダメージ17%増加
+						シャドウフレアを無効化
+						素材のアクセサリや脱色されていない同名の装飾品は同時に装備できない
+						'''
+				}
+
+				BleachedTheFirstShadowflame: {
+					DisplayName: 脱色された原初の暗黒の炎
+					Tooltip:
+						'''
+						ミニオンの最大数を1増加させる
+						召喚ダメージ5%増加
+						脱色されていない同名の装飾品は同時に装備できない
+						'''
+				}
+
+				BleachedVoltaicJelly: {
+					DisplayName: 脱色されたビリビリするゼリー
+					Tooltip:
+						'''
+						ミニオンの最大数を1増加させる
+						召喚ダメージ5%増加
+						脱色されていない同名の装飾品は同時に装備できない
+						'''
+				}
+			}
+
+			LeatherGrip: {
+				DisplayName: レザーグリップ
+				Tooltip:
+					'''
+					鞭の攻撃範囲が10%増加
+					鞭の効果に 召喚タグダメージ倍率 1.05x を追加する
+					グリップは一つしか装備できない
+					'''
+			}
+
+			SilkGrip: {
+				DisplayName: シルクグリップ
+				Tooltip:
+					'''
+					鞭の攻撃範囲が10%増加
+					鞭の効果に 召喚タグクリティカル率 5% を追加する
+					グリップは一つしか装備できない
+					'''
+			}
+
+			RubberGrip: {
+				DisplayName: ラバーグリップ
+				Tooltip:
+					'''
+					鞭の攻撃範囲が15%増加
+					鞭の効果に 召喚タグダメージ倍率 1.03x
+					と 召喚タグクリティカル率 3% を追加する
+					グリップは一つしか装備できない
+					'''
+			}
+
+			NecromanticGrip: {
+				DisplayName: 屍術のグリップ
+				Tooltip:
+					'''
+					ミニオンの最大数を1増加させる
+					鞭の攻撃範囲が15%増加
+					鞭の効果に 召喚タグダメージ倍率 1.05x
+					と 召喚タグクリティカル率 5% を追加する
+					鞭が壁越しに敵を攻撃できるようになる
+					グリップは一つしか装備できない
+					'''
+			}
+
+			EmperorsGrip: {
+				DisplayName: 皇帝のグリップ
+				Tooltip:
+					'''
+					ミニオンの最大数を2増加させる
+					鞭の攻撃範囲が30%増加
+					鞭の効果に 召喚タグダメージ倍率 1.07x
+					と 召喚タグクリティカル率 7% を追加する
+					鞭が壁越しに敵を攻撃できるようになる
+					グリップは一つしか装備できない
+					'''
+			}
+
+			LightSpiritGrip: {
+				DisplayName: 精霊のグリップ
+				Tooltip:
+					'''
+					鞭が壁越しに敵を攻撃できるようになる
+					グリップは一つしか装備できない
+					'''
+			}
+
+			AirflowGrip: {
+				DisplayName: 風通しのグリップ
+				Tooltip:
+					'''
+					鞭の攻撃範囲が15%減少 
+					鞭が壁越しに敵を攻撃できるようになる
+					グリップは一つしか装備できない
+					'''
+			}
+
+			CommanderGrip: {
+				DisplayName: 指揮官のグリップ
+				Tooltip:
+					'''
+					鞭が当たった敵にミニオンの射撃が追尾するようになる
+					グリップは一つしか装備できない
+					'''
+			}
+			
+			MagneticGrip: {
+				DisplayName: 電磁石のグリップ
+				Tooltip:
+					'''
+					鞭の攻撃範囲が15%減少 
+					鞭が当たった敵にミニオンの射撃が追尾するようになる
+					グリップは一つしか装備できない
+					'''
+			}
+
+			BuddyEmblem: {
+				DisplayName: 相棒の紋章
+				Tooltip:
+					'''
+					ミニオンが1体のみ存在しているとそのミニオンのダメージが大幅に増加する
+					使っていないミニオンスロットが多いほどミニオンのダメージが増加する
+					この効果で強化されるほどミニオンは少し大きくなる
+					一部のミニオンはこの紋章の効果を受けることができない
+					この紋章を装備していると一部の鞭のタグ効果が軽減される
+					「君に決めた！」
+					'''
+			}
+
+			StrikerEmblem: {
+				DisplayName: 鞭打の紋章
+				Tooltip:
+					'''
+					ミニオンとセントリーを召喚することができなくなる
+					鞭は敵に当たった際に3回、33%の追加ダメージを与える
+					このダメージは召喚タグの影響を受け、効果を発動することもできる
+					鞭の攻撃範囲が10%増加
+					ミニオンスロット1つにつき10%の召喚ダメージ上昇を得る
+					「くたばれ、化け物!」
+					'''
+			}
+
+			WulfrumWhipMagnet: {
+				DisplayName: ウルフラムウィップマグネット
+				Tooltip:
+					'''
+					鞭の攻撃範囲が10%増加
+					鞭の攻撃が触れたアイテムを回収することができるようになる
+					'''
+			}
+
+		}
+
+		Buffs: {
+			SimpleWhipDebuff: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff.Description
+				DisplayName: Simple Whip Debuff
+			}
+
+			SimpleWhipDebuff10: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff10.Description
+				DisplayName: Simple Whip Debuff10
+			}
+
+			SimpleWhipDebuff70: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff70.Description
+				DisplayName: Simple Whip Debuff70
+			}
+
+			SimpleWhipDebuff08: {
+				DisplayName: Simple Whip Debuff08
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff08.Description
+			}
+
+			SimpleWhipDebuff10C: {
+				DisplayName: Simple Whip Debuff10 C
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff10C.Description
+			}
+
+			SimpleWhipDebuff0D09C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D09C.Description
+				DisplayName: Simple Whip Debuff0 D09 C
+			}
+
+			SimpleWhipDebuff0D08C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D08C.Description
+				DisplayName: Simple Whip Debuff0 D08 C
+			}
+
+			SimpleWhipDebuff09: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff09.Description
+				DisplayName: Simple Whip Debuff09
+			}
+
+			SimpleWhipDebuff11: {
+				DisplayName: Simple Whip Debuff11
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff11.Description
+			}
+
+			SimpleWhipDebuff12: {
+				DisplayName: Simple Whip Debuff12
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff12.Description
+			}
+
+			SimpleWhipDebuff13: {
+				DisplayName: Simple Whip Debuff13
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff13.Description
+			}
+
+			SimpleWhipDebuff14: {
+				DisplayName: Simple Whip Debuff14
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff14.Description
+			}
+
+			SimpleWhipDebuff15: {
+				DisplayName: Simple Whip Debuff15
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff15.Description
+			}
+
+			SimpleWhipDebuff20: {
+				DisplayName: Simple Whip Debuff20
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff20.Description
+			}
+
+			SimpleWhipDebuff25: {
+				DisplayName: Simple Whip Debuff25
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff25.Description
+			}
+
+			SimpleWhipDebuff5D05C: {
+				DisplayName: Simple Whip Debuff5 D05 C
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff5D05C.Description
+			}
+
+			SimpleWhipDebuff7D07C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff7D07C.Description
+				DisplayName: Simple Whip Debuff7 D07 C
+			}
+
+			SimpleWhipDebuff0D11C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D11C.Description
+				DisplayName: Simple Whip Debuff0 D11 C
+			}
+
+			SimpleWhipDebuff0D20C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D20C.Description
+				DisplayName: Simple Whip Debuff0 D20 C
+			}
+
+			SimpleWhipDebuff07: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff07.Description
+				DisplayName: Simple Whip Debuff07
+			}
+
+			SimpleWhipDebuff0D22C: {
+				DisplayName: Simple Whip Debuff0 D22 C
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D22C.Description
+			}
+
+			SimpleWhipDebuff27: {
+				DisplayName: Simple Whip Debuff27
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff27.Description
+			}
+
+			SimpleWhipDebuff2x: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff2x.Description
+				DisplayName: Simple Whip Debuff2x
+			}
+
+			SimpleWhipDebuffEx1: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx1.Description
+				DisplayName: Simple Whip Debuff Ex1
+			}
+
+			SimpleWhipDebuff10D10C: {
+				DisplayName: Simple Whip Debuff10 D10 C
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff10D10C.Description
+			}
+
+			SimpleWhipDebuffC100: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffC100.Description
+				DisplayName: Simple Whip Debuff C100
+			}
+
+			SimpleWhipDebuff0D10C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D10C.Description
+				DisplayName: Simple Whip Debuff0 D10 C
+			}
+
+			SimpleWhipDebuff30: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff30.Description
+				DisplayName: Simple Whip Debuff30
+			}
+
+			SimpleWhipDebuff0D25C: {
+				DisplayName: Simple Whip Debuff0 D25 C
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D25C.Description
+			}
+
+			SimpleWhipDebuff15D15C: {
+				DisplayName: Simple Whip Debuff15 D15 C
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff15D15C.Description
+			}
+
+			SimpleWhipDebuffEx2: {
+				DisplayName: Simple Whip Debuff Ex2
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx2.Description
+			}
+
+			SimpleWhipDebuff0D27C: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff0D27C.Description
+				DisplayName: Simple Whip Debuff0 D27 C
+			}
+
+			SimpleWhipDebuffAc05: {
+				DisplayName: Simple Whip Debuff Ac05
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAc05.Description
+			}
+
+			SimpleWhipDebuffAcC05: {
+				DisplayName: Simple Whip Debuff Ac C05
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAcC05.Description
+			}
+
+			SimpleWhipDebuffAc05C05: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAc05C05.Description
+				DisplayName: Simple Whip Debuff Ac05 C05
+			}
+
+			SimpleWhipDebuffAc07C07: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAc07C07.Description
+				DisplayName: Simple Whip Debuff Ac07 C07
+			}
+
+			SimpleWhipDebuffAc10C10: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffAc10C10.Description
+				DisplayName: Simple Whip Debuff Ac10 C10
+			}
+		}
+	}
+}

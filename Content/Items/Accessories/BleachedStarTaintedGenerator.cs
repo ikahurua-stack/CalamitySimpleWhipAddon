@@ -1,0 +1,72 @@
+using CalamityMod.Items;
+using CalamityMod.Buffs.StatDebuffs;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Terraria;
+using Terraria.GameContent;
+using Terraria.ID;
+using Terraria.ModLoader;
+using CalamityMod.Items.Materials;
+using CalamityMod.Items.Accessories;
+using CalamityMod;
+
+namespace CalamitySimpleWhipAddon.Content.Items.Accessories
+{
+    public class BleachedStarTaintedGenerator : ModItem, ILocalizedModType
+    {
+        public new string LocalizationCategory => "Items.Accessories";
+        public override void SetDefaults()
+        {
+            Item.width = 38;
+            Item.height = 60;
+            Item.accessory = true;
+            Item.value = CalamityGlobalItem.RarityYellowBuyPrice;
+            Item.rare = ItemRarityID.Yellow;
+        }
+
+        public override void UpdateAccessory(Player player, bool hideVisual)
+        {
+            player.maxMinions += 2;
+            player.GetDamage<SummonDamageClass>() += 0.15f;
+            player.buffImmune[ModContent.BuffType<Irradiated>()] = true;
+        }
+
+        public override void AddRecipes()
+        {
+            Recipe recipe = CreateRecipe();
+
+            recipe.AddIngredient(ModContent.ItemType<BleachedJellyChargedBattery>());
+            recipe.AddIngredient(ModContent.ItemType<BleachedNuclearFuelRod>());
+            recipe.AddIngredient(ModContent.ItemType<BleachedStarbusterCore>());
+            recipe.AddIngredient(ModContent.ItemType<LifeAlloy>(),3);
+            recipe.AddTile(TileID.MythrilAnvil);
+
+            recipe.Register();
+
+            CreateRecipe()
+                .AddIngredient(ModContent.ItemType<StarTaintedGenerator>())
+                .Register();
+
+            Recipe.Create(ModContent.ItemType<StarTaintedGenerator>())
+                .AddIngredient(Type)
+                .Register();
+        }
+
+        public override bool PreDrawInInventory(SpriteBatch spriteBatch, Vector2 position, Rectangle frame, Color drawColor, Color itemColor, Vector2 origin, float scale)
+        {
+            CalamityUtils.DrawInventoryCustomScale(
+                spriteBatch,
+                texture: TextureAssets.Item[Type].Value,
+                position,
+                frame,
+                drawColor,
+                itemColor,
+                origin,
+                scale,
+                wantedScale: 0.8f,
+                drawOffset: new(0f, 0f)
+            );
+            return false;
+        }
+    }
+}
