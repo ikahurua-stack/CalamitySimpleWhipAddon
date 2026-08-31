@@ -98,7 +98,7 @@ namespace CalamitySimpleWhipAddon.Content.Projectiles
             Projectile.DefaultToWhip();
 
             Projectile.WhipSettings.Segments = 24;
-            Projectile.WhipSettings.RangeMultiplier = 2.2f;
+            Projectile.WhipSettings.RangeMultiplier = 1.8f;
 
         }
 

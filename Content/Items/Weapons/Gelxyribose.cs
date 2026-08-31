@@ -26,8 +26,8 @@ namespace CalamitySimpleWhipAddon.Content.Items.Weapons
             Item.shoot = ModContent.ProjectileType<GelxyriboseProj>();
             Item.shootSpeed = 2f;
             Item.useStyle = ItemUseStyleID.Swing;
-            Item.useTime = 50;
-            Item.useAnimation = 50;
+            Item.useTime = 44;
+            Item.useAnimation = 44;
             Item.UseSound = SoundID.Item95;
             Item.autoReuse = true;
             Item.noMelee = true;

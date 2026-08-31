@@ -27,8 +27,8 @@ namespace CalamitySimpleWhipAddon.Content.Items.Weapons
             Item.shoot = ModContent.ProjectileType<MilkywayProj>();
             Item.shootSpeed = 4f;
             Item.useStyle = ItemUseStyleID.Swing;
-            Item.useTime = 22;
-            Item.useAnimation = 22;
+            Item.useTime = 30;
+            Item.useAnimation = 30;
             Item.UseSound = Exoblade.SwingSound with { Volume = 0.50f };
             Item.autoReuse = true;
             Item.noMelee = true;

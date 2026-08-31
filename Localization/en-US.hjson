@@ -8,14 +8,14 @@ Mods: {
 		Items: {
 			WoodenWhip: {
 				DisplayName: Wooden Whip
-				Tooltip: 1.07x summon tag damage multiplier
+				Tooltip: 1.05x summon tag damage multiplier
 			}
 
 			RapierWhip: {
 				DisplayName: Rapier Whip
 				Tooltip:
 					'''
-					8% summon tag critical strike chance
+					6% summon tag critical strike chance
 
 					The rapier whip is not well-suited for attacking multiple enemies.
 					'''
@@ -191,7 +191,7 @@ Mods: {
 
 			Ectopia: {
 				DisplayName: Ectopia
-				Tooltip: 22% summon tag critical strike chance
+				Tooltip: 13% summon tag critical strike chance
 			}
 
 			Unfathomable: {
@@ -226,20 +226,20 @@ Mods: {
 
 			EntwinedBranches: {
 				DisplayName: Entwined Branches
-				Tooltip: 1.27x summon tag damage multiplier
+				Tooltip: 1.13x summon tag damage multiplier
 			}
 
 			Necropsia: {
 				DisplayName: Necropsia
-				Tooltip: 27% summon tag critical strike chance
+				Tooltip: 18% summon tag critical strike chance
 			}
 
 			ResonantVoid: {
 				DisplayName: Resonant Void
 				Tooltip:
 					'''
-					1.06x summon tag damage multiplier
-					6% summon tag critical strike chance
+					1.1x summon tag damage multiplier
+					10% summon tag critical strike chance
 
 					Enemies struck by this whip take 1.25x damage from the next minion attack and explode
 
@@ -261,7 +261,7 @@ Mods: {
 				Tooltip:
 					'''
 					+10 summon tag damage per stack
-					Enemies struck by this whip take one guaranteed 4x damage critical hit from a minion
+					Enemies struck by this whip take one guaranteed 3x damage critical hit from a minion
 					This whip's tag stacks with itself
 					Comets equal to the stacks count orbit around the enemy
 					'''
@@ -522,7 +522,7 @@ Mods: {
 				DisplayName: Butterfly Effect
 				Tooltip:
 					'''
-					+6 summon tag damage per stack
+					+5 summon tag damage per stack
 					This whip's tag damage stacks with itself, with older stacks expiring first
 					A number of moths equal to the number of stacks attach themselves to the enemy
 					'''
@@ -542,8 +542,7 @@ Mods: {
 				DisplayName: Gold Rush
 				Tooltip:
 					'''
-					8 summon tag damage
-					Striking enemies regularly summons physical weapons dealing 100% of your minion's damage.
+					Striking enemies regularly summons physical weapons dealing 40% of your minion's damage
 					'''
 			}
 
@@ -552,7 +551,7 @@ Mods: {
 				Tooltip:
 					'''
 					20 summon tag damage
-					Striking enemies rapidly summons a swift arsenal dealing 120% of your minion's damage
+					Striking enemies rapidly summons a swift arsenal dealing 80% of your minion's damage
 					'''
 			}
 
@@ -560,8 +559,8 @@ Mods: {
 				DisplayName: Aurelian Sanctum
 				Tooltip:
 					'''
-					80 summon tag damage
-					Striking enemies unleashes a relentless barrage of weapons dealing 140% of your minion's damage
+					30 summon tag damage
+					Striking enemies unleashes a relentless barrage of weapons dealing 100% of your minion's damage
 					'''
 			}
 

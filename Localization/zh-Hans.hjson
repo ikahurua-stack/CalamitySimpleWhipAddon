@@ -8,14 +8,14 @@ Mods: {
 		Items: {
 			WoodenWhip: {
 				DisplayName: 木鞭
-				Tooltip: 1.07倍 召唤标记伤害
+				Tooltip: 1.05倍 召唤标记伤害
 			}
 
 			RapierWhip: {
 				DisplayName: 刺鞭
 				Tooltip:
 					'''
-					8% 召唤标记暴击率
+					6% 召唤标记暴击率
 
 					双拳难敌四手，刺鞭群怪苦手
 					'''
@@ -194,7 +194,7 @@ Mods: {
 
 			Ectopia: {
 				DisplayName: 错位
-				Tooltip: 22% 召唤标记暴击率
+				Tooltip: 13% 召唤标记暴击率
 			}
 
 			Unfathomable: {
@@ -238,20 +238,20 @@ Mods: {
 
 			EntwinedBranches: {
 				DisplayName: 繁花绕枝
-				Tooltip: 1.27倍 召唤标记伤害
+				Tooltip: 1.13倍 召唤标记伤害
 			}
 
 			Necropsia: {
 				DisplayName: 鞭尸者
-				Tooltip: 27% 召唤标记暴击率
+				Tooltip: 18% 召唤标记暴击率
 			}
 
 			ResonantVoid: {
 				DisplayName: 虚鸣
 				Tooltip:
 					'''
-					1.06倍 召唤标记伤害
-					6% 召唤标记暴击率
+					1.1倍 召唤标记伤害
+					10% 召唤标记暴击率
 
 					鞭子击中的敌人，
 					仆从攻击对其造成1.50倍伤害并爆炸
@@ -280,7 +280,7 @@ Mods: {
 					鞭攻击可累加层数，旧的层数先过期
 
 					鞭子击中的敌人，
-					仆从必定对其造成4倍暴击伤害
+					仆从必定对其造成3倍暴击伤害
 					并召唤等于层数的彗星围绕敌人
 					'''
 			}
@@ -564,7 +564,7 @@ Mods: {
 				DisplayName: 蝶振风倾
 				Tooltip:
 					'''
-					+6 召唤标记伤害每层
+					+5 召唤标记伤害每层
 					鞭攻击可累加层数，旧的层数先过期
 
 					召唤等于层数的飞蛾依附敌人
@@ -586,10 +586,8 @@ Mods: {
 				DisplayName: 淘金热
 				Tooltip:
 					'''
-					8 召唤标记伤害
-
 					攻击敌人召唤武器实体，
-					造成100%仆从伤害
+					造成40%仆从伤害
 					'''
 			}
 
@@ -600,7 +598,7 @@ Mods: {
 					20 召唤标记伤害
 
 					攻击敌人召唤武器实体，
-					造成120%仆从伤害
+					造成80%仆从伤害
 					'''
 			}
 
@@ -608,10 +606,10 @@ Mods: {
 				DisplayName: 鎏金圣堂
 				Tooltip:
 					'''
-					80 召唤标记伤害
+					30 召唤标记伤害
 
 					攻击敌人召唤武器实体
-					造成140%仆从伤害
+					造成100%仆从伤害
 					'''
 			}
 

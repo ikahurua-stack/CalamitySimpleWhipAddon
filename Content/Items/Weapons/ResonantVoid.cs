@@ -28,8 +28,8 @@ namespace CalamitySimpleWhipAddon.Content.Items.Weapons
             Item.shootSpeed = 2f;
 
             Item.useStyle = ItemUseStyleID.Swing;
-            Item.useTime = 44;
-            Item.useAnimation = 44;
+            Item.useTime = 41;
+            Item.useAnimation = 41;
             Item.UseSound = DeadSunsWind.ShootSound;
             Item.autoReuse = true;
             Item.noMelee = true;

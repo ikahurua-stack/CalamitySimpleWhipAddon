@@ -16,7 +16,7 @@ namespace CalamitySimpleWhipAddon.Content.Items.Weapons
         public override void SetDefaults()
         {
             Item.DamageType = DamageClass.SummonMeleeSpeed;
-            Item.damage = 26;
+            Item.damage = 20;
             Item.knockBack = 2;
             Item.rare = ItemRarityID.Blue;
             Item.value = CalamityGlobalItem.RarityBlueBuyPrice;

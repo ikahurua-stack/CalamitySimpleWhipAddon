@@ -147,7 +147,7 @@ namespace CalamitySimpleWhipAddon.Content.Projectiles
                 return;
             }
 
-            if (timer >= 20)
+            if (timer >= 30)
             {
                 Fire(target);
 
