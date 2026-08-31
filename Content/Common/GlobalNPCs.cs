@@ -11,6 +11,8 @@ using CalamitySimpleWhipAddon.Content.Common.Players;
 using CalamitySimpleWhipAddon.Content.Systems;
 using CalamityMod.NPCs;
 using CalamityMod.NPCs.DevourerofGods;
+using Terraria.DataStructures;
+using CalamityMod.NPCs.AquaticScourge;
 
 namespace CalamitySimpleWhipAddon.Content.Common.GlobalNPCs
 {
@@ -111,7 +113,26 @@ namespace CalamitySimpleWhipAddon.Content.Common.GlobalNPCs
             }
         }
 
+        public override void OnSpawn(NPC npc, IEntitySource source)
+        {
+            if (!npc.boss && 
+                npc.type != NPCID.EaterofWorldsHead && 
+                npc.type != ModContent.NPCType<AquaticScourgeHead>())
+                return;
 
+            for (int i = 0; i < Main.maxPlayers; i++)
+            {
+                Player player = Main.player[i];
+
+                if (!player.active)
+                    continue;
+
+                WhipShieldPlayer shieldPlayer =
+                    player.GetModPlayer<WhipShieldPlayer>();
+
+                shieldPlayer.ResetShieldForBoss();
+            }
+        }
     }
 
 }

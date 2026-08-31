@@ -238,8 +238,8 @@ Mods: {
 				DisplayName: Resonant Void
 				Tooltip:
 					'''
-					1.12x summon tag damage multiplier
-					12% summon tag critical strike chance
+					1.06x summon tag damage multiplier
+					6% summon tag critical strike chance
 
 					Enemies struck by this whip take 1.25x damage from the next minion attack and explode
 
@@ -561,7 +561,7 @@ Mods: {
 				Tooltip:
 					'''
 					80 summon tag damage
-					Striking enemies unleashes a relentless barrage of weapons dealing 200% of your minion's damage
+					Striking enemies unleashes a relentless barrage of weapons dealing 140% of your minion's damage
 					'''
 			}
 
@@ -589,7 +589,7 @@ Mods: {
 					and attacks whenever your minions damage an enemy marked by the whip.
 					The gem's attack deals 100% of the triggering hit's damage.
 					The gem instant charge before firing,
-					adding 15% of damage dealt during the charge to its attack.
+					adding 10% of damage dealt during the charge to its attack.
 					'''
 			}
 
@@ -597,13 +597,13 @@ Mods: {
 				DisplayName: Crack of the Universe
 				Tooltip:
 					'''
-					20 summon tag damage
-					10% summon tag critical strike chance
+					8 summon tag damage
+					6% summon tag critical strike chance
 					While holding this whip, a gem follows you
 					and attacks whenever your minions damage an enemy marked by the whip.
 					The gem's attack deals 100% of the triggering hit's damage.
 					The gem charges before firing,
-					adding 20% of damage dealt during the charge to its attack.
+					adding 10% of damage dealt during the charge to its attack.
 					'''
 			}
 
@@ -612,12 +612,12 @@ Mods: {
 				Tooltip:
 					'''
 					8 summon tag damage
-					8% summon tag critical strike chance
+					4% summon tag critical strike chance
 					While holding this whip, a gem follows you
 					and attacks whenever your minions damage an enemy marked by the whip.
 					The gem's attack deals 100% of the triggering hit's damage.
 					The gem instant charge before firing,
-					adding 40% of damage dealt during the charge to its attack.
+					adding 10% of damage dealt during the charge to its attack.
 					The gem's attack trigger a chain reaction, targeting tagged enemies.
 					'''
 			}
@@ -668,9 +668,9 @@ Mods: {
 				DisplayName: Chorus of Execration
 				Tooltip:
 					'''
-					30% summon tag critical strike chance
+					10% summon tag critical strike chance
 					Enemies tagged by this whip
-					release blobs equal to 25% of
+					release blobs equal to 20% of
 					damage dealt by minions.
 					The blobs gather above the wielder
 					and split apart to seek enemies

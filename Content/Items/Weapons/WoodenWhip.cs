@@ -36,8 +36,9 @@ namespace CalamitySimpleWhipAddon.Content.Items.Weapons
         public override void AddRecipes()
         {
             CreateRecipe()
-                .AddIngredient(ItemID.Rope, 3)
                 .AddRecipeGroup("CalamitySimpleWhipAddon:AnyWood", 5)
+                .AddIngredient(ItemID.Rope, 3)
+                .AddIngredient(ItemID.Hay, 3)
                 .AddTile(TileID.WorkBenches)
                 .Register();
         }

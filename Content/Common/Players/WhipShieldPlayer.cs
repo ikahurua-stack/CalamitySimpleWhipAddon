@@ -359,6 +359,17 @@ namespace CalamitySimpleWhipAddon.Content.Common.Players
             shieldTier = 0;
         }
 
+        public void ResetShieldForBoss()
+        {
+            shieldLife = 0;
+            charge = 0;
+
+            rechargeCooldown = 0;
+            rechargeCooldownMax = 0;
+
+            cooldown = 0;
+            shieldHitTimer = 0;
+        }
     }
 }
 

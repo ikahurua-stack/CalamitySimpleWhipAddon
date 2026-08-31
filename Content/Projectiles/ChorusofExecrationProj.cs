@@ -27,7 +27,7 @@ namespace CalamitySimpleWhipAddon.Content.Projectiles
         {
             Projectile.DefaultToWhip();
             Projectile.WhipSettings.Segments = 40;
-            Projectile.WhipSettings.RangeMultiplier = 5.5f;
+            Projectile.WhipSettings.RangeMultiplier = 3.5f;
         }
 
         private float Timer
