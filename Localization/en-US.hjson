@@ -542,6 +542,7 @@ Mods: {
 				DisplayName: Gold Rush
 				Tooltip:
 					'''
+					8 summon tag damage
 					Striking enemies regularly summons physical weapons dealing 40% of your minion's damage
 					'''
 			}

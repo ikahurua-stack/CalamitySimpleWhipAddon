@@ -2042,7 +2042,7 @@ namespace CalamitySimpleWhipAddon.Systems
                     Setup = tag =>
                     {
                         tag.AutoDrawTooltip = false;
-                        //tag.FlatTagDamage = 8;
+                        tag.FlatTagDamage = 8;
 
                         tag.TagTexture = ModContent.Request<Texture2D>(
                                     "CalamitySimpleWhipAddon/Content/Items/InvisibleSummonTagItem/InvisibleGoldRush",
