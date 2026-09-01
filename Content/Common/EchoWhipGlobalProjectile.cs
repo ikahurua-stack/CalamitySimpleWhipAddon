@@ -3,6 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using CalamitySimpleWhipAddon.Content.Common.Players;
 using CalamitySimpleWhipAddon.Content.Projectiles;
+using CalamityMod.Items.Accessories;
 
 namespace CalamitySimpleWhipAddon.Content.Common
 {
@@ -14,7 +15,15 @@ namespace CalamitySimpleWhipAddon.Content.Common
             NPC.HitInfo hit,
             int damageDone)
         {
-            if (!ProjectileID.Sets.IsAWhip[projectile.type])
+            var IEoR = ModLoader.GetMod("InfernalEclipseAPI");
+            int firebrandFlail = -1;
+
+            if (IEoR != null)
+            {
+                firebrandFlail = IEoR.Find<ModProjectile>("SplitFirebrandFlailProjectile")?.Type ?? -1;
+            }
+
+            if (!ProjectileID.Sets.IsAWhip[projectile.type] && projectile.type != firebrandFlail)
                 return;
 
             Player player = Main.player[projectile.owner];

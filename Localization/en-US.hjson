@@ -560,7 +560,7 @@ Mods: {
 				DisplayName: Aurelian Sanctum
 				Tooltip:
 					'''
-					30 summon tag damage
+					40 summon tag damage
 					Striking enemies unleashes a relentless barrage of weapons dealing 100% of your minion's damage
 					'''
 			}

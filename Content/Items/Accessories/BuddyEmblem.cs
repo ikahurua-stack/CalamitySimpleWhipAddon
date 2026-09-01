@@ -38,6 +38,7 @@ namespace CalamitySimpleWhipAddon.Content.Items.Accessories
         public override void AddRecipes()
         {
             CreateRecipe()
+                .AddIngredient(ItemID.BabyBirdStaff, 1)
                 .AddRecipeGroup("CalamitySimpleWhipAddon:AnyWood", 5)
                 .AddIngredient(ItemID.Daybloom, 1)
                 .AddTile(TileID.WorkBenches)

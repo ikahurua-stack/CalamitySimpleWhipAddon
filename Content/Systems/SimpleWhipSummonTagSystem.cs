@@ -2233,7 +2233,7 @@ namespace CalamitySimpleWhipAddon.Systems
                     Setup = tag =>
                     {
                         tag.AutoDrawTooltip = false;
-                        tag.FlatTagDamage = 30;
+                        tag.FlatTagDamage = 40;
 
                         tag.TagTexture = ModContent.Request<Texture2D>(
                                     "CalamitySimpleWhipAddon/Content/Items/InvisibleSummonTagItem/InvisibleAurelianSanctum",
@@ -2286,7 +2286,7 @@ namespace CalamitySimpleWhipAddon.Systems
                             if (modNPC.gateCooldown > 0)
                                 return;
 
-                            modNPC.gateCooldown = 5;
+                            modNPC.gateCooldown = 4;
 
 
                             var modPlayer = player.GetModPlayer<BuddyEmblemPlayer>();

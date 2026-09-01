@@ -2,6 +2,8 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using CalamitySimpleWhipAddon.Content.Common.Players;
+using CalamityMod.Items.Materials;
+using CalamitySimpleWhipAddon.Content.Items.Weapons;
 
 namespace CalamitySimpleWhipAddon.Content.Items.Accessories
 {
@@ -31,6 +33,7 @@ namespace CalamitySimpleWhipAddon.Content.Items.Accessories
         public override void AddRecipes()
         {
             CreateRecipe()
+                .AddIngredient(ModContent.ItemType<WoodenWhip>())
                 .AddRecipeGroup("CalamitySimpleWhipAddon:AnyWood", 5)
                 .AddIngredient(ItemID.Daybloom, 1)
                 .AddTile(TileID.WorkBenches)
