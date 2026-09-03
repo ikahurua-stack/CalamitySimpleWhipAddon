@@ -45,6 +45,8 @@ namespace CalamitySimpleWhipAddon.Content.Projectiles
 
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
+            if (InfernalEclipseCompatibility.IsEnabled)
+                target.AddBuff(BuffID.OnFire3, 120);
             target.AddBuff(ModContent.BuffType<SimpleWhipDebuff2x>(), 240);
             Main.player[Projectile.owner].MinionAttackTargetNPC = target.whoAmI;
             Projectile.damage = (int)(Projectile.damage * 0.96f);

@@ -24,8 +24,7 @@ namespace CalamitySimpleWhipAddon.Content.Items.Weapons
             Item.shoot = ModContent.ProjectileType<RapierWhipProj>();
             Item.shootSpeed = 6f;
             Item.useStyle = ItemUseStyleID.Swing;
-            Item.useTime = 25;
-            Item.useAnimation = 25;
+            Item.useTime = Item.useAnimation = InfernalEclipseCompatibility.IsEnabled ? 30 : 25;
             Item.UseSound = SoundID.Item152;
             Item.autoReuse = true;
             Item.noMelee = true;

@@ -24,8 +24,7 @@ namespace CalamitySimpleWhipAddon.Content.Items.Weapons
             Item.shoot = ModContent.ProjectileType<GlitterGutterProj>();
             Item.shootSpeed = 6f;
             Item.useStyle = ItemUseStyleID.Swing;
-            Item.useTime = 20;
-            Item.useAnimation = 20;
+            Item.useTime = Item.useAnimation = InfernalEclipseCompatibility.IsEnabled ? 19 : 20;
             Item.UseSound = SoundID.Item101;
             Item.autoReuse = true;
             Item.noMelee = true;

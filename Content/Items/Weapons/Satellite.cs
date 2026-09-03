@@ -16,7 +16,7 @@ namespace CalamitySimpleWhipAddon.Content.Items.Weapons
         public override void SetDefaults()
         {
             Item.DamageType = DamageClass.SummonMeleeSpeed;
-            Item.damage = 115;
+            Item.damage = InfernalEclipseCompatibility.IsEnabled ? 120 : 115;
             Item.knockBack = 4;
             Item.rare = ItemRarityID.Purple;
             Item.value = CalamityGlobalItem.RarityPurpleBuyPrice;
@@ -24,8 +24,7 @@ namespace CalamitySimpleWhipAddon.Content.Items.Weapons
             Item.shoot = ModContent.ProjectileType<SatelliteProj>();
             Item.shootSpeed = 8f;
             Item.useStyle = ItemUseStyleID.Swing;
-            Item.useTime = 14;
-            Item.useAnimation = 14;
+            Item.useTime = Item.useAnimation = InfernalEclipseCompatibility.IsEnabled ? 12 : 14;
             Item.UseSound = SoundID.Item71;
             Item.autoReuse = true;
             Item.noMelee = true;
