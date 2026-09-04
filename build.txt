@@ -1,5 +1,5 @@
 displayName = Calamity Simple Whip Addon
 author = ikahurula
-version = 1.15.14
+version = 1.20.2
 description = Adds 48 new whips, 12 new accessories, and debuff-free versions of Calamity minion accessories, focusing on performance-friendly summoner gameplay.
 modReferences = CalamityMod

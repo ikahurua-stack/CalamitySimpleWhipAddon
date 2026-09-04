@@ -33,7 +33,7 @@ namespace CalamitySimpleWhipAddon.Content.Projectiles
         {
             Projectile.DefaultToWhip();
             Projectile.WhipSettings.Segments = 2;
-            Projectile.WhipSettings.RangeMultiplier = 0.75f;
+            Projectile.WhipSettings.RangeMultiplier = InfernalEclipseCompatibility.IsEnabled ? 0.3f : 0.75f;
             Projectile.extraUpdates = 2;
         }
 

@@ -30,7 +30,11 @@ namespace CalamitySimpleWhipAddon.Content.Items.Accessories
 
         public override void AddRecipes()
         {
-            CreateRecipe()
+            Recipe recipe = CreateRecipe();
+            if (InfernalEclipseCompatibility.IsEnabled)
+                recipe.AddIngredient(ModContent.ItemType<Weapons.WoodenWhip>());
+
+            recipe
                 .AddRecipeGroup("CalamitySimpleWhipAddon:AnyWood", 5)
                 .AddIngredient(ItemID.Daybloom, 1)
                 .AddTile(TileID.WorkBenches)

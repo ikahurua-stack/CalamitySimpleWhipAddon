@@ -7,6 +7,7 @@ using Terraria;
 using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.DataStructures;
 using CalamitySimpleWhipAddon.Content.Common.Players;
 using CalamitySimpleWhipAddon.Content.Systems;
 using CalamityMod.NPCs;
@@ -108,6 +109,23 @@ namespace CalamitySimpleWhipAddon.Content.Common.GlobalNPCs
 
                 if (buff?.Mod == ModContent.GetInstance<CalamitySimpleWhipAddon>())
                     npc.buffImmune[i] = false;
+            }
+        }
+
+        public override void OnSpawn(NPC npc, IEntitySource source)
+        {
+            if (!InfernalEclipseCompatibility.IsEnabled ||
+                (!npc.boss && npc.type != NPCID.EaterofWorldsHead &&
+                 npc.type != ModContent.NPCType<CalamityMod.NPCs.AquaticScourge.AquaticScourgeHead>()))
+            {
+                return;
+            }
+
+            for (int i = 0; i < Main.maxPlayers; i++)
+            {
+                Player player = Main.player[i];
+                if (player.active)
+                    player.GetModPlayer<WhipShieldPlayer>().ResetShieldForBoss();
             }
         }
 

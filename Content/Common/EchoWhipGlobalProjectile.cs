@@ -14,7 +14,15 @@ namespace CalamitySimpleWhipAddon.Content.Common
             NPC.HitInfo hit,
             int damageDone)
         {
-            if (!ProjectileID.Sets.IsAWhip[projectile.type])
+            bool isInfernalEclipseWhip = false;
+            if (InfernalEclipseCompatibility.IsEnabled &&
+                ModLoader.TryGetMod(InfernalEclipseCompatibility.ModName, out Mod infernalEclipse) &&
+                infernalEclipse.TryFind<ModProjectile>("SplitFirebrandFlailProjectile", out ModProjectile firebrandFlail))
+            {
+                isInfernalEclipseWhip = projectile.type == firebrandFlail.Type;
+            }
+
+            if (!ProjectileID.Sets.IsAWhip[projectile.type] && !isInfernalEclipseWhip)
                 return;
 
             Player player = Main.player[projectile.owner];

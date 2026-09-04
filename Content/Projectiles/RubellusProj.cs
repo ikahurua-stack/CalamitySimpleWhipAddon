@@ -31,7 +31,7 @@ namespace CalamitySimpleWhipAddon.Content.Projectiles
         {
             Projectile.DefaultToWhip();
             Projectile.WhipSettings.Segments = 65;
-            Projectile.WhipSettings.RangeMultiplier = 2.6f;
+            Projectile.WhipSettings.RangeMultiplier = InfernalEclipseCompatibility.IsEnabled ? 2.3f : 2.6f;
         }
 
         private float Timer

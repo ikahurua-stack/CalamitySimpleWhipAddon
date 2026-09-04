@@ -150,7 +150,7 @@ namespace CalamitySimpleWhipAddon.Content.Projectiles
                 return;
             }
 
-            if (timer >= 20)
+            if (timer >= (InfernalEclipseCompatibility.IsEnabled ? 30 : 20))
             {
                 Fire(target);
 

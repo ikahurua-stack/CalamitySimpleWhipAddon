@@ -84,7 +84,7 @@ namespace CalamitySimpleWhipAddon.Systems
                     Setup = tag =>
                     {
 
-                        tag.TagCritChance = 0.22f;
+                        tag.TagCritChance = InfernalEclipseCompatibility.IsEnabled ? 0.13f : 0.22f;
                         tag.AutoDrawTooltip = false;
 
                         tag.TagTexture = ModContent.Request<Texture2D>(
@@ -101,7 +101,7 @@ namespace CalamitySimpleWhipAddon.Systems
                     Setup = tag =>
                     {
 
-                        tag.MultiplicativeTagDamage = 0.27f;
+                        tag.MultiplicativeTagDamage = InfernalEclipseCompatibility.IsEnabled ? 0.13f : 0.27f;
                         tag.AutoDrawTooltip = false;
 
                         tag.TagTexture = ModContent.Request<Texture2D>(
@@ -170,7 +170,7 @@ namespace CalamitySimpleWhipAddon.Systems
                     Setup = tag =>
                     {
 
-                        tag.TagCritChance = 0.27f;
+                        tag.TagCritChance = InfernalEclipseCompatibility.IsEnabled ? 0.18f : 0.27f;
                         tag.AutoDrawTooltip = false;
 
                         tag.TagTexture = ModContent.Request<Texture2D>(
@@ -221,7 +221,7 @@ namespace CalamitySimpleWhipAddon.Systems
                     Setup = tag =>
                     {
 
-                        tag.TagCritChance = 0.08f;
+                        tag.TagCritChance = InfernalEclipseCompatibility.IsEnabled ? 0.06f : 0.08f;
                         tag.AutoDrawTooltip = false;
 
                         tag.TagTexture = ModContent.Request<Texture2D>(
@@ -255,7 +255,7 @@ namespace CalamitySimpleWhipAddon.Systems
                     Setup = tag =>
                     {
 
-                        tag.MultiplicativeTagDamage = 0.07f;
+                        tag.MultiplicativeTagDamage = InfernalEclipseCompatibility.IsEnabled ? 0.05f : 0.07f;
                         tag.AutoDrawTooltip = false;
 
                         tag.TagTexture = ModContent.Request<Texture2D>(
@@ -308,8 +308,8 @@ namespace CalamitySimpleWhipAddon.Systems
                     Setup = tag =>
                     {
 
-                        tag.MultiplicativeTagDamage = 0.12f;
-                        tag.TagCritChance = 0.12f;
+                        tag.MultiplicativeTagDamage = InfernalEclipseCompatibility.IsEnabled ? 0.1f : 0.12f;
+                        tag.TagCritChance = InfernalEclipseCompatibility.IsEnabled ? 0.1f : 0.12f;
                         tag.AutoDrawTooltip = false;
 
                         tag.TagTexture = ModContent.Request<Texture2D>(
@@ -1015,8 +1015,8 @@ namespace CalamitySimpleWhipAddon.Systems
             bool isLargeWorm = WormLikeNPCUtils.IsLargeWormLike(npc);
 
             float multiplier = modPlayer.buddyEmblem
-                ? (isLargeWorm ? 1.3f : 1.8f)
-                : (isLargeWorm ? 1.5f : 2f);
+                ? (isLargeWorm ? (InfernalEclipseCompatibility.IsEnabled ? 1.0f : 1.3f) : (InfernalEclipseCompatibility.IsEnabled ? 1.25f : 1.8f))
+                : (isLargeWorm ? (InfernalEclipseCompatibility.IsEnabled ? 1.2f : 1.5f) : (InfernalEclipseCompatibility.IsEnabled ? 1.5f : 2f));
 
             modifiers.CritDamage *= multiplier;
                             critChance = 1f;
@@ -1168,14 +1168,14 @@ namespace CalamitySimpleWhipAddon.Systems
             if (modPlayer.buddyEmblem)
             {
                 multiplier = (isReducedBoss || isLargeWorm)
-                    ? 1.65f
-                    : 1.45f;
+                    ? (InfernalEclipseCompatibility.IsEnabled ? 1.4f : 1.65f)
+                    : (InfernalEclipseCompatibility.IsEnabled ? 1.2f : 1.45f);
             }
             else
             {
                 multiplier = (isReducedBoss || isLargeWorm)
-                    ? 1.75f
-                    : 1.50f;
+                    ? (InfernalEclipseCompatibility.IsEnabled ? 1.50f : 1.75f)
+                    : (InfernalEclipseCompatibility.IsEnabled ? 1.25f : 1.50f);
             }
             modifiers.SourceDamage *= multiplier;
                         };
@@ -1971,7 +1971,7 @@ namespace CalamitySimpleWhipAddon.Systems
 
                                 int stacks = tagNPC.StackCount;
 
-                                modifiers.FlatBonusDamage += stacks * 6 * projTagMultiplier;
+                                modifiers.FlatBonusDamage += stacks * (InfernalEclipseCompatibility.IsEnabled ? 5 : 6) * projTagMultiplier;
                         };
 
                     }
@@ -2101,7 +2101,7 @@ namespace CalamitySimpleWhipAddon.Systems
 
                             var modPlayer = player.GetModPlayer<BuddyEmblemPlayer>();
 
-                            int shotDamage = (int)(damageDone * (modPlayer.buddyEmblem ? 0.75f : 1.0f));
+                            int shotDamage = (int)(damageDone * (modPlayer.buddyEmblem ? (InfernalEclipseCompatibility.IsEnabled ? 0.25f : 0.75f) : (InfernalEclipseCompatibility.IsEnabled ? 0.4f : 1.0f)));
 
                             if (GoldRushManager.CanSpawnGate())
                             {
@@ -2190,7 +2190,7 @@ namespace CalamitySimpleWhipAddon.Systems
                             var modPlayer = player.GetModPlayer<BuddyEmblemPlayer>();
                             var modPlayer2 = player.GetModPlayer<EchoWhipPlayer>();
 
-                            int shotDamage = (int)(damageDone * (modPlayer.buddyEmblem ? 1.0f : (modPlayer2.echoAccessory ? 1.5f : 1.2f)));
+                            int shotDamage = (int)(damageDone * (modPlayer.buddyEmblem ? 1.0f : (modPlayer2.echoAccessory ? (InfernalEclipseCompatibility.IsEnabled ? 1.0f : 1.5f) : (InfernalEclipseCompatibility.IsEnabled ? 0.8f : 1.2f))));
 
                             if (GoldRushManager.CanSpawnGate())
                             {
@@ -2233,7 +2233,7 @@ namespace CalamitySimpleWhipAddon.Systems
                     Setup = tag =>
                     {
                         tag.AutoDrawTooltip = false;
-                        tag.FlatTagDamage = 80;
+                        tag.FlatTagDamage = InfernalEclipseCompatibility.IsEnabled ? 40 : 80;
 
                         tag.TagTexture = ModContent.Request<Texture2D>(
                                     "CalamitySimpleWhipAddon/Content/Items/InvisibleSummonTagItem/InvisibleAurelianSanctum",
@@ -2286,13 +2286,13 @@ namespace CalamitySimpleWhipAddon.Systems
                             if (modNPC.gateCooldown > 0)
                                 return;
 
-                            modNPC.gateCooldown = 3;
+                            modNPC.gateCooldown = InfernalEclipseCompatibility.IsEnabled ? 4 : 3;
 
 
                             var modPlayer = player.GetModPlayer<BuddyEmblemPlayer>();
                             var modPlayer2 = player.GetModPlayer<EchoWhipPlayer>();
 
-                            int shotDamage = (int)(damageDone * (modPlayer.buddyEmblem ? 1.5f : (modPlayer2.echoAccessory ? 5.0f : 2.0f)));
+                            int shotDamage = (int)(damageDone * (modPlayer.buddyEmblem ? (InfernalEclipseCompatibility.IsEnabled ? 0.8f : 1.5f) : (modPlayer2.echoAccessory ? (InfernalEclipseCompatibility.IsEnabled ? 1.75f : 5.0f) : (InfernalEclipseCompatibility.IsEnabled ? 1.0f : 2.0f))));
 
                             if (GoldRushManager.CanSpawnGate())
                             {
@@ -2460,8 +2460,8 @@ namespace CalamitySimpleWhipAddon.Systems
                     Setup = tag =>
                     {
                         tag.AutoDrawTooltip = false;
-                        tag.FlatTagDamage = 20;
-                        tag.TagCritChance = 0.1f;
+                        tag.FlatTagDamage = InfernalEclipseCompatibility.IsEnabled ? 8 : 20;
+                        tag.TagCritChance = InfernalEclipseCompatibility.IsEnabled ? 0.06f : 0.1f;
 
                         tag.TagTexture = ModContent.Request<Texture2D>(
                             "CalamitySimpleWhipAddon/Content/Items/InvisibleSummonTagItem/InvisibleCrackoftheUniverse",
@@ -2524,7 +2524,7 @@ namespace CalamitySimpleWhipAddon.Systems
                     {
                         tag.AutoDrawTooltip = false;
                         tag.FlatTagDamage = 8;
-                        tag.TagCritChance = 0.08f;
+                        tag.TagCritChance = InfernalEclipseCompatibility.IsEnabled ? 0.04f : 0.08f;
 
                         tag.TagTexture = ModContent.Request<Texture2D>(
                             "CalamitySimpleWhipAddon/Content/Items/InvisibleSummonTagItem/InvisibleRubellus",
@@ -2751,7 +2751,7 @@ namespace CalamitySimpleWhipAddon.Systems
                     Setup = tag =>
                     {
 
-                        tag.TagCritChance = 0.3f;
+                        tag.TagCritChance = InfernalEclipseCompatibility.IsEnabled ? 0.1f : 0.3f;
                         tag.AutoDrawTooltip = false;
 
                         tag.TagTexture = ModContent.Request<Texture2D>(
@@ -2779,8 +2779,8 @@ namespace CalamitySimpleWhipAddon.Systems
                             var mp = player.GetModPlayer<BuddyEmblemPlayer>();
 
                             float stored = mp.buddyEmblem
-                                ? (damageDone * 0.30f)
-                                : (damageDone * 0.25f);
+                                ? (damageDone * (InfernalEclipseCompatibility.IsEnabled ? 0.25f : 0.30f))
+                                : (damageDone * (InfernalEclipseCompatibility.IsEnabled ? 0.2f : 0.25f));
 
                             WhipChargeSystem.AddCharge(
                                 player,

@@ -77,7 +77,7 @@ namespace CalamitySimpleWhipAddon.Content.Projectiles
         {
             if (State == GemState.Charging)
             {
-                bonusDamage += (int)(damage * 0.20f);
+                bonusDamage += (int)(damage * (InfernalEclipseCompatibility.IsEnabled ? 0.1f : 0.20f));
                 Projectile.netUpdate = true;
             }
         }
