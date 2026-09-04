@@ -121,3 +121,14 @@ Projectiles: {
 	// OpaqueOnyxGem.DisplayName: Opaque Onyx Gem
 	// OpaqueOnyxParticle.DisplayName: Opaque Onyx Particle
 }
+
+Configs: {
+	Config: {
+		HummusBalancing: {
+			// Tooltip: Uses Infernal Eclipse compatibility balance even when Infernal Eclipse is not installed.
+			// Label: Enable Hummus balancing
+		}
+
+		// DisplayName: Config
+	}
+}

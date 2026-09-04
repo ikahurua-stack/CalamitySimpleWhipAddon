@@ -9,6 +9,6 @@ namespace CalamitySimpleWhipAddon
     {
         internal const string ModName = "InfernalEclipseAPI";
 
-        internal static bool IsEnabled => ModLoader.HasMod(ModName);
+        internal static bool IsEnabled => ModContent.GetInstance<Config>().HummusBalancing || ModLoader.HasMod(ModName);
     }
 }
