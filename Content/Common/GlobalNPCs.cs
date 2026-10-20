@@ -17,6 +17,31 @@ namespace CalamitySimpleWhipAddon.Content.Common.GlobalNPCs
 {
     public class WhipGripGlobalNPC : GlobalNPC
     {
+        private static int[] whipDebuffIDs;
+
+        private static int[] GetWhipDebuffIDs()
+        {
+            if (whipDebuffIDs != null)
+                return whipDebuffIDs;
+
+            Mod whipAddon = ModContent.GetInstance<CalamitySimpleWhipAddon>();
+
+            var ids = new List<int>();
+
+            for (int i = 0; i < BuffLoader.BuffCount; i++)
+            {
+                ModBuff buff = BuffLoader.GetBuff(i);
+
+                if (buff?.Mod == whipAddon)
+                    ids.Add(i);
+            }
+
+            whipDebuffIDs = ids.ToArray();
+
+            return whipDebuffIDs;
+        }
+
+
         public override void OnHitByProjectile(
             NPC npc,
             Projectile projectile,
@@ -103,12 +128,16 @@ namespace CalamitySimpleWhipAddon.Content.Common.GlobalNPCs
 
         public override void PostAI(NPC npc)
         {
-            for (int i = 0; i < BuffLoader.BuffCount; i++)
-            {
-                ModBuff buff = BuffLoader.GetBuff(i);
+            int[] ids = GetWhipDebuffIDs();
 
-                if (buff?.Mod == ModContent.GetInstance<CalamitySimpleWhipAddon>())
-                    npc.buffImmune[i] = false;
+            bool[] immune = npc.buffImmune;
+
+            for (int i = 0; i < ids.Length; i++)
+            {
+                int id = ids[i];
+
+                if (id < immune.Length)
+                    immune[id] = false;
             }
         }
 

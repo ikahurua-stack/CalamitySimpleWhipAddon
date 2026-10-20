@@ -22,7 +22,7 @@ Mods: {
 			}
 
 			BreezePiercer: {
-				DisplayName: 刺风
+				DisplayName: 微风刺
 				Tooltip: 9% 召唤标记暴击率
 			}
 
@@ -228,7 +228,7 @@ Mods: {
 			}
 
 			Satellite: {
-				DisplayName: 仆星
+				DisplayName: 卫星
 				Tooltip:
 					'''
 					鞭子击中的敌人，
@@ -296,7 +296,7 @@ Mods: {
 			}
 
 			Loadout: {
-				DisplayName: 机械配置
+				DisplayName: 构筑配置
 				Tooltip:
 					'''
 					1.07倍 召唤标记伤害
@@ -530,7 +530,7 @@ Mods: {
 			}
 
 			LayeredPain: {
-				DisplayName: 痛彻心扉
+				DisplayName: 覆苦累痛
 				Tooltip:
 					'''
 					+1 召唤标记伤害每层
@@ -742,7 +742,7 @@ Mods: {
 			}
 
 			OpaqueOnyx: {
-				DisplayName: 晦暗玛瑙鞭
+				DisplayName: 浊瑙
 				Tooltip:
 					'''
 					3 召唤标记伤害
